@@ -1,0 +1,313 @@
+{
+  "correct_examples": [
+    {
+      "id": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.8367478251457214,
+      "top_tokens": [
+        [
+          "harley",
+          0.6401050915155013
+        ],
+        [
+          "riding",
+          0.12785773289485167
+        ],
+        [
+          "mouth",
+          -0.0416654946567354
+        ],
+        [
+          "cigarette",
+          0.02051036923431076
+        ]
+      ],
+      "premise": "A man with a cigarette in his mouth is riding a motorcycle.",
+      "hypothesis": "A man has a cigarette while riding a harley."
+    },
+    {
+      "id": 2,
+      "predicted_class": "neutral",
+      "confidence": 0.9969038367271423,
+      "top_tokens": [
+        [
+          "wearing",
+          0.32594574633129064
+        ],
+        [
+          "helmet",
+          0.2380617486589531
+        ],
+        [
+          "past",
+          0.09995132536740177
+        ],
+        [
+          "missionary",
+          0.08203931693708433
+        ],
+        [
+          "walks",
+          0.07703329178009025
+        ]
+      ],
+      "premise": "A Mormon missionary walks his bicycle past a Metro sign.",
+      "hypothesis": "The missionary is wearing a helmet."
+    },
+    {
+      "id": 12,
+      "predicted_class": "neutral",
+      "confidence": 0.9961430430412292,
+      "top_tokens": [
+        [
+          "rodeo",
+          0.43307869226417434
+        ],
+        [
+          "hats",
+          -0.04015687430471404
+        ],
+        [
+          "children",
+          -0.03229156346086678
+        ],
+        [
+          "horse",
+          -0.013059351890256005
+        ],
+        [
+          "playing",
+          -0.009860049753964959
+        ]
+      ],
+      "premise": "3 children wearing hats playing on a horse",
+      "hypothesis": "3 children wearing hats playing on a horse at the rodeo"
+    },
+    {
+      "id": 13,
+      "predicted_class": "neutral",
+      "confidence": 0.997545063495636,
+      "top_tokens": [
+        [
+          "sunny",
+          0.3861689314966696
+        ],
+        [
+          "day",
+          0.18243525054345902
+        ],
+        [
+          "near",
+          0.08382566198279395
+        ],
+        [
+          "marketplace",
+          -0.0747044338149334
+        ],
+        [
+          "street",
+          0.0341068130936381
+        ]
+      ],
+      "premise": "A woman dressed in blue is walking down a street near a marketplace.",
+      "hypothesis": "A woman is walking down the street on a sunny day."
+    },
+    {
+      "id": 14,
+      "predicted_class": "neutral",
+      "confidence": 0.6168627738952637,
+      "top_tokens": [
+        [
+          "related",
+          0.23479112056520343
+        ],
+        [
+          "boy",
+          0.04546271398661951
+        ],
+        [
+          "stones",
+          -0.0203336868769564
+        ],
+        [
+          "walking",
+          -0.018849758133278258
+        ]
+      ],
+      "premise": "A girl and a boy walking on stones.",
+      "hypothesis": "They are related."
+    }
+  ],
+  "incorrect_examples": [
+    {
+      "id": 0,
+      "true_class": "entailment",
+      "predicted_class": "entailment",
+      "confidence": 0.9866927266120911,
+      "top_tokens": [
+        [
+          "blue",
+          -0.23383593446396103
+        ],
+        [
+          "shirts",
+          -0.05874168316175433
+        ],
+        [
+          "spelling",
+          0.016990940768520726
+        ],
+        [
+          "word",
+          -0.014295651287877638
+        ],
+        [
+          "wearing",
+          -0.013654027443442464
+        ]
+      ],
+      "premise": "Some people in blue shirts are standing up at an even with big letters spelling out the word \"KRUNCH...",
+      "hypothesis": "The people are wearing blue."
+    },
+    {
+      "id": 3,
+      "true_class": "contradiction",
+      "predicted_class": "contradiction",
+      "confidence": 0.9229692220687866,
+      "top_tokens": [
+        [
+          "shorts",
+          -0.4492805191952196
+        ],
+        [
+          "shirts",
+          0.19369027282854698
+        ],
+        [
+          "Boy",
+          -0.05209849282710622
+        ],
+        [
+          "white",
+          0.046036357055337956
+        ],
+        [
+          "little",
+          -0.01547191273543417
+        ]
+      ],
+      "premise": "The little boy is wearing white shorts.",
+      "hypothesis": "Boy has on white shirts."
+    },
+    {
+      "id": 4,
+      "true_class": "entailment",
+      "predicted_class": "entailment",
+      "confidence": 0.9881591796875,
+      "top_tokens": [
+        [
+          "Woman",
+          -0.23827974064316004
+        ],
+        [
+          "forest",
+          -0.04866365821374602
+        ],
+        [
+          "woman",
+          0.03811191689804819
+        ],
+        [
+          "jeans",
+          -0.019625772173469867
+        ],
+        [
+          "running",
+          -0.015880046534657192
+        ]
+      ],
+      "premise": "Woman running in jeans in a forest on a trail.",
+      "hypothesis": "A woman is running in a forest."
+    },
+    {
+      "id": 5,
+      "true_class": "contradiction",
+      "predicted_class": "contradiction",
+      "confidence": 0.9994255304336548,
+      "top_tokens": [
+        [
+          "two",
+          -0.2240473124594314
+        ],
+        [
+          "beds",
+          -0.10407306947994299
+        ],
+        [
+          "jumping",
+          -0.04534464163212634
+        ],
+        [
+          "one",
+          -0.04014551849557207
+        ],
+        [
+          "arms",
+          -0.024289425788140452
+        ]
+      ],
+      "premise": "A man is standing with his arms folded looking at something while the person behind him is jumping o...",
+      "hypothesis": "There is only one bed in the room."
+    },
+    {
+      "id": 6,
+      "true_class": "contradiction",
+      "predicted_class": "contradiction",
+      "confidence": 0.9994035959243774,
+      "top_tokens": [
+        [
+          "woman",
+          -0.15107534269611542
+        ],
+        [
+          "wall",
+          -0.03468519820715888
+        ],
+        [
+          "apron",
+          -0.02807658259090485
+        ],
+        [
+          "man",
+          0.02582230971656241
+        ],
+        [
+          "wearing",
+          0.017264437642654354
+        ]
+      ],
+      "premise": "A woman wearing a red and white apron is standing next to a wall with the number 333 written on it.",
+      "hypothesis": "A man is standing next to a wall."
+    }
+  ],
+  "shuffle_test_results": [
+    {
+      "id": 0,
+      "original_faithfulness": 0.010072886943817139,
+      "shuffled_faithfulness": 0.0020336508750915527,
+      "faithfulness_drop": 0.008039236068725586
+    },
+    {
+      "id": 1,
+      "original_faithfulness": 0.2288230061531067,
+      "shuffled_faithfulness": 0.0009248256683349609,
+      "faithfulness_drop": 0.22789818048477173
+    },
+    {
+      "id": 2,
+      "original_faithfulness": 0.18930238485336304,
+      "shuffled_faithfulness": 0.0348818302154541,
+      "faithfulness_drop": 0.15442055463790894
+    }
+  ]
+}

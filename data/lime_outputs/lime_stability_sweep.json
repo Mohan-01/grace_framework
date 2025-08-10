@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "results": [
+    {
+      "params": {
+        "num_samples": 500,
+        "kernel_width": null
+      },
+      "avg_faithfulness": 0.11890068650245667,
+      "avg_sufficiency": 0.515993919968605,
+      "num_examples": 10
+    },
+    {
+      "params": {
+        "num_samples": 1000,
+        "kernel_width": null
+      },
+      "avg_faithfulness": 0.1527159571647644,
+      "avg_sufficiency": 0.5383665859699249,
+      "num_examples": 10
+    },
+    {
+      "params": {
+        "num_samples": 500,
+        "kernel_width": 25
+      },
+      "avg_faithfulness": 0.11890068650245667,
+      "avg_sufficiency": 0.515993919968605,
+      "num_examples": 10
+    },
+    {
+      "params": {
+        "num_samples": 1000,
+        "kernel_width": 25
+      },
+      "avg_faithfulness": 0.1527159571647644,
+      "avg_sufficiency": 0.5383665859699249,
+      "num_examples": 10
+    }
+  ]
+}
