@@ -1,0 +1,2702 @@
+[
+  {
+    "id": 0,
+    "input_text": "Some people in blue shirts are standing up at an even with big letters spelling out the word \"KRUNCH\".</s>The people are wearing blue.",
+    "premise": "Some people in blue shirts are standing up at an even with big letters spelling out the word \"KRUNCH\".",
+    "hypothesis": "The people are wearing blue.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 1,
+    "input_text": "A man with a cigarette in his mouth is riding a motorcycle.</s>A man has a cigarette while riding a harley.",
+    "premise": "A man with a cigarette in his mouth is riding a motorcycle.",
+    "hypothesis": "A man has a cigarette while riding a harley.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 2,
+    "input_text": "A Mormon missionary walks his bicycle past a Metro sign.</s>The missionary is wearing a helmet.",
+    "premise": "A Mormon missionary walks his bicycle past a Metro sign.",
+    "hypothesis": "The missionary is wearing a helmet.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 3,
+    "input_text": "The little boy is wearing white shorts.</s>Boy has on white shirts.",
+    "premise": "The little boy is wearing white shorts.",
+    "hypothesis": "Boy has on white shirts.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 4,
+    "input_text": "Woman running in jeans in a forest on a trail.</s>A woman is running in a forest.",
+    "premise": "Woman running in jeans in a forest on a trail.",
+    "hypothesis": "A woman is running in a forest.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 5,
+    "input_text": "A man is standing with his arms folded looking at something while the person behind him is jumping onto one of the two beds in the room.</s>There is only one bed in the room.",
+    "premise": "A man is standing with his arms folded looking at something while the person behind him is jumping onto one of the two beds in the room.",
+    "hypothesis": "There is only one bed in the room.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 6,
+    "input_text": "A woman wearing a red and white apron is standing next to a wall with the number 333 written on it.</s>A man is standing next to a wall.",
+    "premise": "A woman wearing a red and white apron is standing next to a wall with the number 333 written on it.",
+    "hypothesis": "A man is standing next to a wall.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 7,
+    "input_text": "A player kicks the soccer ball from the corner of the field.</s>a person playing a sport.",
+    "premise": "A player kicks the soccer ball from the corner of the field.",
+    "hypothesis": "a person playing a sport.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 8,
+    "input_text": "A brunette man sitting next to a picnic table full of a smores ingredients.</s>man at picnic table",
+    "premise": "A brunette man sitting next to a picnic table full of a smores ingredients.",
+    "hypothesis": "man at picnic table",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 9,
+    "input_text": "A little girl wearing a yellow dress moves frantically in front of a crowded baseball stadium.</s>Everything is calm at the stadium.",
+    "premise": "A little girl wearing a yellow dress moves frantically in front of a crowded baseball stadium.",
+    "hypothesis": "Everything is calm at the stadium.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 10,
+    "input_text": "A girl looking through a large telescope on a school trip.</s>A boy tosses a telescope at a girl",
+    "premise": "A girl looking through a large telescope on a school trip.",
+    "hypothesis": "A boy tosses a telescope at a girl",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 11,
+    "input_text": "A young man is participating in a competitive gun shooting event.</s>The young man is asleep at home.",
+    "premise": "A young man is participating in a competitive gun shooting event.",
+    "hypothesis": "The young man is asleep at home.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 12,
+    "input_text": "3 children wearing hats playing on a horse</s>3 children wearing hats playing on a horse at the rodeo",
+    "premise": "3 children wearing hats playing on a horse",
+    "hypothesis": "3 children wearing hats playing on a horse at the rodeo",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 13,
+    "input_text": "A woman dressed in blue is walking down a street near a marketplace.</s>A woman is walking down the street on a sunny day.",
+    "premise": "A woman dressed in blue is walking down a street near a marketplace.",
+    "hypothesis": "A woman is walking down the street on a sunny day.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 14,
+    "input_text": "A girl and a boy walking on stones.</s>They are related.",
+    "premise": "A girl and a boy walking on stones.",
+    "hypothesis": "They are related.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 15,
+    "input_text": "The man sitting seems to be reading while waiting for the bus while the people in the background seem to blend in with the landscape.</s>Many other people are waiting for the bus.",
+    "premise": "The man sitting seems to be reading while waiting for the bus while the people in the background seem to blend in with the landscape.",
+    "hypothesis": "Many other people are waiting for the bus.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 16,
+    "input_text": "A married couple looking out, on the waterfront.</s>The people are outside.",
+    "premise": "A married couple looking out, on the waterfront.",
+    "hypothesis": "The people are outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 17,
+    "input_text": "There is a man working on a billboard.</s>The picture of a man on a billboard is displaying an expensive watch.",
+    "premise": "There is a man working on a billboard.",
+    "hypothesis": "The picture of a man on a billboard is displaying an expensive watch.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 18,
+    "input_text": "A guy is playing with his beard.</s>A guy is playing a guitar with his ears.",
+    "premise": "A guy is playing with his beard.",
+    "hypothesis": "A guy is playing a guitar with his ears.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 19,
+    "input_text": "A dog walking into a lake with reeds in the background</s>A cat walking into a lake with reeds in the background",
+    "premise": "A dog walking into a lake with reeds in the background",
+    "hypothesis": "A cat walking into a lake with reeds in the background",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 20,
+    "input_text": "A black and white dog swimming in clear water.</s>A dog is in the water.",
+    "premise": "A black and white dog swimming in clear water.",
+    "hypothesis": "A dog is in the water.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 21,
+    "input_text": "Two mothers are pushing baby strollers as the dogs run down.</s>The babies are in a crib sleeping",
+    "premise": "Two mothers are pushing baby strollers as the dogs run down.",
+    "hypothesis": "The babies are in a crib sleeping",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 22,
+    "input_text": "Five kids are on a yellow ride at the amusement park.</s>The kids are having fun on the ride.",
+    "premise": "Five kids are on a yellow ride at the amusement park.",
+    "hypothesis": "The kids are having fun on the ride.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 23,
+    "input_text": "A man in blue shorts and a t-shirt is slicing tomatoes on a dining table.</s>A woman cuts a pineapple on a coffee table.",
+    "premise": "A man in blue shorts and a t-shirt is slicing tomatoes on a dining table.",
+    "hypothesis": "A woman cuts a pineapple on a coffee table.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 24,
+    "input_text": "Two bird dogs competing for the kill.</s>Two dogs are hunting birds.",
+    "premise": "Two bird dogs competing for the kill.",
+    "hypothesis": "Two dogs are hunting birds.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 25,
+    "input_text": "Multiple men wearing cowboy hats.</s>The men have cowboy hats on their heads.",
+    "premise": "Multiple men wearing cowboy hats.",
+    "hypothesis": "The men have cowboy hats on their heads.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 26,
+    "input_text": "An inline skater in red pants and blue shirt skates between green cones.</s>A skater is skating between cones.",
+    "premise": "An inline skater in red pants and blue shirt skates between green cones.",
+    "hypothesis": "A skater is skating between cones.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 27,
+    "input_text": "A woman in blue standing in front of a racetrack with a saddled horse.</s>The jockey is with her horse.",
+    "premise": "A woman in blue standing in front of a racetrack with a saddled horse.",
+    "hypothesis": "The jockey is with her horse.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 28,
+    "input_text": "A young man is skateboarding on a cement block wall.</s>a young man is skateboarding",
+    "premise": "A young man is skateboarding on a cement block wall.",
+    "hypothesis": "a young man is skateboarding",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 29,
+    "input_text": "A group of produce buyers inspecting fresh produce.</s>The people are looking at tomatoes.",
+    "premise": "A group of produce buyers inspecting fresh produce.",
+    "hypothesis": "The people are looking at tomatoes.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 30,
+    "input_text": "A man is shucking corn with his son.</s>Green vegetation is being pulled off the corn.",
+    "premise": "A man is shucking corn with his son.",
+    "hypothesis": "Green vegetation is being pulled off the corn.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 31,
+    "input_text": "This man is doing a trick on a skateboard while in the air.</s>A man is skateboarding",
+    "premise": "This man is doing a trick on a skateboard while in the air.",
+    "hypothesis": "A man is skateboarding",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 32,
+    "input_text": "Pushing a mower that is a bit too large for him, a young boy tries to cut some grass.</s>The small boy's farther made him mow the lawn.",
+    "premise": "Pushing a mower that is a bit too large for him, a young boy tries to cut some grass.",
+    "hypothesis": "The small boy's farther made him mow the lawn.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 33,
+    "input_text": "A young kid is walking very carefully.</s>A baby crawls across a carpet.",
+    "premise": "A young kid is walking very carefully.",
+    "hypothesis": "A baby crawls across a carpet.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 34,
+    "input_text": "A little boy holds a bat in the air waiting on the ball.</s>A little league baseball player is at bat.",
+    "premise": "A little boy holds a bat in the air waiting on the ball.",
+    "hypothesis": "A little league baseball player is at bat.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 35,
+    "input_text": "A man in a hat and coat is talking on the phone next to a building with a sign that is in a foreign language.</s>New app translates speech from English to any language",
+    "premise": "A man in a hat and coat is talking on the phone next to a building with a sign that is in a foreign language.",
+    "hypothesis": "New app translates speech from English to any language",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 36,
+    "input_text": "A person wearing orange getting on a bicycle.</s>The person is walking away from the bicycle.",
+    "premise": "A person wearing orange getting on a bicycle.",
+    "hypothesis": "The person is walking away from the bicycle.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 37,
+    "input_text": "A blond child is eating a blue cupcake.</s>A child is learning trigonometry.",
+    "premise": "A blond child is eating a blue cupcake.",
+    "hypothesis": "A child is learning trigonometry.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 38,
+    "input_text": "A woman is sitting on the sidewalk, sketching an image with chalk.</s>A woman draws her favorite picture on the sidewalk.",
+    "premise": "A woman is sitting on the sidewalk, sketching an image with chalk.",
+    "hypothesis": "A woman draws her favorite picture on the sidewalk.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 39,
+    "input_text": "Spices and other goods are being put in display in what appears to be a local village shop.</s>The spices are made from brick powder from Mars.",
+    "premise": "Spices and other goods are being put in display in what appears to be a local village shop.",
+    "hypothesis": "The spices are made from brick powder from Mars.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 40,
+    "input_text": "An African American singer dressed all in black is singing into a microphone.</s>At a concert an African american signer is dressed in all black singing through a microphone infront of a crowd",
+    "premise": "An African American singer dressed all in black is singing into a microphone.",
+    "hypothesis": "At a concert an African american signer is dressed in all black singing through a microphone infront of a crowd",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 41,
+    "input_text": "Construction workers are digging a ditch.</s>Construction workers removing soil.",
+    "premise": "Construction workers are digging a ditch.",
+    "hypothesis": "Construction workers removing soil.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 42,
+    "input_text": "People are watching a boy on a skateboard at the top of a skate ramp.</s>People are watching a boy on a skateboard at the top of a skate ramp before he attempts to break a world record.",
+    "premise": "People are watching a boy on a skateboard at the top of a skate ramp.",
+    "hypothesis": "People are watching a boy on a skateboard at the top of a skate ramp before he attempts to break a world record.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 43,
+    "input_text": "A man with a beard and colored glasses playing with fire.</s>A man is sitting in front of a campfire.",
+    "premise": "A man with a beard and colored glasses playing with fire.",
+    "hypothesis": "A man is sitting in front of a campfire.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 44,
+    "input_text": "A little girl is smiling while holding a vacuum and an older male is holding a large drill.</s>The man is helping the girl fix the vacuum.",
+    "premise": "A little girl is smiling while holding a vacuum and an older male is holding a large drill.",
+    "hypothesis": "The man is helping the girl fix the vacuum.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 45,
+    "input_text": "Kids scale a wall as two other people watch.</s>Children are doing homework.",
+    "premise": "Kids scale a wall as two other people watch.",
+    "hypothesis": "Children are doing homework.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 46,
+    "input_text": "A boy standing in water doing a kick.</s>A person is doing a kick in warm water",
+    "premise": "A boy standing in water doing a kick.",
+    "hypothesis": "A person is doing a kick in warm water",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 47,
+    "input_text": "Two people walking down an alley.</s>There are two people in the back street.",
+    "premise": "Two people walking down an alley.",
+    "hypothesis": "There are two people in the back street.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 48,
+    "input_text": "Two police officers are riding around on horses in the street.</s>The policeman's horses are sleeping in the stables.",
+    "premise": "Two police officers are riding around on horses in the street.",
+    "hypothesis": "The policeman's horses are sleeping in the stables.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 49,
+    "input_text": "A woman in shorts shoveling snow.</s>Woman shoveling snow",
+    "premise": "A woman in shorts shoveling snow.",
+    "hypothesis": "Woman shoveling snow",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 50,
+    "input_text": "Three people overlook a green valley.</s>Three people looking down at green grass outside.",
+    "premise": "Three people overlook a green valley.",
+    "hypothesis": "Three people looking down at green grass outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 51,
+    "input_text": "A woman wearing a white lab coat is holding her jar up with a white glove.</s>The woman is wearing a lab coat.",
+    "premise": "A woman wearing a white lab coat is holding her jar up with a white glove.",
+    "hypothesis": "The woman is wearing a lab coat.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 52,
+    "input_text": "Two draft horses, hitched to a covered wagon that looked as if it could hold a number of passengers, stood quietly as an older woman looked at an older man in the wagon.</s>The older couple ride horses down the dirt road.",
+    "premise": "Two draft horses, hitched to a covered wagon that looked as if it could hold a number of passengers, stood quietly as an older woman looked at an older man in the wagon.",
+    "hypothesis": "The older couple ride horses down the dirt road.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 53,
+    "input_text": "Person with a backpack in a field</s>A dog is wearing a backback.",
+    "premise": "Person with a backpack in a field",
+    "hypothesis": "A dog is wearing a backback.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 54,
+    "input_text": "A person, wearing a costume with many flowers, is standing on the sidewalk trying to get the attention of people passing by.</s>a person seeks attention",
+    "premise": "A person, wearing a costume with many flowers, is standing on the sidewalk trying to get the attention of people passing by.",
+    "hypothesis": "a person seeks attention",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 55,
+    "input_text": "A woman in a dark blue T-shirt is weaving a striped piece of material.</s>The woman is weaving together some clothing.",
+    "premise": "A woman in a dark blue T-shirt is weaving a striped piece of material.",
+    "hypothesis": "The woman is weaving together some clothing.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 56,
+    "input_text": "Two men wearing working clothes are brushing the street near a trash receptacle</s>Men wearing cloths are brushing the street.",
+    "premise": "Two men wearing working clothes are brushing the street near a trash receptacle",
+    "hypothesis": "Men wearing cloths are brushing the street.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 57,
+    "input_text": "A muzzled greyhound dog is running around a track.</s>A dog is moving around.",
+    "premise": "A muzzled greyhound dog is running around a track.",
+    "hypothesis": "A dog is moving around.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 58,
+    "input_text": "A large group of men are listening to a man with glasses sitting at a table with a strange pattern.</s>A group of men listen to a man sitting at a table.",
+    "premise": "A large group of men are listening to a man with glasses sitting at a table with a strange pattern.",
+    "hypothesis": "A group of men listen to a man sitting at a table.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 59,
+    "input_text": "Two brown dogs run together.</s>The dogs are related",
+    "premise": "Two brown dogs run together.",
+    "hypothesis": "The dogs are related",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 60,
+    "input_text": "A woman sings and plays a small guitar and a drummer sits behind her playing maracas.</s>The woman and the drummer are in the same band.",
+    "premise": "A woman sings and plays a small guitar and a drummer sits behind her playing maracas.",
+    "hypothesis": "The woman and the drummer are in the same band.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 61,
+    "input_text": "The people dressed in all white are having a good time.</s>The people dressed in all white were sad.",
+    "premise": "The people dressed in all white are having a good time.",
+    "hypothesis": "The people dressed in all white were sad.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 62,
+    "input_text": "A man is cooking what appears to be green beans in a grill basket on a grill with a yellow lab standing by him while someone takes a picture from above.</s>A man is about to grill a steak.",
+    "premise": "A man is cooking what appears to be green beans in a grill basket on a grill with a yellow lab standing by him while someone takes a picture from above.",
+    "hypothesis": "A man is about to grill a steak.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 63,
+    "input_text": "A man on stage with a microphone in front of an audience.</s>the man can sing",
+    "premise": "A man on stage with a microphone in front of an audience.",
+    "hypothesis": "the man can sing",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 64,
+    "input_text": "A man in green shorts is jumping to catch a frisbee as another man and woman run towards him.</s>They are playing frisbee football.",
+    "premise": "A man in green shorts is jumping to catch a frisbee as another man and woman run towards him.",
+    "hypothesis": "They are playing frisbee football.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 65,
+    "input_text": "On a sidewalk, apparently in a shopping district somewhere in Asia, young women in high-heeled shoes have a discussion, while other shoppers walk by.</s>The women are outside of a shopping mall.",
+    "premise": "On a sidewalk, apparently in a shopping district somewhere in Asia, young women in high-heeled shoes have a discussion, while other shoppers walk by.",
+    "hypothesis": "The women are outside of a shopping mall.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 66,
+    "input_text": "The surfer in the black bodysuit rides a wave off the coast</s>The surfer is walking on the beach holding his surfboard.",
+    "premise": "The surfer in the black bodysuit rides a wave off the coast",
+    "hypothesis": "The surfer is walking on the beach holding his surfboard.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 67,
+    "input_text": "Two men in light colored shirts and dark pants sit on a balcony conversing as a lone car passes below.</s>Two men discuss life's issues above a road.",
+    "premise": "Two men in light colored shirts and dark pants sit on a balcony conversing as a lone car passes below.",
+    "hypothesis": "Two men discuss life's issues above a road.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 68,
+    "input_text": "Three women look on as two men look at the tire of a bike.</s>Men are looking at a tire",
+    "premise": "Three women look on as two men look at the tire of a bike.",
+    "hypothesis": "Men are looking at a tire",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 69,
+    "input_text": "A woman in a cream jacket gazes at photographs.</s>A woman looks at photographs",
+    "premise": "A woman in a cream jacket gazes at photographs.",
+    "hypothesis": "A woman looks at photographs",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 70,
+    "input_text": "A father and his son bonding.</s>A father and his son are playing catch.",
+    "premise": "A father and his son bonding.",
+    "hypothesis": "A father and his son are playing catch.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 71,
+    "input_text": "Five adults and a child run opposite of the waves on the beach.</s>There are people playing.",
+    "premise": "Five adults and a child run opposite of the waves on the beach.",
+    "hypothesis": "There are people playing.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 72,
+    "input_text": "A foreign man is preparing an ethnic dish.</s>A man cooks.",
+    "premise": "A foreign man is preparing an ethnic dish.",
+    "hypothesis": "A man cooks.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 73,
+    "input_text": "Two people play water volleyball in a pool.</s>There are five people playing in the pool.",
+    "premise": "Two people play water volleyball in a pool.",
+    "hypothesis": "There are five people playing in the pool.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 74,
+    "input_text": "Two young boys dressed in shorts are looking for something.</s>Two young boys are on a hunt.",
+    "premise": "Two young boys dressed in shorts are looking for something.",
+    "hypothesis": "Two young boys are on a hunt.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 75,
+    "input_text": "A small girl is going up outside steps wearing a red dress, and there are bicycles on the other side of the railing.</s>A girl is going down steps.",
+    "premise": "A small girl is going up outside steps wearing a red dress, and there are bicycles on the other side of the railing.",
+    "hypothesis": "A girl is going down steps.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 76,
+    "input_text": "Three girls standing outside, one girl is crying.</s>Tears run down her face",
+    "premise": "Three girls standing outside, one girl is crying.",
+    "hypothesis": "Tears run down her face",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 77,
+    "input_text": "The man in the black sweater is standing next to a green bird in a birdcage.</s>The man likes birds.",
+    "premise": "The man in the black sweater is standing next to a green bird in a birdcage.",
+    "hypothesis": "The man likes birds.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 78,
+    "input_text": "A skateboarder slides down a handrail.</s>A skateboarder is rollerblading on a handrail",
+    "premise": "A skateboarder slides down a handrail.",
+    "hypothesis": "A skateboarder is rollerblading on a handrail",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 79,
+    "input_text": "A teen in a yellow shirt directs his team on a sports field.</s>A teen in a light yellow shirt directs his team.",
+    "premise": "A teen in a yellow shirt directs his team on a sports field.",
+    "hypothesis": "A teen in a light yellow shirt directs his team.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 80,
+    "input_text": "A man wearing bathing trunks and a black cape is lurching forward at an angle.</s>A person is wearing a cape.",
+    "premise": "A man wearing bathing trunks and a black cape is lurching forward at an angle.",
+    "hypothesis": "A person is wearing a cape.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 81,
+    "input_text": "A woman and her child wheeling a smaller child in a stroller on a brick path.</s>A woman and two children walk to the store.",
+    "premise": "A woman and her child wheeling a smaller child in a stroller on a brick path.",
+    "hypothesis": "A woman and two children walk to the store.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 82,
+    "input_text": "A boy sits on the grass near a geometric sculpture.</s>A boy is drawing a picture of the geometric sculpture.",
+    "premise": "A boy sits on the grass near a geometric sculpture.",
+    "hypothesis": "A boy is drawing a picture of the geometric sculpture.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 83,
+    "input_text": "A child plays on the ground in a pile of leaves.</s>A blond girl is playing under the tree.",
+    "premise": "A child plays on the ground in a pile of leaves.",
+    "hypothesis": "A blond girl is playing under the tree.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 84,
+    "input_text": "City workers are doing maintenance on a train track.</s>City workers are repairing a road.",
+    "premise": "City workers are doing maintenance on a train track.",
+    "hypothesis": "City workers are repairing a road.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 85,
+    "input_text": "A man smokes a cigarette on rocks by the beach.</s>A man is running from the cops.",
+    "premise": "A man smokes a cigarette on rocks by the beach.",
+    "hypothesis": "A man is running from the cops.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 86,
+    "input_text": "Four dark-haired men are sitting around a basket of fish while other men stand around them.</s>Four men stand around a pool table.",
+    "premise": "Four dark-haired men are sitting around a basket of fish while other men stand around them.",
+    "hypothesis": "Four men stand around a pool table.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 87,
+    "input_text": "Two basketball players fighting over control of a ball.</s>they are playing basketball",
+    "premise": "Two basketball players fighting over control of a ball.",
+    "hypothesis": "they are playing basketball",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 88,
+    "input_text": "A girl in black t-shirt and blue jeans walking on the pathway.</s>The girl is sitting and reading a book in the pathway.",
+    "premise": "A girl in black t-shirt and blue jeans walking on the pathway.",
+    "hypothesis": "The girl is sitting and reading a book in the pathway.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 89,
+    "input_text": "A motorcycle racer wearing Number 60 in a green uniform and helmet appears to slight lead the race against many other drivers as they go around a curve, but the others are close behind.</s>The motorcycle racer Number 60 is losing.",
+    "premise": "A motorcycle racer wearing Number 60 in a green uniform and helmet appears to slight lead the race against many other drivers as they go around a curve, but the others are close behind.",
+    "hypothesis": "The motorcycle racer Number 60 is losing.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 90,
+    "input_text": "A little child with a hat on lays on the grass amid a few scattered fallen leaves.</s>A child lays on her bed, looking at the ceiling.",
+    "premise": "A little child with a hat on lays on the grass amid a few scattered fallen leaves.",
+    "hypothesis": "A child lays on her bed, looking at the ceiling.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 91,
+    "input_text": "A black, brown, and white dog jumping over a pile of logs with trees in the background.</s>Dogs playing outside.",
+    "premise": "A black, brown, and white dog jumping over a pile of logs with trees in the background.",
+    "hypothesis": "Dogs playing outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 92,
+    "input_text": "Kids are always a pleasure to be around and to smile about.</s>kids are a pleasure",
+    "premise": "Kids are always a pleasure to be around and to smile about.",
+    "hypothesis": "kids are a pleasure",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 93,
+    "input_text": "Ladies work in a field in front of palm trees.</s>A group of women are getting paid to work in a field.",
+    "premise": "Ladies work in a field in front of palm trees.",
+    "hypothesis": "A group of women are getting paid to work in a field.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 94,
+    "input_text": "A quintet is posing for a photograph with their instruments- a cello, 3 violins and a clarinet.</s>People getting their picture taken.",
+    "premise": "A quintet is posing for a photograph with their instruments- a cello, 3 violins and a clarinet.",
+    "hypothesis": "People getting their picture taken.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 95,
+    "input_text": "Three boys and there father working in a yard.</s>Four males are outside.",
+    "premise": "Three boys and there father working in a yard.",
+    "hypothesis": "Four males are outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 96,
+    "input_text": "A woman on a white horse chasing a bull.</s>A woman is sitting on a couch.",
+    "premise": "A woman on a white horse chasing a bull.",
+    "hypothesis": "A woman is sitting on a couch.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 97,
+    "input_text": "A priest on the phone near some female military workers taking a break.</s>The person is not wearing a baseball hat.",
+    "premise": "A priest on the phone near some female military workers taking a break.",
+    "hypothesis": "The person is not wearing a baseball hat.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 98,
+    "input_text": "A little baby is playing with the nozzle of a vacuum cleaner.</s>A huge baby.",
+    "premise": "A little baby is playing with the nozzle of a vacuum cleaner.",
+    "hypothesis": "A huge baby.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 99,
+    "input_text": "A baby playing in a toy</s>A babies toy is new",
+    "premise": "A baby playing in a toy",
+    "hypothesis": "A babies toy is new",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 100,
+    "input_text": "A dark street scene shows a neon lights and a group of people dining while another group walks.</s>The group of people are watching tv",
+    "premise": "A dark street scene shows a neon lights and a group of people dining while another group walks.",
+    "hypothesis": "The group of people are watching tv",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 101,
+    "input_text": "Local vendor in the city selling his product to city folk.</s>A vendor is manning his food cart.",
+    "premise": "Local vendor in the city selling his product to city folk.",
+    "hypothesis": "A vendor is manning his food cart.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 102,
+    "input_text": "A brown dog runs in the woods with a serious look on its face.</s>The dog is looking for it's toy.",
+    "premise": "A brown dog runs in the woods with a serious look on its face.",
+    "hypothesis": "The dog is looking for it's toy.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 103,
+    "input_text": "Two boys are playing in the sand at a playground.</s>A girl is folding her clothes.",
+    "premise": "Two boys are playing in the sand at a playground.",
+    "hypothesis": "A girl is folding her clothes.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 104,
+    "input_text": "A young girl in a green shirt and shorts out riding her bike past a very nice apartment building.</s>A man spray painting a nice building.",
+    "premise": "A young girl in a green shirt and shorts out riding her bike past a very nice apartment building.",
+    "hypothesis": "A man spray painting a nice building.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 105,
+    "input_text": "Here is six gentlemen who are in a band, all are playing different instruments.</s>The gentlemen are in a band",
+    "premise": "Here is six gentlemen who are in a band, all are playing different instruments.",
+    "hypothesis": "The gentlemen are in a band",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 106,
+    "input_text": "A dark-haired man in a striped shirt records a video of a gray-haired man using a MacBook laptop.</s>There is a dark-haired man recording a gray-haired man for a school project.",
+    "premise": "A dark-haired man in a striped shirt records a video of a gray-haired man using a MacBook laptop.",
+    "hypothesis": "There is a dark-haired man recording a gray-haired man for a school project.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 107,
+    "input_text": "Little girl hugging and adorable cat</s>A person playing with a dog.",
+    "premise": "Little girl hugging and adorable cat",
+    "hypothesis": "A person playing with a dog.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 108,
+    "input_text": "Two older women are sitting in chairs talking to each other.</s>Nobody is sitting.",
+    "premise": "Two older women are sitting in chairs talking to each other.",
+    "hypothesis": "Nobody is sitting.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 109,
+    "input_text": "A man dressed in a sport coat, slacks and nice shoes, posing in a very busily-decorated room, while wearing a dark green mask that has large yellow monster teeth, a single orange eye, and completely covers his head.</s>There is a man posing at a costume party.",
+    "premise": "A man dressed in a sport coat, slacks and nice shoes, posing in a very busily-decorated room, while wearing a dark green mask that has large yellow monster teeth, a single orange eye, and completely covers his head.",
+    "hypothesis": "There is a man posing at a costume party.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 110,
+    "input_text": "Everyone is clapping in this office.</s>There are people in a workplace.",
+    "premise": "Everyone is clapping in this office.",
+    "hypothesis": "There are people in a workplace.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 111,
+    "input_text": "A man with glasses is reading a book in a mall.</s>A man reading Oliver Twist in the mall.",
+    "premise": "A man with glasses is reading a book in a mall.",
+    "hypothesis": "A man reading Oliver Twist in the mall.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 112,
+    "input_text": "Two men are riding in a big yellow truck.</s>A little boy is playing with a toy boat.",
+    "premise": "Two men are riding in a big yellow truck.",
+    "hypothesis": "A little boy is playing with a toy boat.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 113,
+    "input_text": "A blond woman, who is smoking, and a brunette woman are conversing outside a building.</s>The women are at the movies.",
+    "premise": "A blond woman, who is smoking, and a brunette woman are conversing outside a building.",
+    "hypothesis": "The women are at the movies.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 114,
+    "input_text": "People wearing life jackets jumping into or looking at the river.</s>People are standing on the beach.",
+    "premise": "People wearing life jackets jumping into or looking at the river.",
+    "hypothesis": "People are standing on the beach.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 115,
+    "input_text": "A man in an orange raincoat is discussing something with another man wearing work clothes near a sewer manhole.</s>It is raining outside.",
+    "premise": "A man in an orange raincoat is discussing something with another man wearing work clothes near a sewer manhole.",
+    "hypothesis": "It is raining outside.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 116,
+    "input_text": "A female athlete playing volleyball on the beach.</s>The Olympic women's volleyball team practices.",
+    "premise": "A female athlete playing volleyball on the beach.",
+    "hypothesis": "The Olympic women's volleyball team practices.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 117,
+    "input_text": "a chinese motorcyclist smokes a cigarette in traffic.</s>A motorcyclist smokes while riding in traffic.",
+    "premise": "a chinese motorcyclist smokes a cigarette in traffic.",
+    "hypothesis": "A motorcyclist smokes while riding in traffic.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 118,
+    "input_text": "A guy in a costume, a crowd watching him.</s>The costumed man is the center of attention.",
+    "premise": "A guy in a costume, a crowd watching him.",
+    "hypothesis": "The costumed man is the center of attention.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 119,
+    "input_text": "Lady with sunglasses looks up, while man on her left consults a map</s>The lost couple tried to find their way home with the map.",
+    "premise": "Lady with sunglasses looks up, while man on her left consults a map",
+    "hypothesis": "The lost couple tried to find their way home with the map.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 120,
+    "input_text": "A baseball player wearing number 37 is standing in the batter's box with the bat on his shoulder.</s>The player is wearing number 42.",
+    "premise": "A baseball player wearing number 37 is standing in the batter's box with the bat on his shoulder.",
+    "hypothesis": "The player is wearing number 42.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 121,
+    "input_text": "A Jewish man wearing glasses, button up long blue shirt getting desserts on the table</s>The man is getting appetizers.",
+    "premise": "A Jewish man wearing glasses, button up long blue shirt getting desserts on the table",
+    "hypothesis": "The man is getting appetizers.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 122,
+    "input_text": "Two women sit at a bench in a small park, one in a blue dress, the other in a white dress</s>Two females outdoors watching a concert.",
+    "premise": "Two women sit at a bench in a small park, one in a blue dress, the other in a white dress",
+    "hypothesis": "Two females outdoors watching a concert.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 123,
+    "input_text": "A pastor on a cellphone in front of a stone building with five officers wearing green uniforms; two are standing while the others are seated.</s>The man is about to be arrested.",
+    "premise": "A pastor on a cellphone in front of a stone building with five officers wearing green uniforms; two are standing while the others are seated.",
+    "hypothesis": "The man is about to be arrested.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 124,
+    "input_text": "Two African American men wearing vests, as one African American man wearing a blue shirt with an emblem direct people or machinery.</s>They are working in a box factory.",
+    "premise": "Two African American men wearing vests, as one African American man wearing a blue shirt with an emblem direct people or machinery.",
+    "hypothesis": "They are working in a box factory.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 125,
+    "input_text": "A young boy smiling runs past a gun toting soldier in the background.</s>A happy boy is running outside in a war zone.",
+    "premise": "A young boy smiling runs past a gun toting soldier in the background.",
+    "hypothesis": "A happy boy is running outside in a war zone.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 126,
+    "input_text": "A little boy swims underwater.</s>A boy floats on top of water.",
+    "premise": "A little boy swims underwater.",
+    "hypothesis": "A boy floats on top of water.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 127,
+    "input_text": "woman with blue gloves working on the sidewalk with some cleaner</s>man with blue gloves working on the sidewalk with some cleaner",
+    "premise": "woman with blue gloves working on the sidewalk with some cleaner",
+    "hypothesis": "man with blue gloves working on the sidewalk with some cleaner",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 128,
+    "input_text": "A young woman being photographed by multiple people in the middle of the road.</s>A human being photographed",
+    "premise": "A young woman being photographed by multiple people in the middle of the road.",
+    "hypothesis": "A human being photographed",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 129,
+    "input_text": "A man in a white shirt and black pants is walking next to a parked blue bus.</s>A man is walking outdoors.",
+    "premise": "A man in a white shirt and black pants is walking next to a parked blue bus.",
+    "hypothesis": "A man is walking outdoors.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 130,
+    "input_text": "A dog running toward the camera with a man in the background</s>A cat is walking.",
+    "premise": "A dog running toward the camera with a man in the background",
+    "hypothesis": "A cat is walking.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 131,
+    "input_text": "A man and a woman dance happily.</s>The couple are dancing in the ballroom.",
+    "premise": "A man and a woman dance happily.",
+    "hypothesis": "The couple are dancing in the ballroom.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 132,
+    "input_text": "A woman wearing a headscarf is working with her hands.</s>A lady is wearing a kerchief on her head and is watching TV.",
+    "premise": "A woman wearing a headscarf is working with her hands.",
+    "hypothesis": "A lady is wearing a kerchief on her head and is watching TV.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 133,
+    "input_text": "The young people party in the streets.</s>The young people are dead.",
+    "premise": "The young people party in the streets.",
+    "hypothesis": "The young people are dead.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 134,
+    "input_text": "A little boy in a blue shirt kicking a soccer ball around.</s>A boy playing sports",
+    "premise": "A little boy in a blue shirt kicking a soccer ball around.",
+    "hypothesis": "A boy playing sports",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 135,
+    "input_text": "A man who is smoking, wearing a yellow safety vest, is doing landscape work.</s>A man is doing landscape work to support his kite hobby.",
+    "premise": "A man who is smoking, wearing a yellow safety vest, is doing landscape work.",
+    "hypothesis": "A man is doing landscape work to support his kite hobby.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 136,
+    "input_text": "A woman in jeans bowling in a classic looking bowling alley.</s>A woman was fighting.",
+    "premise": "A woman in jeans bowling in a classic looking bowling alley.",
+    "hypothesis": "A woman was fighting.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 137,
+    "input_text": "A man in a orange shirt and green hat playing drum jumping up is the air.</s>This man plays music.",
+    "premise": "A man in a orange shirt and green hat playing drum jumping up is the air.",
+    "hypothesis": "This man plays music.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 138,
+    "input_text": "A woman in a red sweater and a girl is in front of a girl in a green hoodie& a girl with a brown jacket and pink purse.</s>There is a man in a green t-shirt and a boy is in front of another boy.",
+    "premise": "A woman in a red sweater and a girl is in front of a girl in a green hoodie& a girl with a brown jacket and pink purse.",
+    "hypothesis": "There is a man in a green t-shirt and a boy is in front of another boy.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 139,
+    "input_text": "Several cyclists wearing different colors riding bikes on pavement.</s>People are playing hockey in the park.",
+    "premise": "Several cyclists wearing different colors riding bikes on pavement.",
+    "hypothesis": "People are playing hockey in the park.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 140,
+    "input_text": "Three jockeys mounted on horses ride in race.</s>Horses are running toward the finish line.",
+    "premise": "Three jockeys mounted on horses ride in race.",
+    "hypothesis": "Horses are running toward the finish line.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 141,
+    "input_text": "man sitting on the ground with his child and a stroller</s>A man is nearby a stroller.",
+    "premise": "man sitting on the ground with his child and a stroller",
+    "hypothesis": "A man is nearby a stroller.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 142,
+    "input_text": "Two tired-looking men relax on a couch near a wooden trestle table with a coffee cup on it.</s>The men are water skiing.",
+    "premise": "Two tired-looking men relax on a couch near a wooden trestle table with a coffee cup on it.",
+    "hypothesis": "The men are water skiing.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 143,
+    "input_text": "A woman with short brown hair is wiping a railing with a yellow towel.</s>A woman is bathing in a bath tub with a blue towel.",
+    "premise": "A woman with short brown hair is wiping a railing with a yellow towel.",
+    "hypothesis": "A woman is bathing in a bath tub with a blue towel.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 144,
+    "input_text": "a man bouncing on trampoline.</s>A man is moving up and down.",
+    "premise": "a man bouncing on trampoline.",
+    "hypothesis": "A man is moving up and down.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 145,
+    "input_text": "Pale woman holding umbrella over her and a man.</s>Two people are sun bathing.",
+    "premise": "Pale woman holding umbrella over her and a man.",
+    "hypothesis": "Two people are sun bathing.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 146,
+    "input_text": "Girl in blue jacket holding a baby in overalls.</s>A young girl is holding her new sibling",
+    "premise": "Girl in blue jacket holding a baby in overalls.",
+    "hypothesis": "A young girl is holding her new sibling",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 147,
+    "input_text": "A man pushes a miniature train engine which a little boy, possibly his son, is riding down a track at a park of some sort.</s>a father and son play with the train",
+    "premise": "A man pushes a miniature train engine which a little boy, possibly his son, is riding down a track at a park of some sort.",
+    "hypothesis": "a father and son play with the train",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 148,
+    "input_text": "two boys stand at a blue table fill out a form.</s>Two boys filling out a form.",
+    "premise": "two boys stand at a blue table fill out a form.",
+    "hypothesis": "Two boys filling out a form.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 149,
+    "input_text": "Festival-goers have a fun time with their children</s>The concert was closed.",
+    "premise": "Festival-goers have a fun time with their children",
+    "hypothesis": "The concert was closed.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 150,
+    "input_text": "The small brown dog is running through the grass with a yellow ball in its mouth.</s>The small dog runs down a grassy hill.",
+    "premise": "The small brown dog is running through the grass with a yellow ball in its mouth.",
+    "hypothesis": "The small dog runs down a grassy hill.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 151,
+    "input_text": "A child walks in the ocean.</s>A child in the ocean.",
+    "premise": "A child walks in the ocean.",
+    "hypothesis": "A child in the ocean.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 152,
+    "input_text": "A man in a red jacket is snowboarding near a forest.</s>The man took his girlfriend snowboarding.",
+    "premise": "A man in a red jacket is snowboarding near a forest.",
+    "hypothesis": "The man took his girlfriend snowboarding.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 153,
+    "input_text": "Younger man in a yellow shirt and tan shorts is moving a dry yard or field with a riding John Deere tractor mover.</s>the young man sweated in a field",
+    "premise": "Younger man in a yellow shirt and tan shorts is moving a dry yard or field with a riding John Deere tractor mover.",
+    "hypothesis": "the young man sweated in a field",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 154,
+    "input_text": "A woman bends down to the ground and smiles.</s>A woman smiles at her daughter on the ground.",
+    "premise": "A woman bends down to the ground and smiles.",
+    "hypothesis": "A woman smiles at her daughter on the ground.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 155,
+    "input_text": "Four women are playing beach volleyball with an ad for London 2012 in the background.</s>The four women are having fun.",
+    "premise": "Four women are playing beach volleyball with an ad for London 2012 in the background.",
+    "hypothesis": "The four women are having fun.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 156,
+    "input_text": "A blond man with a leather jacket playing a guitar and singing.</s>A man is singing and playing guitar to a Beatles song.",
+    "premise": "A blond man with a leather jacket playing a guitar and singing.",
+    "hypothesis": "A man is singing and playing guitar to a Beatles song.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 157,
+    "input_text": "A big man in a black t-shirt is holding onto a beer with one hand and a microphone with the other.</s>A big man in a black t-shirt is holding a beer and a microphone.",
+    "premise": "A big man in a black t-shirt is holding onto a beer with one hand and a microphone with the other.",
+    "hypothesis": "A big man in a black t-shirt is holding a beer and a microphone.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 158,
+    "input_text": "A construction vehicle on a hill of dirt.</s>A construction vehicle parked next to a school bus.",
+    "premise": "A construction vehicle on a hill of dirt.",
+    "hypothesis": "A construction vehicle parked next to a school bus.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 159,
+    "input_text": "A man with dreadlocks is talking on a cellular phone.</s>The man is emailing on his phone.",
+    "premise": "A man with dreadlocks is talking on a cellular phone.",
+    "hypothesis": "The man is emailing on his phone.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 160,
+    "input_text": "A group of women in orange bathing suits and sarongs.</s>a group in bathing suits",
+    "premise": "A group of women in orange bathing suits and sarongs.",
+    "hypothesis": "a group in bathing suits",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 161,
+    "input_text": "Group of about 40 people in a hotel meeting room.</s>All the people are men.",
+    "premise": "Group of about 40 people in a hotel meeting room.",
+    "hypothesis": "All the people are men.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 162,
+    "input_text": "A wedding couple are being photographed on a street corner amongst passersby and traffic.</s>A boxing couple are being photographed on a street corner amongst passersby and traffic.",
+    "premise": "A wedding couple are being photographed on a street corner amongst passersby and traffic.",
+    "hypothesis": "A boxing couple are being photographed on a street corner amongst passersby and traffic.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 163,
+    "input_text": "There is a little boy in a red jacket walking down the railroad tracks and holding a stick.</s>A little boy is walking down the railroad track with a stick in his hand.",
+    "premise": "There is a little boy in a red jacket walking down the railroad tracks and holding a stick.",
+    "hypothesis": "A little boy is walking down the railroad track with a stick in his hand.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 164,
+    "input_text": "A chubby, redheaded child swings a bat at a ball on a tee.</s>A child is swinging a bat.",
+    "premise": "A chubby, redheaded child swings a bat at a ball on a tee.",
+    "hypothesis": "A child is swinging a bat.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 165,
+    "input_text": "A young man is taking a self-portrait of his reflected image with a medium format camera while standing on an escalator.</s>A boy brushes his teeth in a bathroom.",
+    "premise": "A young man is taking a self-portrait of his reflected image with a medium format camera while standing on an escalator.",
+    "hypothesis": "A boy brushes his teeth in a bathroom.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 166,
+    "input_text": "A woman watches as her bowling ball rolls down the lane toward pins.</s>The woman is winning the game.",
+    "premise": "A woman watches as her bowling ball rolls down the lane toward pins.",
+    "hypothesis": "The woman is winning the game.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 167,
+    "input_text": "Three dogs wrestle in the grass.</s>Worms play pinochle.",
+    "premise": "Three dogs wrestle in the grass.",
+    "hypothesis": "Worms play pinochle.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 168,
+    "input_text": "A group of people looking at sound equipment.</s>They look to see how the sound equipment is installed.",
+    "premise": "A group of people looking at sound equipment.",
+    "hypothesis": "They look to see how the sound equipment is installed.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 169,
+    "input_text": "Brunette woman in a pink tank top with sunglasses is laughing while holding a cup.</s>A woman heard a funny joke.",
+    "premise": "Brunette woman in a pink tank top with sunglasses is laughing while holding a cup.",
+    "hypothesis": "A woman heard a funny joke.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 170,
+    "input_text": "An older man in a red t-shirt and khaki shorts is waving to the crowd at a parade while driving an antique Ford vehicle.</s>A man is the director of the parade.",
+    "premise": "An older man in a red t-shirt and khaki shorts is waving to the crowd at a parade while driving an antique Ford vehicle.",
+    "hypothesis": "A man is the director of the parade.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 171,
+    "input_text": "An adult and a child, both wearing hats, are outside, looking at a black and white rooster in a cage.</s>There are people looking at an animal.",
+    "premise": "An adult and a child, both wearing hats, are outside, looking at a black and white rooster in a cage.",
+    "hypothesis": "There are people looking at an animal.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 172,
+    "input_text": "A girl is walking a horse across a paved suburban street.</s>A girl is with an animal outside.",
+    "premise": "A girl is walking a horse across a paved suburban street.",
+    "hypothesis": "A girl is with an animal outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 173,
+    "input_text": "Young adults are seated at a restaurant table, smiling.</s>Young teenage boys sitting at a restaurant table waiting for their food.",
+    "premise": "Young adults are seated at a restaurant table, smiling.",
+    "hypothesis": "Young teenage boys sitting at a restaurant table waiting for their food.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 174,
+    "input_text": "A grocery store worker is pushing several baskets at once.</s>The person works at the grocery store.",
+    "premise": "A grocery store worker is pushing several baskets at once.",
+    "hypothesis": "The person works at the grocery store.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 175,
+    "input_text": "A woman wearing a blue and yellow bodysuit is riding a yellow bicycle.</s>The woman likes the color yellow.",
+    "premise": "A woman wearing a blue and yellow bodysuit is riding a yellow bicycle.",
+    "hypothesis": "The woman likes the color yellow.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 176,
+    "input_text": "A man with a pierced eyebrow is looking at a laptop screen, while a cat is in the background.</s>The cat is burying the man in the back yard.",
+    "premise": "A man with a pierced eyebrow is looking at a laptop screen, while a cat is in the background.",
+    "hypothesis": "The cat is burying the man in the back yard.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 177,
+    "input_text": "A person riding a large unicycle.</s>A unicycle perfomance for entertainment",
+    "premise": "A person riding a large unicycle.",
+    "hypothesis": "A unicycle perfomance for entertainment",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 178,
+    "input_text": "A girl standing in a skirt and black shoes.</s>A girl dressed in a skirt.",
+    "premise": "A girl standing in a skirt and black shoes.",
+    "hypothesis": "A girl dressed in a skirt.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 179,
+    "input_text": "The family approached the water with their boat before as storm was coming in.</s>The family was scared",
+    "premise": "The family approached the water with their boat before as storm was coming in.",
+    "hypothesis": "The family was scared",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 180,
+    "input_text": "a woman wearing black stands in front of a pickup truck.</s>a woman stands in front of a truck",
+    "premise": "a woman wearing black stands in front of a pickup truck.",
+    "hypothesis": "a woman stands in front of a truck",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 181,
+    "input_text": "Dog jumps over a man and catches a Frisbee in his mouth.</s>A dog in the air.",
+    "premise": "Dog jumps over a man and catches a Frisbee in his mouth.",
+    "hypothesis": "A dog in the air.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 182,
+    "input_text": "A skateboarder doing a jump near some apartment buildings.</s>Someone is on the skateboard.",
+    "premise": "A skateboarder doing a jump near some apartment buildings.",
+    "hypothesis": "Someone is on the skateboard.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 183,
+    "input_text": "baseball player grabbing ball in his glove</s>Baseball player tries to turn a double play.",
+    "premise": "baseball player grabbing ball in his glove",
+    "hypothesis": "Baseball player tries to turn a double play.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 184,
+    "input_text": "People walk along a sandy beach on a clear day.</s>One man stands in a city.",
+    "premise": "People walk along a sandy beach on a clear day.",
+    "hypothesis": "One man stands in a city.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 185,
+    "input_text": "Two women with dark hair play chess at a table while standing.</s>The two women are playing a game.",
+    "premise": "Two women with dark hair play chess at a table while standing.",
+    "hypothesis": "The two women are playing a game.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 186,
+    "input_text": "A woman wearing a hooded jacket over a striped sweater is rollerskating with other people.</s>A woman is rollerskating.",
+    "premise": "A woman wearing a hooded jacket over a striped sweater is rollerskating with other people.",
+    "hypothesis": "A woman is rollerskating.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 187,
+    "input_text": "Several people stand outside of a theater, while there is an advertisement sign with a man and woman in the foreground.</s>The people stood outside the theater.",
+    "premise": "Several people stand outside of a theater, while there is an advertisement sign with a man and woman in the foreground.",
+    "hypothesis": "The people stood outside the theater.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 188,
+    "input_text": "A police officer is talking to several men on a busy city street.</s>cop talks to people",
+    "premise": "A police officer is talking to several men on a busy city street.",
+    "hypothesis": "cop talks to people",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 189,
+    "input_text": "A bird perches in an empty window frame.</s>A bird gazes into an empty home",
+    "premise": "A bird perches in an empty window frame.",
+    "hypothesis": "A bird gazes into an empty home",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 190,
+    "input_text": "The cylinder's pattern could be described as red chevron.</s>The cylinder is part of a piping system.",
+    "premise": "The cylinder's pattern could be described as red chevron.",
+    "hypothesis": "The cylinder is part of a piping system.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 191,
+    "input_text": "Girls in the aftermath of a rainstorm continue on their way.</s>Girls hitchhiking .",
+    "premise": "Girls in the aftermath of a rainstorm continue on their way.",
+    "hypothesis": "Girls hitchhiking .",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 192,
+    "input_text": "A man is walking a white dog on a leash in a park setting.</s>A dog is wandering looking for it's owner.",
+    "premise": "A man is walking a white dog on a leash in a park setting.",
+    "hypothesis": "A dog is wandering looking for it's owner.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 193,
+    "input_text": "A dog is running on a pathway.</s>The dog is standing still on the path.",
+    "premise": "A dog is running on a pathway.",
+    "hypothesis": "The dog is standing still on the path.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 194,
+    "input_text": "A girl going into a wooden building.</s>Lisa is going to church.",
+    "premise": "A girl going into a wooden building.",
+    "hypothesis": "Lisa is going to church.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 195,
+    "input_text": "A spotted dog stands on his hind legs to catch a ball on the beach.</s>On the beach a dog play the ball.",
+    "premise": "A spotted dog stands on his hind legs to catch a ball on the beach.",
+    "hypothesis": "On the beach a dog play the ball.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 196,
+    "input_text": "A person with a helmet on is airborne and upside down on a mechanized device for traveling on water</s> A person with a metal helmet.",
+    "premise": "A person with a helmet on is airborne and upside down on a mechanized device for traveling on water",
+    "hypothesis": " A person with a metal helmet.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 197,
+    "input_text": "Three women smiling and sitting down.</s>3 people smile and sit down",
+    "premise": "Three women smiling and sitting down.",
+    "hypothesis": "3 people smile and sit down",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 198,
+    "input_text": "Two men and a young lady with red hair play Wii together in the living room on a black leather sofa.</s>No one is playing video games.",
+    "premise": "Two men and a young lady with red hair play Wii together in the living room on a black leather sofa.",
+    "hypothesis": "No one is playing video games.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 199,
+    "input_text": "People standing outside of an Irish Pub.</s>People are standing outside a pub.",
+    "premise": "People standing outside of an Irish Pub.",
+    "hypothesis": "People are standing outside a pub.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 200,
+    "input_text": "A boy in an orange shirt plays on a large drainpipe with several other children in a sandy area.</s>girls are playing tag nearby",
+    "premise": "A boy in an orange shirt plays on a large drainpipe with several other children in a sandy area.",
+    "hypothesis": "girls are playing tag nearby",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 201,
+    "input_text": "A toy lego set is featured in the foreground while a woman and child play with it in the background.</s>The child is playing with water.",
+    "premise": "A toy lego set is featured in the foreground while a woman and child play with it in the background.",
+    "hypothesis": "The child is playing with water.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 202,
+    "input_text": "A dog runs down a beach holding a yellow toy while another chases it.</s>The dog that is being chased is brown.",
+    "premise": "A dog runs down a beach holding a yellow toy while another chases it.",
+    "hypothesis": "The dog that is being chased is brown.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 203,
+    "input_text": "A person wearing full biker gear is riding a BMX bike over hilly terrain.</s>A person is wearing a full set of biker gear.",
+    "premise": "A person wearing full biker gear is riding a BMX bike over hilly terrain.",
+    "hypothesis": "A person is wearing a full set of biker gear.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 204,
+    "input_text": "A male gymnast is swinging on the rings.</s>There was a man swinging from the gymnastic rings.",
+    "premise": "A male gymnast is swinging on the rings.",
+    "hypothesis": "There was a man swinging from the gymnastic rings.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 205,
+    "input_text": "Five men, uniformly dressed in white shirts, tie and black slacks converse at the back of an open van.</s>The dressed up men are behind a van.",
+    "premise": "Five men, uniformly dressed in white shirts, tie and black slacks converse at the back of an open van.",
+    "hypothesis": "The dressed up men are behind a van.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 206,
+    "input_text": "Two boys in blue shirts sit on the end of a bench next to a fair ride.</s>The two boys sit in anticipation in the theater seats, awaiting the movie to start.",
+    "premise": "Two boys in blue shirts sit on the end of a bench next to a fair ride.",
+    "hypothesis": "The two boys sit in anticipation in the theater seats, awaiting the movie to start.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 207,
+    "input_text": "A little boy stands in the surf.</s>The boy is outside.",
+    "premise": "A little boy stands in the surf.",
+    "hypothesis": "The boy is outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 208,
+    "input_text": "Three male and female pairs of dancers are on the stage at the ballet, with other ballerinas in the background.</s>Nobody on stage",
+    "premise": "Three male and female pairs of dancers are on the stage at the ballet, with other ballerinas in the background.",
+    "hypothesis": "Nobody on stage",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 209,
+    "input_text": "A kid and a boy is riding their cycles.</s>Kids are riding bikes and playing outside",
+    "premise": "A kid and a boy is riding their cycles.",
+    "hypothesis": "Kids are riding bikes and playing outside",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 210,
+    "input_text": "Young African man does work in a field.</s>Young African man does work in a field picking cotton.",
+    "premise": "Young African man does work in a field.",
+    "hypothesis": "Young African man does work in a field picking cotton.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 211,
+    "input_text": "Two bicyclists pose by a stream for a picture.</s>Two cyclists are taking a break.",
+    "premise": "Two bicyclists pose by a stream for a picture.",
+    "hypothesis": "Two cyclists are taking a break.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 212,
+    "input_text": "A man sitting on a green bench talking on the telephone.</s>The weather is beautiful today",
+    "premise": "A man sitting on a green bench talking on the telephone.",
+    "hypothesis": "The weather is beautiful today",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 213,
+    "input_text": "A female vendor dressed in a yellow work shirt with her back to the camera.</s>The camera is selling a yellow work shirt.",
+    "premise": "A female vendor dressed in a yellow work shirt with her back to the camera.",
+    "hypothesis": "The camera is selling a yellow work shirt.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 214,
+    "input_text": "Two men painting the floor with a scene of water.</s>Two men are painting the floor of a very large room.",
+    "premise": "Two men painting the floor with a scene of water.",
+    "hypothesis": "Two men are painting the floor of a very large room.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 215,
+    "input_text": "Two men in army-colored uniforms sawing a piece of wood on a construction site.</s>the men are in the army.",
+    "premise": "Two men in army-colored uniforms sawing a piece of wood on a construction site.",
+    "hypothesis": "the men are in the army.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 216,
+    "input_text": "Two teams of girls on the field are getting ready for the soccer game.</s>Two teams on a soccer field.",
+    "premise": "Two teams of girls on the field are getting ready for the soccer game.",
+    "hypothesis": "Two teams on a soccer field.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 217,
+    "input_text": "The old women is looking at the fresh produce.</s>The old women is looking for tomatoes.",
+    "premise": "The old women is looking at the fresh produce.",
+    "hypothesis": "The old women is looking for tomatoes.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 218,
+    "input_text": "A kid jumps off the diving board and into the swimming pool below.</s>Sandy dived into the pool.",
+    "premise": "A kid jumps off the diving board and into the swimming pool below.",
+    "hypothesis": "Sandy dived into the pool.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 219,
+    "input_text": "Outside the window you can see an area of dirt that appears muddy from the rain.</s>It rained outside",
+    "premise": "Outside the window you can see an area of dirt that appears muddy from the rain.",
+    "hypothesis": "It rained outside",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 220,
+    "input_text": "a young man playing an electric guitar while jumping up and down in front of fans.</s>The guitar playing is rolling around on the floor covered with peanuts.",
+    "premise": "a young man playing an electric guitar while jumping up and down in front of fans.",
+    "hypothesis": "The guitar playing is rolling around on the floor covered with peanuts.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 221,
+    "input_text": "A woman riding a horse in a show jumping competition.</s>A man is riding a bull at a rodeo.",
+    "premise": "A woman riding a horse in a show jumping competition.",
+    "hypothesis": "A man is riding a bull at a rodeo.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 222,
+    "input_text": "A man is working under a white vehicle while a child watches him.</s>a man is working on a car",
+    "premise": "A man is working under a white vehicle while a child watches him.",
+    "hypothesis": "a man is working on a car",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 223,
+    "input_text": "Two young girls are positioned behind a table covered in various toys and miniatures.</s>Two girls are behind a table.",
+    "premise": "Two young girls are positioned behind a table covered in various toys and miniatures.",
+    "hypothesis": "Two girls are behind a table.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 224,
+    "input_text": "A person in a brown, fur-lined coat is grabbing something from a cabinet.</s>A person in shorts and a tank top grabs something from a cabinet.",
+    "premise": "A person in a brown, fur-lined coat is grabbing something from a cabinet.",
+    "hypothesis": "A person in shorts and a tank top grabs something from a cabinet.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 225,
+    "input_text": "A woman with a backpack is standing next to a bicycle.</s>the woman is standing next to a car",
+    "premise": "A woman with a backpack is standing next to a bicycle.",
+    "hypothesis": "the woman is standing next to a car",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 226,
+    "input_text": "A man with gray hair in boots and cowboy hat dancing.</s>There is an old man with gray hair.",
+    "premise": "A man with gray hair in boots and cowboy hat dancing.",
+    "hypothesis": "There is an old man with gray hair.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 227,
+    "input_text": "A man in an orange shirt is standing in a fire.</s>the man is using a heat suit control the flame",
+    "premise": "A man in an orange shirt is standing in a fire.",
+    "hypothesis": "the man is using a heat suit control the flame",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 228,
+    "input_text": "Two birds are standing in a wooded area.</s>Two birds are standing in the woods.",
+    "premise": "Two birds are standing in a wooded area.",
+    "hypothesis": "Two birds are standing in the woods.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 229,
+    "input_text": "A girl looking toward science equipment in a lab setting.</s>A scientist getting ready to experiment.",
+    "premise": "A girl looking toward science equipment in a lab setting.",
+    "hypothesis": "A scientist getting ready to experiment.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 230,
+    "input_text": "A man with a crutch lying on the ground.</s>A man is sleeping on the ground",
+    "premise": "A man with a crutch lying on the ground.",
+    "hypothesis": "A man is sleeping on the ground",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 231,
+    "input_text": "A man performing on stage with a violin.</s>The man is playing the piano.",
+    "premise": "A man performing on stage with a violin.",
+    "hypothesis": "The man is playing the piano.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 232,
+    "input_text": "Man playing guitar in a dark room.</s>A huge human playing guitar.",
+    "premise": "Man playing guitar in a dark room.",
+    "hypothesis": "A huge human playing guitar.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 233,
+    "input_text": "A girl leaping into the air in front of the White house.</s>A girl is taking a test in the library.",
+    "premise": "A girl leaping into the air in front of the White house.",
+    "hypothesis": "A girl is taking a test in the library.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 234,
+    "input_text": "A street performer does his act as a crowd looks on.</s>A performer does his act in front of a crowd at the mall.",
+    "premise": "A street performer does his act as a crowd looks on.",
+    "hypothesis": "A performer does his act in front of a crowd at the mall.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 235,
+    "input_text": "A person stands on the peaks of snow and ice.</s>There is snow and ice.",
+    "premise": "A person stands on the peaks of snow and ice.",
+    "hypothesis": "There is snow and ice.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 236,
+    "input_text": "The horse on the left has a white mane.</s>The horse's mane is long.",
+    "premise": "The horse on the left has a white mane.",
+    "hypothesis": "The horse's mane is long.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 237,
+    "input_text": "A set of actors and actresses perform a show.</s>After the show the cast got stinking drunk.",
+    "premise": "A set of actors and actresses perform a show.",
+    "hypothesis": "After the show the cast got stinking drunk.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 238,
+    "input_text": "A man in a suit with a pot in his hand.</s>a businessman is holding a pot",
+    "premise": "A man in a suit with a pot in his hand.",
+    "hypothesis": "a businessman is holding a pot",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 239,
+    "input_text": "A man playing ultimate frisbee makes a diving catch.</s>A man makes an exciting frisbee catch.",
+    "premise": "A man playing ultimate frisbee makes a diving catch.",
+    "hypothesis": "A man makes an exciting frisbee catch.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 240,
+    "input_text": "A woman wearing a blue coat walks and talks on her cellphone.</s>A woman talks on her cellphone.",
+    "premise": "A woman wearing a blue coat walks and talks on her cellphone.",
+    "hypothesis": "A woman talks on her cellphone.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 241,
+    "input_text": "a guy with a white shirt making a pool shot</s>A man in a white shirt plays pool.",
+    "premise": "a guy with a white shirt making a pool shot",
+    "hypothesis": "A man in a white shirt plays pool.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 242,
+    "input_text": "A dark-skinned man is wearing a police outfit.</s>A white man is wearing a fireman uniform.",
+    "premise": "A dark-skinned man is wearing a police outfit.",
+    "hypothesis": "A white man is wearing a fireman uniform.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 243,
+    "input_text": "Three adults, two men and one woman, talking to each other in winter attire in the snow.</s>A few adults jumped into the pool",
+    "premise": "Three adults, two men and one woman, talking to each other in winter attire in the snow.",
+    "hypothesis": "A few adults jumped into the pool",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 244,
+    "input_text": "A cyclist leans his bike against a tree near the campers.</s>A bike leaves his bike on the ground.",
+    "premise": "A cyclist leans his bike against a tree near the campers.",
+    "hypothesis": "A bike leaves his bike on the ground.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 245,
+    "input_text": "A man with poofy gray hair laughing</s>A woman with poofy gray hair crying.",
+    "premise": "A man with poofy gray hair laughing",
+    "hypothesis": "A woman with poofy gray hair crying.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 246,
+    "input_text": "a man practicing his putting on a portable disc golf basket.</s>A man playing disc golf.",
+    "premise": "a man practicing his putting on a portable disc golf basket.",
+    "hypothesis": "A man playing disc golf.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 247,
+    "input_text": "Girls in black dresses dancing at the disco.</s>Group of girls sip vodka tonics while dancing at a disco.",
+    "premise": "Girls in black dresses dancing at the disco.",
+    "hypothesis": "Group of girls sip vodka tonics while dancing at a disco.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 248,
+    "input_text": "A young girl is organizing letters made of fabric</s>Wooden blocks used to build toy towers and buildings.",
+    "premise": "A young girl is organizing letters made of fabric",
+    "hypothesis": "Wooden blocks used to build toy towers and buildings.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 249,
+    "input_text": "Creepy man in a kitchen holds his meat high in the air.</s>The man is holding meat.",
+    "premise": "Creepy man in a kitchen holds his meat high in the air.",
+    "hypothesis": "The man is holding meat.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 250,
+    "input_text": "Three girls are chatting and waiting in front of the parking lot.</s>Three girls chat in a parking lot.",
+    "premise": "Three girls are chatting and waiting in front of the parking lot.",
+    "hypothesis": "Three girls chat in a parking lot.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 251,
+    "input_text": "Two field hockey players collide.</s>two players ran after to hit the ball and ran into each other",
+    "premise": "Two field hockey players collide.",
+    "hypothesis": "two players ran after to hit the ball and ran into each other",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 252,
+    "input_text": "A man is walking in a field holding a bale of grass or some type of long crop over his head.</s>A man is walking in the sky",
+    "premise": "A man is walking in a field holding a bale of grass or some type of long crop over his head.",
+    "hypothesis": "A man is walking in the sky",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 253,
+    "input_text": "A woman leans on an umbrella.</s>A large umbrella provides the sunbather a break from the sun during her day at the beach.",
+    "premise": "A woman leans on an umbrella.",
+    "hypothesis": "A large umbrella provides the sunbather a break from the sun during her day at the beach.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 254,
+    "input_text": "A man is walking along a brick wall with writing on it.</s>The man is sitting next to the brick wall with writing on it.",
+    "premise": "A man is walking along a brick wall with writing on it.",
+    "hypothesis": "The man is sitting next to the brick wall with writing on it.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 255,
+    "input_text": "A young child, wearing a blue shirt and green hat, is blowing up an orange balloon.</s>A small child blows up an orange balloon.",
+    "premise": "A young child, wearing a blue shirt and green hat, is blowing up an orange balloon.",
+    "hypothesis": "A small child blows up an orange balloon.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 256,
+    "input_text": "Two little boys are standing amongst soldiers.</s>Two young children are with adults.",
+    "premise": "Two little boys are standing amongst soldiers.",
+    "hypothesis": "Two young children are with adults.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 257,
+    "input_text": "Two women and a man dressed in Victorian era clothing; the man is gesturing to the women in the red dress.</s>Two women and a man are in a Shakespeare play.",
+    "premise": "Two women and a man dressed in Victorian era clothing; the man is gesturing to the women in the red dress.",
+    "hypothesis": "Two women and a man are in a Shakespeare play.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 258,
+    "input_text": "Four boys standing outside begin to run while two others watch on.</s>Four boys are outside.",
+    "premise": "Four boys standing outside begin to run while two others watch on.",
+    "hypothesis": "Four boys are outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 259,
+    "input_text": "A man dressed in a plaid shirt and jeans stands just beside a bright spot of sun shining into either a cave or a mine of some sort.</s>Man cycling through a park.",
+    "premise": "A man dressed in a plaid shirt and jeans stands just beside a bright spot of sun shining into either a cave or a mine of some sort.",
+    "hypothesis": "Man cycling through a park.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 260,
+    "input_text": "Two young boys playing lacrosse run for the lacrosse ball.</s>two boys playing",
+    "premise": "Two young boys playing lacrosse run for the lacrosse ball.",
+    "hypothesis": "two boys playing",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 261,
+    "input_text": "A farmer with a bright yellow reflective vest drives his tractor.</s>A man drives his tractor while wearing a bright vest.",
+    "premise": "A farmer with a bright yellow reflective vest drives his tractor.",
+    "hypothesis": "A man drives his tractor while wearing a bright vest.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 262,
+    "input_text": "A child is playing near a basketball net.</s>A kid is playing near a basketball hoop.",
+    "premise": "A child is playing near a basketball net.",
+    "hypothesis": "A kid is playing near a basketball hoop.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 263,
+    "input_text": "A father and his son cuddle while sleeping.</s>The father is holding a book.",
+    "premise": "A father and his son cuddle while sleeping.",
+    "hypothesis": "The father is holding a book.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 264,
+    "input_text": "Man flipping pancake in kitchen while looking in awe.</s>A man is tossing pizza dough.",
+    "premise": "Man flipping pancake in kitchen while looking in awe.",
+    "hypothesis": "A man is tossing pizza dough.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 265,
+    "input_text": "Multiple females sitting indian-style doing what appears to be textile work.</s>Males work on textile work.",
+    "premise": "Multiple females sitting indian-style doing what appears to be textile work.",
+    "hypothesis": "Males work on textile work.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 266,
+    "input_text": "A man with glasses and pick in hand, wearing a black vest and tie, is standing in front of a microphone surrounded by paintings.</s>The man is the artist.",
+    "premise": "A man with glasses and pick in hand, wearing a black vest and tie, is standing in front of a microphone surrounded by paintings.",
+    "hypothesis": "The man is the artist.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 267,
+    "input_text": "Some female athletes in red shirts and black shorts are jumping in the air and smiling.</s>Happy people play basketball.",
+    "premise": "Some female athletes in red shirts and black shorts are jumping in the air and smiling.",
+    "hypothesis": "Happy people play basketball.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 268,
+    "input_text": "The woman sits on the steps outside.</s>The woman is sitting.",
+    "premise": "The woman sits on the steps outside.",
+    "hypothesis": "The woman is sitting.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 269,
+    "input_text": "An African American woman walks down the street while talking on a cellphone holding a black purse.</s>A woman talks on the phone as she walks to work.",
+    "premise": "An African American woman walks down the street while talking on a cellphone holding a black purse.",
+    "hypothesis": "A woman talks on the phone as she walks to work.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 270,
+    "input_text": "Three Arabic men riding on the back of a car going through a market area.</s>Three men in a city.",
+    "premise": "Three Arabic men riding on the back of a car going through a market area.",
+    "hypothesis": "Three men in a city.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 271,
+    "input_text": "A man laying on the ground with his arm under a car white a little boy is watching him.</s>A man carrying a little boy on his shoulders down a hill toward his car.",
+    "premise": "A man laying on the ground with his arm under a car white a little boy is watching him.",
+    "hypothesis": "A man carrying a little boy on his shoulders down a hill toward his car.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 272,
+    "input_text": "A man wearing cargo shorts is sitting while putting his feet on top of the desk.</s>A casually dressed person relaxes",
+    "premise": "A man wearing cargo shorts is sitting while putting his feet on top of the desk.",
+    "hypothesis": "A casually dressed person relaxes",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 273,
+    "input_text": "A bride and groom walk together in a dark room.</s>bride and groom walking",
+    "premise": "A bride and groom walk together in a dark room.",
+    "hypothesis": "bride and groom walking",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 274,
+    "input_text": "Numerous men and women enjoying an outdoor area.</s>A large group of people are having fun outside.",
+    "premise": "Numerous men and women enjoying an outdoor area.",
+    "hypothesis": "A large group of people are having fun outside.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 275,
+    "input_text": "A man in a green shirt with red and blue leggings is sitting on a concrete structure next to a brown bird that is attached to a rope.</s>He is admiring the statue.",
+    "premise": "A man in a green shirt with red and blue leggings is sitting on a concrete structure next to a brown bird that is attached to a rope.",
+    "hypothesis": "He is admiring the statue.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 276,
+    "input_text": "Young men are running across a field in shorts.</s>The men are running and playing a game on the field.",
+    "premise": "Young men are running across a field in shorts.",
+    "hypothesis": "The men are running and playing a game on the field.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 277,
+    "input_text": "An elderly man takes a photo with a phone.</s>A man is hammering something.",
+    "premise": "An elderly man takes a photo with a phone.",
+    "hypothesis": "A man is hammering something.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 278,
+    "input_text": "A snowboarder slides along a ramp over a snowy gap.</s>Snowboarder walking down bike path",
+    "premise": "A snowboarder slides along a ramp over a snowy gap.",
+    "hypothesis": "Snowboarder walking down bike path",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 279,
+    "input_text": "A man in a gray suit covering his mouth with his hand.</s>The man is eating a meal.",
+    "premise": "A man in a gray suit covering his mouth with his hand.",
+    "hypothesis": "The man is eating a meal.",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 280,
+    "input_text": "A group of basketball players wearing yellow and green reach for a ball.</s>The group of people are on the same team.",
+    "premise": "A group of basketball players wearing yellow and green reach for a ball.",
+    "hypothesis": "The group of people are on the same team.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 281,
+    "input_text": "People are using conveyor belts to go up or down.</s>People watching T.V.",
+    "premise": "People are using conveyor belts to go up or down.",
+    "hypothesis": "People watching T.V.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 282,
+    "input_text": "A man is scaling a large cliff</s>A man is scaling a cliff",
+    "premise": "A man is scaling a large cliff",
+    "hypothesis": "A man is scaling a cliff",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 283,
+    "input_text": "Women with long curly hair working on a mac computer.</s>Women working on a computer.",
+    "premise": "Women with long curly hair working on a mac computer.",
+    "hypothesis": "Women working on a computer.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 284,
+    "input_text": "Surfer Magazine has set up a kiosk at a surfing competition.</s>Three men are surfing.",
+    "premise": "Surfer Magazine has set up a kiosk at a surfing competition.",
+    "hypothesis": "Three men are surfing.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 285,
+    "input_text": "A boy with a red jacket and striped shorts sits on the top of a man's shoulders in a crowd of people.</s>A boy slides down a slide.",
+    "premise": "A boy with a red jacket and striped shorts sits on the top of a man's shoulders in a crowd of people.",
+    "hypothesis": "A boy slides down a slide.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 286,
+    "input_text": "A person is listening to music over their headphones while walking down a deserted street.</s>a person at home watching tv",
+    "premise": "A person is listening to music over their headphones while walking down a deserted street.",
+    "hypothesis": "a person at home watching tv",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 287,
+    "input_text": "Potential customers shopping in a busy marketplace.</s>Nobody is shopping.",
+    "premise": "Potential customers shopping in a busy marketplace.",
+    "hypothesis": "Nobody is shopping.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 288,
+    "input_text": "One man painting a floor blue wearing only pants and a hat.</s>The man painting is hot and took off his shirt",
+    "premise": "One man painting a floor blue wearing only pants and a hat.",
+    "hypothesis": "The man painting is hot and took off his shirt",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 289,
+    "input_text": "Girl working at a candy store stocks the merchandise.</s>Girl is stocking candy and eating some here and there",
+    "premise": "Girl working at a candy store stocks the merchandise.",
+    "hypothesis": "Girl is stocking candy and eating some here and there",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 290,
+    "input_text": "Fisherman wearing a poncho and hat sitting at the edge of the water.</s>Two fishermen sit by the water.",
+    "premise": "Fisherman wearing a poncho and hat sitting at the edge of the water.",
+    "hypothesis": "Two fishermen sit by the water.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 291,
+    "input_text": "A man with a ring on his left ring finger was talking on a cellphone near the tables with blue umbrellas.</s>The man is lying in bed.",
+    "premise": "A man with a ring on his left ring finger was talking on a cellphone near the tables with blue umbrellas.",
+    "hypothesis": "The man is lying in bed.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 292,
+    "input_text": "A woman is surprised to have her picture taken on this fall day outside Spaulding's women's store.</s>A women is taking a walk on a hot summer day",
+    "premise": "A woman is surprised to have her picture taken on this fall day outside Spaulding's women's store.",
+    "hypothesis": "A women is taking a walk on a hot summer day",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 293,
+    "input_text": "People rushing and boarding buses at the depot station.</s>Two Live Crew performs at the Yankees Stadium.",
+    "premise": "People rushing and boarding buses at the depot station.",
+    "hypothesis": "Two Live Crew performs at the Yankees Stadium.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 294,
+    "input_text": "Five white puppies and several chickens compete for food</s>puppies and chickens chasing one another",
+    "premise": "Five white puppies and several chickens compete for food",
+    "hypothesis": "puppies and chickens chasing one another",
+    "label": 1,
+    "label_name": "neutral",
+    "dataset": "snli"
+  },
+  {
+    "id": 295,
+    "input_text": "A child sitting on her dad's shoulders in a crowd.</s>A young person is with a parent.",
+    "premise": "A child sitting on her dad's shoulders in a crowd.",
+    "hypothesis": "A young person is with a parent.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 296,
+    "input_text": "Girl in black and white top and black leggings jumping on trampoline.</s>Girl is playing outdoors.",
+    "premise": "Girl in black and white top and black leggings jumping on trampoline.",
+    "hypothesis": "Girl is playing outdoors.",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 297,
+    "input_text": "A little girl and boy sitting next to each other looking at a book.</s>the children watch the tv",
+    "premise": "A little girl and boy sitting next to each other looking at a book.",
+    "hypothesis": "the children watch the tv",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  },
+  {
+    "id": 298,
+    "input_text": "A bartender wearing a hat is pouring a drink.</s>a bartender is pouring a drink",
+    "premise": "A bartender wearing a hat is pouring a drink.",
+    "hypothesis": "a bartender is pouring a drink",
+    "label": 0,
+    "label_name": "entailment",
+    "dataset": "snli"
+  },
+  {
+    "id": 299,
+    "input_text": "One guy surfing the waves in the ocean.</s>The guy is sleeping on the beach.",
+    "premise": "One guy surfing the waves in the ocean.",
+    "hypothesis": "The guy is sleeping on the beach.",
+    "label": 2,
+    "label_name": "contradiction",
+    "dataset": "snli"
+  }
+]

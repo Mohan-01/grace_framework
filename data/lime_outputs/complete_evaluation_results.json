@@ -1,0 +1,14 @@
+{
+  "evaluation": {
+    "average_faithfulness": 0.1713425600528717,
+    "average_sufficiency": 0.538328954577446,
+    "average_comprehensiveness": 0.1217564570903778,
+    "num_examples": 50
+  },
+  "model_performance": {
+    "accuracy": 0.9,
+    "avg_confidence": 0.9428120255470276,
+    "correct": 45,
+    "total": 50
+  }
+}

@@ -1,0 +1,2102 @@
+[
+    {
+        "id": 0,
+        "premise": "Some people in blue shirts are standing up at an even with big letters spelling out the word \"KRUNCH\".",
+        "hypothesis": "The people are wearing blue.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 1,
+        "premise": "A man with a cigarette in his mouth is riding a motorcycle.",
+        "hypothesis": "A man has a cigarette while riding a harley.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 2,
+        "premise": "A Mormon missionary walks his bicycle past a Metro sign.",
+        "hypothesis": "The missionary is wearing a helmet.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 3,
+        "premise": "The little boy is wearing white shorts.",
+        "hypothesis": "Boy has on white shirts.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 4,
+        "premise": "Woman running in jeans in a forest on a trail.",
+        "hypothesis": "A woman is running in a forest.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 5,
+        "premise": "A man is standing with his arms folded looking at something while the person behind him is jumping onto one of the two beds in the room.",
+        "hypothesis": "There is only one bed in the room.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 6,
+        "premise": "A woman wearing a red and white apron is standing next to a wall with the number 333 written on it.",
+        "hypothesis": "A man is standing next to a wall.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 7,
+        "premise": "A player kicks the soccer ball from the corner of the field.",
+        "hypothesis": "a person playing a sport.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 8,
+        "premise": "A brunette man sitting next to a picnic table full of a smores ingredients.",
+        "hypothesis": "man at picnic table",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 9,
+        "premise": "A little girl wearing a yellow dress moves frantically in front of a crowded baseball stadium.",
+        "hypothesis": "Everything is calm at the stadium.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 10,
+        "premise": "A girl looking through a large telescope on a school trip.",
+        "hypothesis": "A boy tosses a telescope at a girl",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 11,
+        "premise": "A young man is participating in a competitive gun shooting event.",
+        "hypothesis": "The young man is asleep at home.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 12,
+        "premise": "3 children wearing hats playing on a horse",
+        "hypothesis": "3 children wearing hats playing on a horse at the rodeo",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 13,
+        "premise": "A woman dressed in blue is walking down a street near a marketplace.",
+        "hypothesis": "A woman is walking down the street on a sunny day.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 14,
+        "premise": "A girl and a boy walking on stones.",
+        "hypothesis": "They are related.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 15,
+        "premise": "The man sitting seems to be reading while waiting for the bus while the people in the background seem to blend in with the landscape.",
+        "hypothesis": "Many other people are waiting for the bus.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 16,
+        "premise": "A married couple looking out, on the waterfront.",
+        "hypothesis": "The people are outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 17,
+        "premise": "There is a man working on a billboard.",
+        "hypothesis": "The picture of a man on a billboard is displaying an expensive watch.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 18,
+        "premise": "A guy is playing with his beard.",
+        "hypothesis": "A guy is playing a guitar with his ears.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 19,
+        "premise": "A dog walking into a lake with reeds in the background",
+        "hypothesis": "A cat walking into a lake with reeds in the background",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 20,
+        "premise": "A black and white dog swimming in clear water.",
+        "hypothesis": "A dog is in the water.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 21,
+        "premise": "Two mothers are pushing baby strollers as the dogs run down.",
+        "hypothesis": "The babies are in a crib sleeping",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 22,
+        "premise": "Five kids are on a yellow ride at the amusement park.",
+        "hypothesis": "The kids are having fun on the ride.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 23,
+        "premise": "A man in blue shorts and a t-shirt is slicing tomatoes on a dining table.",
+        "hypothesis": "A woman cuts a pineapple on a coffee table.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 24,
+        "premise": "Two bird dogs competing for the kill.",
+        "hypothesis": "Two dogs are hunting birds.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 25,
+        "premise": "Multiple men wearing cowboy hats.",
+        "hypothesis": "The men have cowboy hats on their heads.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 26,
+        "premise": "An inline skater in red pants and blue shirt skates between green cones.",
+        "hypothesis": "A skater is skating between cones.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 27,
+        "premise": "A woman in blue standing in front of a racetrack with a saddled horse.",
+        "hypothesis": "The jockey is with her horse.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 28,
+        "premise": "A young man is skateboarding on a cement block wall.",
+        "hypothesis": "a young man is skateboarding",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 29,
+        "premise": "A group of produce buyers inspecting fresh produce.",
+        "hypothesis": "The people are looking at tomatoes.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 30,
+        "premise": "A man is shucking corn with his son.",
+        "hypothesis": "Green vegetation is being pulled off the corn.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 31,
+        "premise": "This man is doing a trick on a skateboard while in the air.",
+        "hypothesis": "A man is skateboarding",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 32,
+        "premise": "Pushing a mower that is a bit too large for him, a young boy tries to cut some grass.",
+        "hypothesis": "The small boy's farther made him mow the lawn.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 33,
+        "premise": "A young kid is walking very carefully.",
+        "hypothesis": "A baby crawls across a carpet.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 34,
+        "premise": "A little boy holds a bat in the air waiting on the ball.",
+        "hypothesis": "A little league baseball player is at bat.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 35,
+        "premise": "A man in a hat and coat is talking on the phone next to a building with a sign that is in a foreign language.",
+        "hypothesis": "New app translates speech from English to any language",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 36,
+        "premise": "A person wearing orange getting on a bicycle.",
+        "hypothesis": "The person is walking away from the bicycle.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 37,
+        "premise": "A blond child is eating a blue cupcake.",
+        "hypothesis": "A child is learning trigonometry.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 38,
+        "premise": "A woman is sitting on the sidewalk, sketching an image with chalk.",
+        "hypothesis": "A woman draws her favorite picture on the sidewalk.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 39,
+        "premise": "Spices and other goods are being put in display in what appears to be a local village shop.",
+        "hypothesis": "The spices are made from brick powder from Mars.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 40,
+        "premise": "An African American singer dressed all in black is singing into a microphone.",
+        "hypothesis": "At a concert an African american signer is dressed in all black singing through a microphone infront of a crowd",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 41,
+        "premise": "Construction workers are digging a ditch.",
+        "hypothesis": "Construction workers removing soil.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 42,
+        "premise": "People are watching a boy on a skateboard at the top of a skate ramp.",
+        "hypothesis": "People are watching a boy on a skateboard at the top of a skate ramp before he attempts to break a world record.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 43,
+        "premise": "A man with a beard and colored glasses playing with fire.",
+        "hypothesis": "A man is sitting in front of a campfire.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 44,
+        "premise": "A little girl is smiling while holding a vacuum and an older male is holding a large drill.",
+        "hypothesis": "The man is helping the girl fix the vacuum.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 45,
+        "premise": "Kids scale a wall as two other people watch.",
+        "hypothesis": "Children are doing homework.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 46,
+        "premise": "A boy standing in water doing a kick.",
+        "hypothesis": "A person is doing a kick in warm water",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 47,
+        "premise": "Two people walking down an alley.",
+        "hypothesis": "There are two people in the back street.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 48,
+        "premise": "Two police officers are riding around on horses in the street.",
+        "hypothesis": "The policeman's horses are sleeping in the stables.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 49,
+        "premise": "A woman in shorts shoveling snow.",
+        "hypothesis": "Woman shoveling snow",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 50,
+        "premise": "Three people overlook a green valley.",
+        "hypothesis": "Three people looking down at green grass outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 51,
+        "premise": "A woman wearing a white lab coat is holding her jar up with a white glove.",
+        "hypothesis": "The woman is wearing a lab coat.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 52,
+        "premise": "Two draft horses, hitched to a covered wagon that looked as if it could hold a number of passengers, stood quietly as an older woman looked at an older man in the wagon.",
+        "hypothesis": "The older couple ride horses down the dirt road.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 53,
+        "premise": "Person with a backpack in a field",
+        "hypothesis": "A dog is wearing a backback.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 54,
+        "premise": "A person, wearing a costume with many flowers, is standing on the sidewalk trying to get the attention of people passing by.",
+        "hypothesis": "a person seeks attention",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 55,
+        "premise": "A woman in a dark blue T-shirt is weaving a striped piece of material.",
+        "hypothesis": "The woman is weaving together some clothing.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 56,
+        "premise": "Two men wearing working clothes are brushing the street near a trash receptacle",
+        "hypothesis": "Men wearing cloths are brushing the street.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 57,
+        "premise": "A muzzled greyhound dog is running around a track.",
+        "hypothesis": "A dog is moving around.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 58,
+        "premise": "A large group of men are listening to a man with glasses sitting at a table with a strange pattern.",
+        "hypothesis": "A group of men listen to a man sitting at a table.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 59,
+        "premise": "Two brown dogs run together.",
+        "hypothesis": "The dogs are related",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 60,
+        "premise": "A woman sings and plays a small guitar and a drummer sits behind her playing maracas.",
+        "hypothesis": "The woman and the drummer are in the same band.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 61,
+        "premise": "The people dressed in all white are having a good time.",
+        "hypothesis": "The people dressed in all white were sad.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 62,
+        "premise": "A man is cooking what appears to be green beans in a grill basket on a grill with a yellow lab standing by him while someone takes a picture from above.",
+        "hypothesis": "A man is about to grill a steak.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 63,
+        "premise": "A man on stage with a microphone in front of an audience.",
+        "hypothesis": "the man can sing",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 64,
+        "premise": "A man in green shorts is jumping to catch a frisbee as another man and woman run towards him.",
+        "hypothesis": "They are playing frisbee football.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 65,
+        "premise": "On a sidewalk, apparently in a shopping district somewhere in Asia, young women in high-heeled shoes have a discussion, while other shoppers walk by.",
+        "hypothesis": "The women are outside of a shopping mall.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 66,
+        "premise": "The surfer in the black bodysuit rides a wave off the coast",
+        "hypothesis": "The surfer is walking on the beach holding his surfboard.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 67,
+        "premise": "Two men in light colored shirts and dark pants sit on a balcony conversing as a lone car passes below.",
+        "hypothesis": "Two men discuss life's issues above a road.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 68,
+        "premise": "Three women look on as two men look at the tire of a bike.",
+        "hypothesis": "Men are looking at a tire",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 69,
+        "premise": "A woman in a cream jacket gazes at photographs.",
+        "hypothesis": "A woman looks at photographs",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 70,
+        "premise": "A father and his son bonding.",
+        "hypothesis": "A father and his son are playing catch.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 71,
+        "premise": "Five adults and a child run opposite of the waves on the beach.",
+        "hypothesis": "There are people playing.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 72,
+        "premise": "A foreign man is preparing an ethnic dish.",
+        "hypothesis": "A man cooks.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 73,
+        "premise": "Two people play water volleyball in a pool.",
+        "hypothesis": "There are five people playing in the pool.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 74,
+        "premise": "Two young boys dressed in shorts are looking for something.",
+        "hypothesis": "Two young boys are on a hunt.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 75,
+        "premise": "A small girl is going up outside steps wearing a red dress, and there are bicycles on the other side of the railing.",
+        "hypothesis": "A girl is going down steps.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 76,
+        "premise": "Three girls standing outside, one girl is crying.",
+        "hypothesis": "Tears run down her face",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 77,
+        "premise": "The man in the black sweater is standing next to a green bird in a birdcage.",
+        "hypothesis": "The man likes birds.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 78,
+        "premise": "A skateboarder slides down a handrail.",
+        "hypothesis": "A skateboarder is rollerblading on a handrail",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 79,
+        "premise": "A teen in a yellow shirt directs his team on a sports field.",
+        "hypothesis": "A teen in a light yellow shirt directs his team.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 80,
+        "premise": "A man wearing bathing trunks and a black cape is lurching forward at an angle.",
+        "hypothesis": "A person is wearing a cape.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 81,
+        "premise": "A woman and her child wheeling a smaller child in a stroller on a brick path.",
+        "hypothesis": "A woman and two children walk to the store.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 82,
+        "premise": "A boy sits on the grass near a geometric sculpture.",
+        "hypothesis": "A boy is drawing a picture of the geometric sculpture.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 83,
+        "premise": "A child plays on the ground in a pile of leaves.",
+        "hypothesis": "A blond girl is playing under the tree.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 84,
+        "premise": "City workers are doing maintenance on a train track.",
+        "hypothesis": "City workers are repairing a road.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 85,
+        "premise": "A man smokes a cigarette on rocks by the beach.",
+        "hypothesis": "A man is running from the cops.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 86,
+        "premise": "Four dark-haired men are sitting around a basket of fish while other men stand around them.",
+        "hypothesis": "Four men stand around a pool table.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 87,
+        "premise": "Two basketball players fighting over control of a ball.",
+        "hypothesis": "they are playing basketball",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 88,
+        "premise": "A girl in black t-shirt and blue jeans walking on the pathway.",
+        "hypothesis": "The girl is sitting and reading a book in the pathway.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 89,
+        "premise": "A motorcycle racer wearing Number 60 in a green uniform and helmet appears to slight lead the race against many other drivers as they go around a curve, but the others are close behind.",
+        "hypothesis": "The motorcycle racer Number 60 is losing.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 90,
+        "premise": "A little child with a hat on lays on the grass amid a few scattered fallen leaves.",
+        "hypothesis": "A child lays on her bed, looking at the ceiling.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 91,
+        "premise": "A black, brown, and white dog jumping over a pile of logs with trees in the background.",
+        "hypothesis": "Dogs playing outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 92,
+        "premise": "Kids are always a pleasure to be around and to smile about.",
+        "hypothesis": "kids are a pleasure",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 93,
+        "premise": "Ladies work in a field in front of palm trees.",
+        "hypothesis": "A group of women are getting paid to work in a field.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 94,
+        "premise": "A quintet is posing for a photograph with their instruments- a cello, 3 violins and a clarinet.",
+        "hypothesis": "People getting their picture taken.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 95,
+        "premise": "Three boys and there father working in a yard.",
+        "hypothesis": "Four males are outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 96,
+        "premise": "A woman on a white horse chasing a bull.",
+        "hypothesis": "A woman is sitting on a couch.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 97,
+        "premise": "A priest on the phone near some female military workers taking a break.",
+        "hypothesis": "The person is not wearing a baseball hat.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 98,
+        "premise": "A little baby is playing with the nozzle of a vacuum cleaner.",
+        "hypothesis": "A huge baby.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 99,
+        "premise": "A baby playing in a toy",
+        "hypothesis": "A babies toy is new",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 100,
+        "premise": "A dark street scene shows a neon lights and a group of people dining while another group walks.",
+        "hypothesis": "The group of people are watching tv",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 101,
+        "premise": "Local vendor in the city selling his product to city folk.",
+        "hypothesis": "A vendor is manning his food cart.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 102,
+        "premise": "A brown dog runs in the woods with a serious look on its face.",
+        "hypothesis": "The dog is looking for it's toy.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 103,
+        "premise": "Two boys are playing in the sand at a playground.",
+        "hypothesis": "A girl is folding her clothes.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 104,
+        "premise": "A young girl in a green shirt and shorts out riding her bike past a very nice apartment building.",
+        "hypothesis": "A man spray painting a nice building.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 105,
+        "premise": "Here is six gentlemen who are in a band, all are playing different instruments.",
+        "hypothesis": "The gentlemen are in a band",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 106,
+        "premise": "A dark-haired man in a striped shirt records a video of a gray-haired man using a MacBook laptop.",
+        "hypothesis": "There is a dark-haired man recording a gray-haired man for a school project.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 107,
+        "premise": "Little girl hugging and adorable cat",
+        "hypothesis": "A person playing with a dog.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 108,
+        "premise": "Two older women are sitting in chairs talking to each other.",
+        "hypothesis": "Nobody is sitting.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 109,
+        "premise": "A man dressed in a sport coat, slacks and nice shoes, posing in a very busily-decorated room, while wearing a dark green mask that has large yellow monster teeth, a single orange eye, and completely covers his head.",
+        "hypothesis": "There is a man posing at a costume party.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 110,
+        "premise": "Everyone is clapping in this office.",
+        "hypothesis": "There are people in a workplace.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 111,
+        "premise": "A man with glasses is reading a book in a mall.",
+        "hypothesis": "A man reading Oliver Twist in the mall.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 112,
+        "premise": "Two men are riding in a big yellow truck.",
+        "hypothesis": "A little boy is playing with a toy boat.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 113,
+        "premise": "A blond woman, who is smoking, and a brunette woman are conversing outside a building.",
+        "hypothesis": "The women are at the movies.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 114,
+        "premise": "People wearing life jackets jumping into or looking at the river.",
+        "hypothesis": "People are standing on the beach.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 115,
+        "premise": "A man in an orange raincoat is discussing something with another man wearing work clothes near a sewer manhole.",
+        "hypothesis": "It is raining outside.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 116,
+        "premise": "A female athlete playing volleyball on the beach.",
+        "hypothesis": "The Olympic women's volleyball team practices.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 117,
+        "premise": "a chinese motorcyclist smokes a cigarette in traffic.",
+        "hypothesis": "A motorcyclist smokes while riding in traffic.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 118,
+        "premise": "A guy in a costume, a crowd watching him.",
+        "hypothesis": "The costumed man is the center of attention.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 119,
+        "premise": "Lady with sunglasses looks up, while man on her left consults a map",
+        "hypothesis": "The lost couple tried to find their way home with the map.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 120,
+        "premise": "A baseball player wearing number 37 is standing in the batter's box with the bat on his shoulder.",
+        "hypothesis": "The player is wearing number 42.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 121,
+        "premise": "A Jewish man wearing glasses, button up long blue shirt getting desserts on the table",
+        "hypothesis": "The man is getting appetizers.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 122,
+        "premise": "Two women sit at a bench in a small park, one in a blue dress, the other in a white dress",
+        "hypothesis": "Two females outdoors watching a concert.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 123,
+        "premise": "A pastor on a cellphone in front of a stone building with five officers wearing green uniforms; two are standing while the others are seated.",
+        "hypothesis": "The man is about to be arrested.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 124,
+        "premise": "Two African American men wearing vests, as one African American man wearing a blue shirt with an emblem direct people or machinery.",
+        "hypothesis": "They are working in a box factory.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 125,
+        "premise": "A young boy smiling runs past a gun toting soldier in the background.",
+        "hypothesis": "A happy boy is running outside in a war zone.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 126,
+        "premise": "A little boy swims underwater.",
+        "hypothesis": "A boy floats on top of water.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 127,
+        "premise": "woman with blue gloves working on the sidewalk with some cleaner",
+        "hypothesis": "man with blue gloves working on the sidewalk with some cleaner",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 128,
+        "premise": "A young woman being photographed by multiple people in the middle of the road.",
+        "hypothesis": "A human being photographed",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 129,
+        "premise": "A man in a white shirt and black pants is walking next to a parked blue bus.",
+        "hypothesis": "A man is walking outdoors.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 130,
+        "premise": "A dog running toward the camera with a man in the background",
+        "hypothesis": "A cat is walking.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 131,
+        "premise": "A man and a woman dance happily.",
+        "hypothesis": "The couple are dancing in the ballroom.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 132,
+        "premise": "A woman wearing a headscarf is working with her hands.",
+        "hypothesis": "A lady is wearing a kerchief on her head and is watching TV.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 133,
+        "premise": "The young people party in the streets.",
+        "hypothesis": "The young people are dead.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 134,
+        "premise": "A little boy in a blue shirt kicking a soccer ball around.",
+        "hypothesis": "A boy playing sports",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 135,
+        "premise": "A man who is smoking, wearing a yellow safety vest, is doing landscape work.",
+        "hypothesis": "A man is doing landscape work to support his kite hobby.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 136,
+        "premise": "A woman in jeans bowling in a classic looking bowling alley.",
+        "hypothesis": "A woman was fighting.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 137,
+        "premise": "A man in a orange shirt and green hat playing drum jumping up is the air.",
+        "hypothesis": "This man plays music.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 138,
+        "premise": "A woman in a red sweater and a girl is in front of a girl in a green hoodie& a girl with a brown jacket and pink purse.",
+        "hypothesis": "There is a man in a green t-shirt and a boy is in front of another boy.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 139,
+        "premise": "Several cyclists wearing different colors riding bikes on pavement.",
+        "hypothesis": "People are playing hockey in the park.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 140,
+        "premise": "Three jockeys mounted on horses ride in race.",
+        "hypothesis": "Horses are running toward the finish line.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 141,
+        "premise": "man sitting on the ground with his child and a stroller",
+        "hypothesis": "A man is nearby a stroller.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 142,
+        "premise": "Two tired-looking men relax on a couch near a wooden trestle table with a coffee cup on it.",
+        "hypothesis": "The men are water skiing.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 143,
+        "premise": "A woman with short brown hair is wiping a railing with a yellow towel.",
+        "hypothesis": "A woman is bathing in a bath tub with a blue towel.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 144,
+        "premise": "a man bouncing on trampoline.",
+        "hypothesis": "A man is moving up and down.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 145,
+        "premise": "Pale woman holding umbrella over her and a man.",
+        "hypothesis": "Two people are sun bathing.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 146,
+        "premise": "Girl in blue jacket holding a baby in overalls.",
+        "hypothesis": "A young girl is holding her new sibling",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 147,
+        "premise": "A man pushes a miniature train engine which a little boy, possibly his son, is riding down a track at a park of some sort.",
+        "hypothesis": "a father and son play with the train",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 148,
+        "premise": "two boys stand at a blue table fill out a form.",
+        "hypothesis": "Two boys filling out a form.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 149,
+        "premise": "Festival-goers have a fun time with their children",
+        "hypothesis": "The concert was closed.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 150,
+        "premise": "The small brown dog is running through the grass with a yellow ball in its mouth.",
+        "hypothesis": "The small dog runs down a grassy hill.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 151,
+        "premise": "A child walks in the ocean.",
+        "hypothesis": "A child in the ocean.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 152,
+        "premise": "A man in a red jacket is snowboarding near a forest.",
+        "hypothesis": "The man took his girlfriend snowboarding.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 153,
+        "premise": "Younger man in a yellow shirt and tan shorts is moving a dry yard or field with a riding John Deere tractor mover.",
+        "hypothesis": "the young man sweated in a field",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 154,
+        "premise": "A woman bends down to the ground and smiles.",
+        "hypothesis": "A woman smiles at her daughter on the ground.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 155,
+        "premise": "Four women are playing beach volleyball with an ad for London 2012 in the background.",
+        "hypothesis": "The four women are having fun.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 156,
+        "premise": "A blond man with a leather jacket playing a guitar and singing.",
+        "hypothesis": "A man is singing and playing guitar to a Beatles song.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 157,
+        "premise": "A big man in a black t-shirt is holding onto a beer with one hand and a microphone with the other.",
+        "hypothesis": "A big man in a black t-shirt is holding a beer and a microphone.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 158,
+        "premise": "A construction vehicle on a hill of dirt.",
+        "hypothesis": "A construction vehicle parked next to a school bus.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 159,
+        "premise": "A man with dreadlocks is talking on a cellular phone.",
+        "hypothesis": "The man is emailing on his phone.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 160,
+        "premise": "A group of women in orange bathing suits and sarongs.",
+        "hypothesis": "a group in bathing suits",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 161,
+        "premise": "Group of about 40 people in a hotel meeting room.",
+        "hypothesis": "All the people are men.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 162,
+        "premise": "A wedding couple are being photographed on a street corner amongst passersby and traffic.",
+        "hypothesis": "A boxing couple are being photographed on a street corner amongst passersby and traffic.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 163,
+        "premise": "There is a little boy in a red jacket walking down the railroad tracks and holding a stick.",
+        "hypothesis": "A little boy is walking down the railroad track with a stick in his hand.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 164,
+        "premise": "A chubby, redheaded child swings a bat at a ball on a tee.",
+        "hypothesis": "A child is swinging a bat.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 165,
+        "premise": "A young man is taking a self-portrait of his reflected image with a medium format camera while standing on an escalator.",
+        "hypothesis": "A boy brushes his teeth in a bathroom.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 166,
+        "premise": "A woman watches as her bowling ball rolls down the lane toward pins.",
+        "hypothesis": "The woman is winning the game.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 167,
+        "premise": "Three dogs wrestle in the grass.",
+        "hypothesis": "Worms play pinochle.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 168,
+        "premise": "A group of people looking at sound equipment.",
+        "hypothesis": "They look to see how the sound equipment is installed.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 169,
+        "premise": "Brunette woman in a pink tank top with sunglasses is laughing while holding a cup.",
+        "hypothesis": "A woman heard a funny joke.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 170,
+        "premise": "An older man in a red t-shirt and khaki shorts is waving to the crowd at a parade while driving an antique Ford vehicle.",
+        "hypothesis": "A man is the director of the parade.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 171,
+        "premise": "An adult and a child, both wearing hats, are outside, looking at a black and white rooster in a cage.",
+        "hypothesis": "There are people looking at an animal.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 172,
+        "premise": "A girl is walking a horse across a paved suburban street.",
+        "hypothesis": "A girl is with an animal outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 173,
+        "premise": "Young adults are seated at a restaurant table, smiling.",
+        "hypothesis": "Young teenage boys sitting at a restaurant table waiting for their food.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 174,
+        "premise": "A grocery store worker is pushing several baskets at once.",
+        "hypothesis": "The person works at the grocery store.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 175,
+        "premise": "A woman wearing a blue and yellow bodysuit is riding a yellow bicycle.",
+        "hypothesis": "The woman likes the color yellow.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 176,
+        "premise": "A man with a pierced eyebrow is looking at a laptop screen, while a cat is in the background.",
+        "hypothesis": "The cat is burying the man in the back yard.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 177,
+        "premise": "A person riding a large unicycle.",
+        "hypothesis": "A unicycle perfomance for entertainment",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 178,
+        "premise": "A girl standing in a skirt and black shoes.",
+        "hypothesis": "A girl dressed in a skirt.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 179,
+        "premise": "The family approached the water with their boat before as storm was coming in.",
+        "hypothesis": "The family was scared",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 180,
+        "premise": "a woman wearing black stands in front of a pickup truck.",
+        "hypothesis": "a woman stands in front of a truck",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 181,
+        "premise": "Dog jumps over a man and catches a Frisbee in his mouth.",
+        "hypothesis": "A dog in the air.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 182,
+        "premise": "A skateboarder doing a jump near some apartment buildings.",
+        "hypothesis": "Someone is on the skateboard.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 183,
+        "premise": "baseball player grabbing ball in his glove",
+        "hypothesis": "Baseball player tries to turn a double play.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 184,
+        "premise": "People walk along a sandy beach on a clear day.",
+        "hypothesis": "One man stands in a city.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 185,
+        "premise": "Two women with dark hair play chess at a table while standing.",
+        "hypothesis": "The two women are playing a game.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 186,
+        "premise": "A woman wearing a hooded jacket over a striped sweater is rollerskating with other people.",
+        "hypothesis": "A woman is rollerskating.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 187,
+        "premise": "Several people stand outside of a theater, while there is an advertisement sign with a man and woman in the foreground.",
+        "hypothesis": "The people stood outside the theater.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 188,
+        "premise": "A police officer is talking to several men on a busy city street.",
+        "hypothesis": "cop talks to people",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 189,
+        "premise": "A bird perches in an empty window frame.",
+        "hypothesis": "A bird gazes into an empty home",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 190,
+        "premise": "The cylinder's pattern could be described as red chevron.",
+        "hypothesis": "The cylinder is part of a piping system.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 191,
+        "premise": "Girls in the aftermath of a rainstorm continue on their way.",
+        "hypothesis": "Girls hitchhiking .",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 192,
+        "premise": "A man is walking a white dog on a leash in a park setting.",
+        "hypothesis": "A dog is wandering looking for it's owner.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 193,
+        "premise": "A dog is running on a pathway.",
+        "hypothesis": "The dog is standing still on the path.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 194,
+        "premise": "A girl going into a wooden building.",
+        "hypothesis": "Lisa is going to church.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 195,
+        "premise": "A spotted dog stands on his hind legs to catch a ball on the beach.",
+        "hypothesis": "On the beach a dog play the ball.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 196,
+        "premise": "A person with a helmet on is airborne and upside down on a mechanized device for traveling on water",
+        "hypothesis": " A person with a metal helmet.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 197,
+        "premise": "Three women smiling and sitting down.",
+        "hypothesis": "3 people smile and sit down",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 198,
+        "premise": "Two men and a young lady with red hair play Wii together in the living room on a black leather sofa.",
+        "hypothesis": "No one is playing video games.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 199,
+        "premise": "People standing outside of an Irish Pub.",
+        "hypothesis": "People are standing outside a pub.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 200,
+        "premise": "A boy in an orange shirt plays on a large drainpipe with several other children in a sandy area.",
+        "hypothesis": "girls are playing tag nearby",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 201,
+        "premise": "A toy lego set is featured in the foreground while a woman and child play with it in the background.",
+        "hypothesis": "The child is playing with water.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 202,
+        "premise": "A dog runs down a beach holding a yellow toy while another chases it.",
+        "hypothesis": "The dog that is being chased is brown.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 203,
+        "premise": "A person wearing full biker gear is riding a BMX bike over hilly terrain.",
+        "hypothesis": "A person is wearing a full set of biker gear.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 204,
+        "premise": "A male gymnast is swinging on the rings.",
+        "hypothesis": "There was a man swinging from the gymnastic rings.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 205,
+        "premise": "Five men, uniformly dressed in white shirts, tie and black slacks converse at the back of an open van.",
+        "hypothesis": "The dressed up men are behind a van.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 206,
+        "premise": "Two boys in blue shirts sit on the end of a bench next to a fair ride.",
+        "hypothesis": "The two boys sit in anticipation in the theater seats, awaiting the movie to start.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 207,
+        "premise": "A little boy stands in the surf.",
+        "hypothesis": "The boy is outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 208,
+        "premise": "Three male and female pairs of dancers are on the stage at the ballet, with other ballerinas in the background.",
+        "hypothesis": "Nobody on stage",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 209,
+        "premise": "A kid and a boy is riding their cycles.",
+        "hypothesis": "Kids are riding bikes and playing outside",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 210,
+        "premise": "Young African man does work in a field.",
+        "hypothesis": "Young African man does work in a field picking cotton.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 211,
+        "premise": "Two bicyclists pose by a stream for a picture.",
+        "hypothesis": "Two cyclists are taking a break.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 212,
+        "premise": "A man sitting on a green bench talking on the telephone.",
+        "hypothesis": "The weather is beautiful today",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 213,
+        "premise": "A female vendor dressed in a yellow work shirt with her back to the camera.",
+        "hypothesis": "The camera is selling a yellow work shirt.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 214,
+        "premise": "Two men painting the floor with a scene of water.",
+        "hypothesis": "Two men are painting the floor of a very large room.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 215,
+        "premise": "Two men in army-colored uniforms sawing a piece of wood on a construction site.",
+        "hypothesis": "the men are in the army.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 216,
+        "premise": "Two teams of girls on the field are getting ready for the soccer game.",
+        "hypothesis": "Two teams on a soccer field.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 217,
+        "premise": "The old women is looking at the fresh produce.",
+        "hypothesis": "The old women is looking for tomatoes.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 218,
+        "premise": "A kid jumps off the diving board and into the swimming pool below.",
+        "hypothesis": "Sandy dived into the pool.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 219,
+        "premise": "Outside the window you can see an area of dirt that appears muddy from the rain.",
+        "hypothesis": "It rained outside",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 220,
+        "premise": "a young man playing an electric guitar while jumping up and down in front of fans.",
+        "hypothesis": "The guitar playing is rolling around on the floor covered with peanuts.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 221,
+        "premise": "A woman riding a horse in a show jumping competition.",
+        "hypothesis": "A man is riding a bull at a rodeo.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 222,
+        "premise": "A man is working under a white vehicle while a child watches him.",
+        "hypothesis": "a man is working on a car",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 223,
+        "premise": "Two young girls are positioned behind a table covered in various toys and miniatures.",
+        "hypothesis": "Two girls are behind a table.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 224,
+        "premise": "A person in a brown, fur-lined coat is grabbing something from a cabinet.",
+        "hypothesis": "A person in shorts and a tank top grabs something from a cabinet.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 225,
+        "premise": "A woman with a backpack is standing next to a bicycle.",
+        "hypothesis": "the woman is standing next to a car",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 226,
+        "premise": "A man with gray hair in boots and cowboy hat dancing.",
+        "hypothesis": "There is an old man with gray hair.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 227,
+        "premise": "A man in an orange shirt is standing in a fire.",
+        "hypothesis": "the man is using a heat suit control the flame",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 228,
+        "premise": "Two birds are standing in a wooded area.",
+        "hypothesis": "Two birds are standing in the woods.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 229,
+        "premise": "A girl looking toward science equipment in a lab setting.",
+        "hypothesis": "A scientist getting ready to experiment.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 230,
+        "premise": "A man with a crutch lying on the ground.",
+        "hypothesis": "A man is sleeping on the ground",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 231,
+        "premise": "A man performing on stage with a violin.",
+        "hypothesis": "The man is playing the piano.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 232,
+        "premise": "Man playing guitar in a dark room.",
+        "hypothesis": "A huge human playing guitar.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 233,
+        "premise": "A girl leaping into the air in front of the White house.",
+        "hypothesis": "A girl is taking a test in the library.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 234,
+        "premise": "A street performer does his act as a crowd looks on.",
+        "hypothesis": "A performer does his act in front of a crowd at the mall.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 235,
+        "premise": "A person stands on the peaks of snow and ice.",
+        "hypothesis": "There is snow and ice.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 236,
+        "premise": "The horse on the left has a white mane.",
+        "hypothesis": "The horse's mane is long.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 237,
+        "premise": "A set of actors and actresses perform a show.",
+        "hypothesis": "After the show the cast got stinking drunk.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 238,
+        "premise": "A man in a suit with a pot in his hand.",
+        "hypothesis": "a businessman is holding a pot",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 239,
+        "premise": "A man playing ultimate frisbee makes a diving catch.",
+        "hypothesis": "A man makes an exciting frisbee catch.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 240,
+        "premise": "A woman wearing a blue coat walks and talks on her cellphone.",
+        "hypothesis": "A woman talks on her cellphone.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 241,
+        "premise": "a guy with a white shirt making a pool shot",
+        "hypothesis": "A man in a white shirt plays pool.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 242,
+        "premise": "A dark-skinned man is wearing a police outfit.",
+        "hypothesis": "A white man is wearing a fireman uniform.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 243,
+        "premise": "Three adults, two men and one woman, talking to each other in winter attire in the snow.",
+        "hypothesis": "A few adults jumped into the pool",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 244,
+        "premise": "A cyclist leans his bike against a tree near the campers.",
+        "hypothesis": "A bike leaves his bike on the ground.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 245,
+        "premise": "A man with poofy gray hair laughing",
+        "hypothesis": "A woman with poofy gray hair crying.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 246,
+        "premise": "a man practicing his putting on a portable disc golf basket.",
+        "hypothesis": "A man playing disc golf.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 247,
+        "premise": "Girls in black dresses dancing at the disco.",
+        "hypothesis": "Group of girls sip vodka tonics while dancing at a disco.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 248,
+        "premise": "A young girl is organizing letters made of fabric",
+        "hypothesis": "Wooden blocks used to build toy towers and buildings.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 249,
+        "premise": "Creepy man in a kitchen holds his meat high in the air.",
+        "hypothesis": "The man is holding meat.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 250,
+        "premise": "Three girls are chatting and waiting in front of the parking lot.",
+        "hypothesis": "Three girls chat in a parking lot.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 251,
+        "premise": "Two field hockey players collide.",
+        "hypothesis": "two players ran after to hit the ball and ran into each other",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 252,
+        "premise": "A man is walking in a field holding a bale of grass or some type of long crop over his head.",
+        "hypothesis": "A man is walking in the sky",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 253,
+        "premise": "A woman leans on an umbrella.",
+        "hypothesis": "A large umbrella provides the sunbather a break from the sun during her day at the beach.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 254,
+        "premise": "A man is walking along a brick wall with writing on it.",
+        "hypothesis": "The man is sitting next to the brick wall with writing on it.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 255,
+        "premise": "A young child, wearing a blue shirt and green hat, is blowing up an orange balloon.",
+        "hypothesis": "A small child blows up an orange balloon.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 256,
+        "premise": "Two little boys are standing amongst soldiers.",
+        "hypothesis": "Two young children are with adults.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 257,
+        "premise": "Two women and a man dressed in Victorian era clothing; the man is gesturing to the women in the red dress.",
+        "hypothesis": "Two women and a man are in a Shakespeare play.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 258,
+        "premise": "Four boys standing outside begin to run while two others watch on.",
+        "hypothesis": "Four boys are outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 259,
+        "premise": "A man dressed in a plaid shirt and jeans stands just beside a bright spot of sun shining into either a cave or a mine of some sort.",
+        "hypothesis": "Man cycling through a park.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 260,
+        "premise": "Two young boys playing lacrosse run for the lacrosse ball.",
+        "hypothesis": "two boys playing",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 261,
+        "premise": "A farmer with a bright yellow reflective vest drives his tractor.",
+        "hypothesis": "A man drives his tractor while wearing a bright vest.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 262,
+        "premise": "A child is playing near a basketball net.",
+        "hypothesis": "A kid is playing near a basketball hoop.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 263,
+        "premise": "A father and his son cuddle while sleeping.",
+        "hypothesis": "The father is holding a book.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 264,
+        "premise": "Man flipping pancake in kitchen while looking in awe.",
+        "hypothesis": "A man is tossing pizza dough.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 265,
+        "premise": "Multiple females sitting indian-style doing what appears to be textile work.",
+        "hypothesis": "Males work on textile work.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 266,
+        "premise": "A man with glasses and pick in hand, wearing a black vest and tie, is standing in front of a microphone surrounded by paintings.",
+        "hypothesis": "The man is the artist.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 267,
+        "premise": "Some female athletes in red shirts and black shorts are jumping in the air and smiling.",
+        "hypothesis": "Happy people play basketball.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 268,
+        "premise": "The woman sits on the steps outside.",
+        "hypothesis": "The woman is sitting.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 269,
+        "premise": "An African American woman walks down the street while talking on a cellphone holding a black purse.",
+        "hypothesis": "A woman talks on the phone as she walks to work.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 270,
+        "premise": "Three Arabic men riding on the back of a car going through a market area.",
+        "hypothesis": "Three men in a city.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 271,
+        "premise": "A man laying on the ground with his arm under a car white a little boy is watching him.",
+        "hypothesis": "A man carrying a little boy on his shoulders down a hill toward his car.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 272,
+        "premise": "A man wearing cargo shorts is sitting while putting his feet on top of the desk.",
+        "hypothesis": "A casually dressed person relaxes",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 273,
+        "premise": "A bride and groom walk together in a dark room.",
+        "hypothesis": "bride and groom walking",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 274,
+        "premise": "Numerous men and women enjoying an outdoor area.",
+        "hypothesis": "A large group of people are having fun outside.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 275,
+        "premise": "A man in a green shirt with red and blue leggings is sitting on a concrete structure next to a brown bird that is attached to a rope.",
+        "hypothesis": "He is admiring the statue.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 276,
+        "premise": "Young men are running across a field in shorts.",
+        "hypothesis": "The men are running and playing a game on the field.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 277,
+        "premise": "An elderly man takes a photo with a phone.",
+        "hypothesis": "A man is hammering something.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 278,
+        "premise": "A snowboarder slides along a ramp over a snowy gap.",
+        "hypothesis": "Snowboarder walking down bike path",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 279,
+        "premise": "A man in a gray suit covering his mouth with his hand.",
+        "hypothesis": "The man is eating a meal.",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 280,
+        "premise": "A group of basketball players wearing yellow and green reach for a ball.",
+        "hypothesis": "The group of people are on the same team.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 281,
+        "premise": "People are using conveyor belts to go up or down.",
+        "hypothesis": "People watching T.V.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 282,
+        "premise": "A man is scaling a large cliff",
+        "hypothesis": "A man is scaling a cliff",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 283,
+        "premise": "Women with long curly hair working on a mac computer.",
+        "hypothesis": "Women working on a computer.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 284,
+        "premise": "Surfer Magazine has set up a kiosk at a surfing competition.",
+        "hypothesis": "Three men are surfing.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 285,
+        "premise": "A boy with a red jacket and striped shorts sits on the top of a man's shoulders in a crowd of people.",
+        "hypothesis": "A boy slides down a slide.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 286,
+        "premise": "A person is listening to music over their headphones while walking down a deserted street.",
+        "hypothesis": "a person at home watching tv",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 287,
+        "premise": "Potential customers shopping in a busy marketplace.",
+        "hypothesis": "Nobody is shopping.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 288,
+        "premise": "One man painting a floor blue wearing only pants and a hat.",
+        "hypothesis": "The man painting is hot and took off his shirt",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 289,
+        "premise": "Girl working at a candy store stocks the merchandise.",
+        "hypothesis": "Girl is stocking candy and eating some here and there",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 290,
+        "premise": "Fisherman wearing a poncho and hat sitting at the edge of the water.",
+        "hypothesis": "Two fishermen sit by the water.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 291,
+        "premise": "A man with a ring on his left ring finger was talking on a cellphone near the tables with blue umbrellas.",
+        "hypothesis": "The man is lying in bed.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 292,
+        "premise": "A woman is surprised to have her picture taken on this fall day outside Spaulding's women's store.",
+        "hypothesis": "A women is taking a walk on a hot summer day",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 293,
+        "premise": "People rushing and boarding buses at the depot station.",
+        "hypothesis": "Two Live Crew performs at the Yankees Stadium.",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 294,
+        "premise": "Five white puppies and several chickens compete for food",
+        "hypothesis": "puppies and chickens chasing one another",
+        "label": 1,
+        "label_name": "neutral"
+    },
+    {
+        "id": 295,
+        "premise": "A child sitting on her dad's shoulders in a crowd.",
+        "hypothesis": "A young person is with a parent.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 296,
+        "premise": "Girl in black and white top and black leggings jumping on trampoline.",
+        "hypothesis": "Girl is playing outdoors.",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 297,
+        "premise": "A little girl and boy sitting next to each other looking at a book.",
+        "hypothesis": "the children watch the tv",
+        "label": 2,
+        "label_name": "contradiction"
+    },
+    {
+        "id": 298,
+        "premise": "A bartender wearing a hat is pouring a drink.",
+        "hypothesis": "a bartender is pouring a drink",
+        "label": 0,
+        "label_name": "entailment"
+    },
+    {
+        "id": 299,
+        "premise": "One guy surfing the waves in the ocean.",
+        "hypothesis": "The guy is sleeping on the beach.",
+        "label": 2,
+        "label_name": "contradiction"
+    }
+]
