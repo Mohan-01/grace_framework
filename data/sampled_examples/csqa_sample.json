@@ -1,0 +1,3902 @@
+[
+    {
+        "id": 1824,
+        "question": "He fantasied about getting a what while driving to work and the pros and cons of the extra responsibilities and benefits?",
+        "choices": [
+            "new car",
+            "promotion",
+            "boredom",
+            "impatience",
+            "pressure"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 409,
+        "question": "He was good at traditional science but excelled at social science, his favorite subject was what?",
+        "choices": [
+            "geography",
+            "history studies",
+            "math",
+            "religion",
+            "dancing"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4506,
+        "question": "Jan wasn't very good at studying.  What might help him study better?",
+        "choices": [
+            "having a bigger brain",
+            "headaches",
+            "inspiration",
+            "more intelligence",
+            "understanding"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4012,
+        "question": "The cat was wild but like all others he was always read for a cat what?",
+        "choices": [
+            "stealing",
+            "four legs",
+            "tuna fish",
+            "food now",
+            "nap"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3657,
+        "question": "Cats are easily entertained, they love to what?",
+        "choices": [
+            "need food",
+            "go bowling",
+            "go outside",
+            "go out at night",
+            "play with toys"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2286,
+        "question": "What do we feel when we run out of energy?",
+        "choices": [
+            "fatigue",
+            "matter",
+            "weakness",
+            "deprived",
+            "mass"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1679,
+        "question": "The previous hotel was bad, so what did the pleased visitor think of the hotel?",
+        "choices": [
+            "badarse",
+            "adequate",
+            "propitious",
+            "first rate",
+            "manual"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8935,
+        "question": "What is the goal of most people playing games?",
+        "choices": [
+            "conquest",
+            "entertainment",
+            "winning",
+            "happiness",
+            "stress"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1424,
+        "question": "When chatting with friends you admire, what are you hoping to achieve?",
+        "choices": [
+            "feel close to",
+            "exchanging information",
+            "love",
+            "social approval",
+            "exchanging smiles"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9674,
+        "question": "What is something that the public can go to which involves a committee?",
+        "choices": [
+            "business",
+            "city council meeting",
+            "temple",
+            "office building",
+            "boardroom"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6912,
+        "question": "Where is a snake unlikely to be welcome?",
+        "choices": [
+            "hollow log",
+            "arid climate",
+            "petting zoo",
+            "ocean",
+            "tropical forest"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 520,
+        "question": "The animals weren't good at swimming, so it was hard for them to do what?",
+        "choices": [
+            "pass water",
+            "bathe",
+            "listen to each other",
+            "feel pleasure",
+            "reproduce asexually"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 488,
+        "question": "What European country is famous for its potato industry?",
+        "choices": [
+            "idaho",
+            "casserole",
+            "new hampshire",
+            "root cellar",
+            "ireland"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1535,
+        "question": "Where are you likely to find a corner shop selling hats?",
+        "choices": [
+            "subway",
+            "street corner",
+            "england",
+            "town",
+            "minnesota"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3582,
+        "question": "What does lying about oneself likely to lead to?",
+        "choices": [
+            "feeling guilty",
+            "problems",
+            "getting caught",
+            "hurt feelings",
+            "being fired"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3811,
+        "question": "Where do older people sometimes want to hear the singer more than the music?",
+        "choices": [
+            "elevator",
+            "opera",
+            "carnival",
+            "music hall",
+            "night club"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8279,
+        "question": "If you practice answering questions, what positive thing will happen?",
+        "choices": [
+            "good habits",
+            "better grade",
+            "sharing information",
+            "getting tired",
+            "correct"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 434,
+        "question": "Where can someone view a county highway as a line?",
+        "choices": [
+            "from the sky",
+            "map",
+            "cross counties by car",
+            "country",
+            "michigan"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9195,
+        "question": "What is a negative external consequence for someone who takes part in a killing?",
+        "choices": [
+            "dies",
+            "being imprisoned",
+            "blood",
+            "bloody mess",
+            "feeling of guilt"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3257,
+        "question": "Where do you find leather horseback riding equipment?",
+        "choices": [
+            "car seats",
+            "department stores",
+            "stable",
+            "merry go round",
+            "handbag"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8928,
+        "question": "What happens to dogs when they want to play?",
+        "choices": [
+            "many colours",
+            "need food",
+            "sleep soundly",
+            "go outside",
+            "they speak english"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6873,
+        "question": "What is something someone driving a car needs even to begin?",
+        "choices": [
+            "practice",
+            "feet",
+            "sight",
+            "keys",
+            "open car door"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3611,
+        "question": "He played the bass fiddle professionally, but for his baby he used it to play a fun simple what?",
+        "choices": [
+            "music",
+            "jazz band",
+            "orchestra",
+            "nursery rhyme",
+            "music store"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7359,
+        "question": "What can be done to ice in order to give it a desired shape?",
+        "choices": [
+            "antarctica",
+            "sculptured",
+            "shaped",
+            "melted",
+            "carved"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9654,
+        "question": "The beaver swam through the country he symbolized, where was he likely to be?",
+        "choices": [
+            "japan",
+            "ontario",
+            "washington",
+            "woodlands",
+            "books"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4557,
+        "question": "Sam spent most of his time standing up.  His job was hectic and he never got any rest. But he was the best cashier at his workplace.    Where might he work?",
+        "choices": [
+            "bookstore",
+            "count till",
+            "supermarket",
+            "shop",
+            "preschool"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 106,
+        "question": "Where would you find a bee gathering pollen?",
+        "choices": [
+            "united states",
+            "sky",
+            "court",
+            "field of flowers",
+            "orchard"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2615,
+        "question": "They mocked their friend for being timid, but it kept her out of the trouble they got into by being what?",
+        "choices": [
+            "reckless",
+            "aggressive",
+            "insane",
+            "bellicose",
+            "dauntless"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6924,
+        "question": "James got a stuffed animal from a UFO catcher machine.  Where might he have done this?",
+        "choices": [
+            "toy store",
+            "farm",
+            "children's room",
+            "amusement park",
+            "hall"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5574,
+        "question": "Sarah didn't even know that she was fertile. He doctor told her that procreating was impossible for her.  So she was extremely surprised when she learned that she was having what?",
+        "choices": [
+            "animals",
+            "children born",
+            "twins",
+            "population increase",
+            "venereal disease"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4552,
+        "question": "The humorous is a bone located where?",
+        "choices": [
+            "tomb",
+            "animal",
+            "arm",
+            "museum",
+            "comedy club"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2547,
+        "question": "What geological feature is made mostly of rock?",
+        "choices": [
+            "countryside",
+            "ground",
+            "street",
+            "mountain range",
+            "bridge"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3527,
+        "question": "What does an apple tree need to create new trees?",
+        "choices": [
+            "new york",
+            "farm yard",
+            "new jersey",
+            "grass",
+            "flowers"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5514,
+        "question": "It wasn't something he had had before, but he found the chicken and grape vinaigrette what to be delicious?",
+        "choices": [
+            "bowl of fruit",
+            "salad",
+            "table",
+            "food store",
+            "restaurant"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1674,
+        "question": "Billy didn't know what to do.  He had just bought a huge ficus, but he has no where to put it.  It was just too gid for his house.  Right now, the ficus waited outside in something. What is the ficus in?",
+        "choices": [
+            "park",
+            "large pot",
+            "maze",
+            "green house",
+            "tropical forest"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1519,
+        "question": "What does going to party with the opposite sex lead to?",
+        "choices": [
+            "get drunk",
+            "meet new people",
+            "drinking beer",
+            "enjoy yourself",
+            "having sex"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6224,
+        "question": "When you're driving you're what from place to place?",
+        "choices": [
+            "transportation",
+            "traffic jams",
+            "moving",
+            "dragging",
+            "traffic accident"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1584,
+        "question": "If I'm not free, what am I?",
+        "choices": [
+            "paid for",
+            "enslaved",
+            "expensive",
+            "imprisoned",
+            "locked up"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5881,
+        "question": "Where would you find many tables of silverware rolled into nice displayed napkins?",
+        "choices": [
+            "silver",
+            "park",
+            "table",
+            "cupboard",
+            "restaurant"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5635,
+        "question": "If I wanted to find out the hours that Marmot was open, I might look where?",
+        "choices": [
+            "hiding place",
+            "ocean",
+            "high mountains",
+            "north america",
+            "yellow pages"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4333,
+        "question": "There was a fast food restaurant every 200 feet to help handle the foot traffic, what is this characteristic of in general?",
+        "choices": [
+            "new york",
+            "big cities",
+            "center of town",
+            "farms",
+            "america"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 711,
+        "question": "Where could you find many theater?",
+        "choices": [
+            "school",
+            "populated area",
+            "military base",
+            "opera",
+            "church"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7527,
+        "question": "Where do you sit in bleachers and watch large men run?",
+        "choices": [
+            "pharmacy",
+            "baseball stadium",
+            "concert",
+            "football stadium",
+            "soccer game"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8785,
+        "question": "If a person is accused of committing murder, who must they face in court?",
+        "choices": [
+            "incarceration",
+            "imprisonment",
+            "prosecution",
+            "benedict cumberbatch",
+            "problems"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2045,
+        "question": "what color are rose flowers typically?",
+        "choices": [
+            "vase",
+            "pink",
+            "red",
+            "blue",
+            "fragrant"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6201,
+        "question": "As a human who valued privacy he asked that everybody do what so he could act without eyes upon him?",
+        "choices": [
+            "have to sleep",
+            "turn away",
+            "look at him",
+            "row boat",
+            "let down"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1291,
+        "question": "Where is refuse stored for a long time?",
+        "choices": [
+            "incinerator",
+            "wastebasket",
+            "waste basket",
+            "dump",
+            "garbage can"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9044,
+        "question": "John took a carboard box and emptied his closet racks into it.  He was using the box to do what?",
+        "choices": [
+            "hold secret",
+            "store food",
+            "store clothes",
+            "store data",
+            "hold things"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4803,
+        "question": "Fencing is a sport and like other sports their is a risk of what?",
+        "choices": [
+            "pain",
+            "small cuts",
+            "competition",
+            "injury",
+            "puncture wound"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5925,
+        "question": "Where would you put sunglasses if you do not have anything to put them in that can be carried with you?",
+        "choices": [
+            "stores along beach",
+            "shirt pocket",
+            "eye doctor",
+            "drugstore",
+            "bag"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9459,
+        "question": "The entrance hall was grandiose and had royalty inside, where was the entrance hall?",
+        "choices": [
+            "house",
+            "person",
+            "palace",
+            "school",
+            "outside"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3150,
+        "question": "Where would you find a single air conditioner?",
+        "choices": [
+            "house",
+            "in a bike",
+            "car",
+            "hard",
+            "texas"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1139,
+        "question": "On a family vacation, where might I visit near the shore to look for crab?",
+        "choices": [
+            "cooking pot",
+            "beach sand",
+            "tidepools",
+            "chesapeake bay",
+            "fish market"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 750,
+        "question": "What office furniture stores paper files?",
+        "choices": [
+            "drawer",
+            "filing cabinet",
+            "computers",
+            "desk",
+            "filing cabinet"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3733,
+        "question": "Skiing can be very risky, it can be the cause of a very serious what?",
+        "choices": [
+            "fall down",
+            "fall in",
+            "getting cold",
+            "accident",
+            "trip and fall"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4741,
+        "question": "If you spend time finding information on math equations, what are you trying to do?",
+        "choices": [
+            "solution to problem",
+            "gaining knowledge",
+            "know how to act",
+            "understanding of",
+            "being able to use"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1307,
+        "question": "James bought a new monitor and unpacked it.   He discarded the packaging materials and connected it.  What did he connect it to?",
+        "choices": [
+            "internet cafe",
+            "display images",
+            "box",
+            "view bluescreen",
+            "desktop"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3814,
+        "question": "Alexa needed a safe place to put her acoustic guitar when she wasn't playing it.  Where might she put it?",
+        "choices": [
+            "drawer",
+            "music shop",
+            "house",
+            "studio",
+            "closet"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1654,
+        "question": "Where would you put nails to stop them from damaging other things nearby?",
+        "choices": [
+            "store",
+            "build doghouse",
+            "cabinet",
+            "hammer",
+            "container"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6227,
+        "question": "I needed my jeans washed when my electricity was cut off, where did I go?",
+        "choices": [
+            "thrift store",
+            "clothing store",
+            "costume shop",
+            "shopping mall",
+            "laundromat"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4554,
+        "question": "Where would you likely find a spa alongside similar services?",
+        "choices": [
+            "sweden",
+            "health centre",
+            "backyard",
+            "house",
+            "country club"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7428,
+        "question": "What is a soccer field at a school next to?",
+        "choices": [
+            "countryside",
+            "swimming pool",
+            "open place",
+            "park",
+            "school yard"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5977,
+        "question": "In what would you hear a viola along with three other instruments?",
+        "choices": [
+            "string quartet",
+            "string quintent",
+            "symphony",
+            "orchestra",
+            "viola case"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2664,
+        "question": "Where do you go to find people who are active in the same field as you?",
+        "choices": [
+            "conference",
+            "theater",
+            "supermarket",
+            "town",
+            "cinema"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6065,
+        "question": "Where do most people get carrots?",
+        "choices": [
+            "salad",
+            "store",
+            "cellar",
+            "supermarket",
+            "field"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5820,
+        "question": "The science major was planning on digging in the earth one day, his favorite class was what?",
+        "choices": [
+            "religion",
+            "faith",
+            "health",
+            "geography",
+            "history studies"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3432,
+        "question": "James found himself watching films all the time.  He did it because he was too high strung and needed some what?",
+        "choices": [
+            "like",
+            "stupidity",
+            "relaxation",
+            "enjoyment",
+            "loved"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4374,
+        "question": "Getting drunk and using stairs can be dangerous, one might find themselves what?",
+        "choices": [
+            "falling down",
+            "tripping",
+            "death",
+            "lower standards",
+            "slurred speech"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1169,
+        "question": "Where might one find a bench of people sitting before they are taken away?",
+        "choices": [
+            "car stand",
+            "bus stop",
+            "state park",
+            "bus depot",
+            "rest area"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2803,
+        "question": "Why would someone think about getting wet in the summer?",
+        "choices": [
+            "cool off",
+            "to have fun",
+            "shrinkage",
+            "shrinking",
+            "get cold"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8751,
+        "question": "What does a person in ISIS practice?",
+        "choices": [
+            "boredom",
+            "terrorism",
+            "meanness",
+            "stupidity",
+            "ridiculous"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4010,
+        "question": "What do you get when procreating goes awry?",
+        "choices": [
+            "population increase",
+            "added responsibilities",
+            "quintuplets",
+            "multiples",
+            "large family"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2677,
+        "question": "If one is a mechanic, what are they likely to work with?",
+        "choices": [
+            "washing a car",
+            "oil engine",
+            "servicing airplane",
+            "machine parts",
+            "machine tool"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7573,
+        "question": "If I want to buy a lot of crab for dinner what sort of specialty location might I visit?",
+        "choices": [
+            "chesapeake bay",
+            "tidepools",
+            "hotels markets",
+            "fish market",
+            "beach sand"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6216,
+        "question": "Densely packed trees in a forest do what in order to reach sunlight?",
+        "choices": [
+            "burn",
+            "wall in",
+            "grown in soil",
+            "covered with snow",
+            "grow tall"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4422,
+        "question": "Where would you expect to see a human eye?",
+        "choices": [
+            "faces",
+            "potato",
+            "person's head",
+            "mammal",
+            "skull"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9125,
+        "question": "The person preferred what in life rather than a hectic mess?",
+        "choices": [
+            "celebrated",
+            "ownhouse",
+            "fulfilled",
+            "simplicity",
+            "headache"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3598,
+        "question": "Where would sunshine be likely to fall on a plant that a person owns?",
+        "choices": [
+            "street",
+            "windowsill",
+            "disneyland",
+            "grow lights",
+            "summer"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5313,
+        "question": "What do Democrats to make all learning in schools?",
+        "choices": [
+            "fun",
+            "free",
+            "very very nice",
+            "expensive",
+            "very important"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 916,
+        "question": "There are a lot of ways to relax, for this person it is simply opening one up and what?",
+        "choices": [
+            "more rice",
+            "own house",
+            "warm coat",
+            "light up",
+            "read book"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3752,
+        "question": "What do you read to help with at night?",
+        "choices": [
+            "learn new things",
+            "memorize",
+            "falling asleep",
+            "waking up",
+            "having fun"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 525,
+        "question": "What happens to cats every day?",
+        "choices": [
+            "open doors",
+            "drink water",
+            "need food",
+            "annoy",
+            "play"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5168,
+        "question": "The home school's team was playing basketball, ever score brought what from the crowd?",
+        "choices": [
+            "sweating",
+            "have fun",
+            "cheers",
+            "dancing",
+            "pain"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6572,
+        "question": "He felt stuffy in the shirt, he began to unfasten the what style of shirt?",
+        "choices": [
+            "pull up",
+            "zip up",
+            "tie up",
+            "do up",
+            "button up"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4386,
+        "question": "The support team landed in the disaster zone, they hoped to provide what?",
+        "choices": [
+            "family",
+            "let down",
+            "marriage",
+            "aid",
+            "neglect"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1084,
+        "question": "She caught the first snowflake of her life on her tongue, she was naively excited to be spending a what in a region that actually had snow?",
+        "choices": [
+            "cloud",
+            "december",
+            "air",
+            "africa",
+            "winter"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3456,
+        "question": "You can find cards all sorts of places, but if you want to bet on them in all sorts of games where should you go?",
+        "choices": [
+            "toy store",
+            "casino",
+            "table",
+            "table play",
+            "deck"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9292,
+        "question": "If you're found responsible for intentionally starting a fire what will happen?",
+        "choices": [
+            "warmth",
+            "die",
+            "feel cold",
+            "death",
+            "going to jail"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5155,
+        "question": "What can someone do to end relaxing?",
+        "choices": [
+            "feeling better",
+            "invigorating",
+            "sleeping",
+            "stress",
+            "deep breathing"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3483,
+        "question": "The scientists thought it was an impossibility, but with new evidence there was a chance it was a what?",
+        "choices": [
+            "inevitability",
+            "certainty",
+            "possibility",
+            "possible",
+            "possibility"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8179,
+        "question": "Many powers that be are fighting inflation to avoid what?",
+        "choices": [
+            "not noticeable",
+            "economic instability",
+            "war",
+            "problems",
+            "rising interest rates"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6482,
+        "question": "James hated baseball. Seeing people play a game wasn't fun to him. It only filled him with what?",
+        "choices": [
+            "longing",
+            "enjoyable",
+            "grief",
+            "boredom",
+            "stress"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7517,
+        "question": "If you buying a potato, carrots, strawberries and bananas, how would you carry them home?",
+        "choices": [
+            "restaurants",
+            "shopping bags",
+            "two wheels",
+            "vegetable soup",
+            "exhaust pipe"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2340,
+        "question": "Greg couldn't pay the cash advance fee, and thus was dinged for what?",
+        "choices": [
+            "late payment",
+            "going backward",
+            "retreat",
+            "late payment",
+            "basic"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4339,
+        "question": "What would you have if you poured water on yourself?",
+        "choices": [
+            "thin blood",
+            "room temperature",
+            "start melting",
+            "spring forth",
+            "wet clothes"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2287,
+        "question": "Mildew is a type of fungus you most often find where?",
+        "choices": [
+            "toenails",
+            "shower stall",
+            "mushroom",
+            "cave",
+            "basement"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4040,
+        "question": "If you're releasing energy with another person and you're both naked, what are you likely to be having?",
+        "choices": [
+            "sex",
+            "movement",
+            "exercising",
+            "swimming",
+            "sweat"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9197,
+        "question": "The snake was cold, what did it seek?",
+        "choices": [
+            "warm place",
+            "wooded area",
+            "blanket",
+            "sleeping bag",
+            "tropical forest"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8830,
+        "question": "Sarah didn't own a computer or a monitor.  Instead she just used something connected to her TV.  How would she describe the thing connected to her TV?",
+        "choices": [
+            "box",
+            "internet cafe",
+            "view bluescreen",
+            "desktop",
+            "display images"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4304,
+        "question": "If you're talking to something then you probable hope that you're also doing what?",
+        "choices": [
+            "dry mouth",
+            "eye contact",
+            "being heard",
+            "not listening",
+            "conversation"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9577,
+        "question": "If the recipe called for a potato, where could you get one along with other ingredients?",
+        "choices": [
+            "pantry",
+            "farmer's field",
+            "cellar",
+            "food market",
+            "soil"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7019,
+        "question": "Where do you get clothes in a shopping bag?",
+        "choices": [
+            "retail store",
+            "grocery store",
+            "pharmacy",
+            "supermarket",
+            "restaurant"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9560,
+        "question": "If you get too drunk and make a mess with your own liquids what have you likely done?",
+        "choices": [
+            "vomit",
+            "fall down",
+            "stagger",
+            "spill gasoline",
+            "get arrested"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6543,
+        "question": "While in the process of heading home he realized at the last moment he hadn't gotten a souvenir from the trip, luckily the what had a gift shop?",
+        "choices": [
+            "museum",
+            "airport",
+            "hotel",
+            "shop",
+            "disneyland"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5930,
+        "question": "Someone who is selfish wouldn't share a sandwich with their hungry friend, someone who is what might though?",
+        "choices": [
+            "philanthropic",
+            "unselfish",
+            "selfless",
+            "altruistic",
+            "not hungry"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3593,
+        "question": "He had just drank poison, and the man who had given it to him was now mockingly showing the what?",
+        "choices": [
+            "consumable",
+            "medicine",
+            "nutrient",
+            "dosage",
+            "antidote"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2266,
+        "question": "How does a bishop move from one place to another?",
+        "choices": [
+            "chess game",
+            "church",
+            "in a car",
+            "queen",
+            "cathedral"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8348,
+        "question": "Where will you find eggs before the farmer collects them?",
+        "choices": [
+            "supermarket",
+            "inside chicken",
+            "omletts",
+            "chicken coop",
+            "egg carton"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8085,
+        "question": "What will you accomplish by standing in line?",
+        "choices": [
+            "fatigue",
+            "success",
+            "wait turn",
+            "anger",
+            "pain"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1489,
+        "question": "What would a person do if they saw a bully make a person cry but they wanted no trouble?",
+        "choices": [
+            "courageous",
+            "step up",
+            "keep walking",
+            "cross street",
+            "do nothing"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 771,
+        "question": "The clothing was extremely expensive compared to other places, where was it likely purchased?",
+        "choices": [
+            "cinema hall",
+            "mall",
+            "department store",
+            "closet",
+            "shop"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1796,
+        "question": "The woman let her son play with it in his room.  She did not do what?",
+        "choices": [
+            "forbid",
+            "annoy",
+            "prohibit",
+            "stop",
+            "disallow"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2504,
+        "question": "Where would you put a book after you buy it?",
+        "choices": [
+            "discount store",
+            "ground",
+            "university",
+            "house",
+            "antique store"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2621,
+        "question": "The rug saw a lot of foot traffic and had popcorn strewn about, where was it likely?",
+        "choices": [
+            "backyard",
+            "bedroom",
+            "desk",
+            "table",
+            "living room"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6916,
+        "question": "Alabama has to consider a hurricane once in awhile as it is one of the whats?",
+        "choices": [
+            "gulf states",
+            "united states",
+            "seaport",
+            "alabama",
+            "deep south"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1040,
+        "question": "Where can you keep a fire extinguisher in the house if it's really big?",
+        "choices": [
+            "school bus",
+            "car",
+            "garage",
+            "stairwell",
+            "hospital"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6304,
+        "question": "They had just gotten their first house and needed a washer and dryer, they walked up and down the showroom where?",
+        "choices": [
+            "electronics store",
+            "vegas",
+            "theater",
+            "appliance store",
+            "country"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6252,
+        "question": "Where would you put a telephone after you bought it?",
+        "choices": [
+            "hospital",
+            "party",
+            "desktop",
+            "hotel",
+            "wires"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7668,
+        "question": "What is a genius likely to be in all subjects?",
+        "choices": [
+            "virtuous",
+            "exceptional",
+            "ordinary",
+            "advantageous",
+            "sufficient"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8669,
+        "question": "What gathering of loved ones follows your final birthday?",
+        "choices": [
+            "new age",
+            "burial",
+            "die",
+            "funeral",
+            "happy"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4119,
+        "question": "What  is necessary to have when going fishing?",
+        "choices": [
+            "fishing rod",
+            "access to water",
+            "bate",
+            "three hands",
+            "tackle"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9064,
+        "question": "God didn't kill off everyone in the flood, so what does that suggest he has?",
+        "choices": [
+            "everything",
+            "imagination",
+            "compassion",
+            "strength",
+            "heaven"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 188,
+        "question": "The people in class were instructed to brainstorm ideas, how would they use their minds for this?",
+        "choices": [
+            "shake hands",
+            "control events",
+            "talk to each other",
+            "think creatively",
+            "dress themselves"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1876,
+        "question": "I was depressed and my friends threw me a party, why did they do that?",
+        "choices": [
+            "reciprocity",
+            "make happy",
+            "make money",
+            "get drunk",
+            "embarrassing yourself"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8797,
+        "question": "What could happen immediately after sadness?",
+        "choices": [
+            "get drunk",
+            "take phone call",
+            "listen to music",
+            "take phone call",
+            "cry"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4371,
+        "question": "Where is a student likely to keep their notebook?",
+        "choices": [
+            "backpack",
+            "bookstore",
+            "pocket",
+            "office",
+            "classroom"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5573,
+        "question": "Where might someone find a very nice flat?",
+        "choices": [
+            "city",
+            "shoes",
+            "apartment building",
+            "town",
+            "london"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1827,
+        "question": "Where is the best place to put shoes?",
+        "choices": [
+            "closet",
+            "table",
+            "box",
+            "bed",
+            "park"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4808,
+        "question": "James loved to play violin.  He did it in his spare time because he found it what?",
+        "choices": [
+            "practise",
+            "relaxing",
+            "romantic",
+            "take lessons",
+            "tune"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7123,
+        "question": "What does a police car often cause other cars to do?",
+        "choices": [
+            "pit",
+            "slow down",
+            "cost money",
+            "get to town",
+            "move people"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2591,
+        "question": "What would happen in a country if everyone is loving another?",
+        "choices": [
+            "peace",
+            "marriage",
+            "satisfaction",
+            "heartache",
+            "happiness"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7433,
+        "question": "What do you do to weapons when you want to gather them?",
+        "choices": [
+            "stockpile",
+            "buy",
+            "plentitude",
+            "superabundance",
+            "oversupply"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 53,
+        "question": "The body guard was good at his duties, he made the person who hired him what?",
+        "choices": [
+            "better job",
+            "irritated",
+            "feel safe",
+            "save money",
+            "headache"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4315,
+        "question": "Today was beautiful, clear blue skies are nice but there's nothing to look at up there if it isn't a little what?",
+        "choices": [
+            "cloudy",
+            "hideous",
+            "grotesque",
+            "ugly",
+            "rain"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8201,
+        "question": "What must elementary school students do when they are going into class?",
+        "choices": [
+            "think for himself",
+            "answer question",
+            "wait in line",
+            "speak a foreign language",
+            "cross road"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2927,
+        "question": "Billy was smart but inexperienced.  In many ways he was what?",
+        "choices": [
+            "garish",
+            "bright",
+            "ignorant",
+            "make invisible",
+            "backward"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8317,
+        "question": "If you're removing dirt from a carpet while doing housework what do you need?",
+        "choices": [
+            "broom",
+            "effort",
+            "vacuuming",
+            "boredom",
+            "mop"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1743,
+        "question": "John cared for Sally, but Sally couldn't return his feelings. She only felt what?",
+        "choices": [
+            "unfeeling",
+            "being mean",
+            "field",
+            "disinterest",
+            "negligence"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4889,
+        "question": "He was back in his hometown, he was planning on having fun and doing what?",
+        "choices": [
+            "being understood",
+            "hug",
+            "rambling",
+            "kiss",
+            "visiting friends"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3258,
+        "question": "Why do people want to keep working?",
+        "choices": [
+            "frustration",
+            "make money",
+            "boredom",
+            "being paid",
+            "blisters"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6126,
+        "question": "They made rules to bar any smoking in the building, if you wanted to do it you had to what?",
+        "choices": [
+            "go outside",
+            "unhealthy",
+            "coughing",
+            "foolish",
+            "inhale"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2646,
+        "question": "What country can a marmot be found?",
+        "choices": [
+            "american forest",
+            "north america",
+            "switzerland",
+            "northern climates",
+            "new zealand"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8837,
+        "question": "What state has a county called columbia and is the furthest in the direction that the sun sets?",
+        "choices": [
+            "tennessee",
+            "missouri",
+            "washington",
+            "canada",
+            "south carolina"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8689,
+        "question": "She thought she had some old clothes that might work for the costume, she went to retrieve them down in the what?",
+        "choices": [
+            "basement",
+            "box",
+            "trunk",
+            "store",
+            "attic"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9,
+        "question": "Where is a business restaurant likely to be located?",
+        "choices": [
+            "town",
+            "at hotel",
+            "mall",
+            "business sector",
+            "yellow pages"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5310,
+        "question": "A hard piece of rubber deflected off a stick and flew up and struck a fan, this could only happen at a what?",
+        "choices": [
+            "sporting event",
+            "hockey game",
+            "living room",
+            "soccer game",
+            "football stadium"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8005,
+        "question": "He had decent disdain for the pop band, but that wasn't going to stop him from taking his daughter to see them because she absolutely what them?",
+        "choices": [
+            "honor",
+            "adore",
+            "revere",
+            "require",
+            "admire"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 319,
+        "question": "The spoiled child's playroom was massive, but only one of many rooms in the what?",
+        "choices": [
+            "big house",
+            "nursery school",
+            "preschool",
+            "building",
+            "retirement home"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1832,
+        "question": "The people were confused by the words being spoken, why would this be?",
+        "choices": [
+            "hurt people",
+            "mean many things",
+            "hurtful",
+            "hurt feelings",
+            "unclear"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5947,
+        "question": "James needed storage for 500 tons o beans in crates.  What sort of facility might he use?",
+        "choices": [
+            "attic",
+            "garage",
+            "building",
+            "warehouse",
+            "michigan"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5038,
+        "question": "What does someone who has a greed for energy do?",
+        "choices": [
+            "cause businesses to grow",
+            "get",
+            "lie",
+            "buy food",
+            "win"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3923,
+        "question": "What handle did the man grab to when he wanted a snack?",
+        "choices": [
+            "fridge",
+            "hardware store",
+            "frying pan",
+            "water fountain",
+            "drawer"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 949,
+        "question": "People were talking on the corner, who were they talking with?",
+        "choices": [
+            "god",
+            "mix",
+            "with people",
+            "have friends",
+            "see people"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3946,
+        "question": "What shoots water up someones butt?",
+        "choices": [
+            "thunderstorm",
+            "restaurant",
+            "surface of earth",
+            "enema",
+            "glass of water"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9295,
+        "question": "What could have tens of thousands of paper clips?",
+        "choices": [
+            "university",
+            "work",
+            "desktop",
+            "fashioned into simple tools",
+            "drawer"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1290,
+        "question": "He was hiking for miles, what did he suffer from?",
+        "choices": [
+            "sweating",
+            "cramps",
+            "physical exertion",
+            "smile",
+            "deliriousness"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1403,
+        "question": "The drawing room was one of fifty rooms, where was it located?",
+        "choices": [
+            "kid's house",
+            "studio",
+            "large house",
+            "house in england",
+            "mansion"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7962,
+        "question": "Where is generally a good place to store papers?",
+        "choices": [
+            "drawer",
+            "table",
+            "garage",
+            "meeting",
+            "reciepts"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1133,
+        "question": "Contemplating a concept can lead to what?",
+        "choices": [
+            "revelations",
+            "action",
+            "understanding",
+            "discovery",
+            "wisdom"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8727,
+        "question": "Why do people take up running?",
+        "choices": [
+            "shortness of breath",
+            "weight loss",
+            "faster travel",
+            "stitches",
+            "heart attack"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2060,
+        "question": "If a politician is poor and doesn't take bribes because he wants to serve his constitutions well he is doing it to be what?",
+        "choices": [
+            "adequate",
+            "rich",
+            "good",
+            "honest",
+            "poormouth"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2103,
+        "question": "He was ready to bike home, he got out his key and began to what?",
+        "choices": [
+            "turn lock",
+            "pocket",
+            "solution to problem",
+            "pocket",
+            "open doors"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7787,
+        "question": "James didn't know what drugs he did.  They were being passed around and he just took one.  It was the last time he would go to such a wild what?",
+        "choices": [
+            "school",
+            "doctor",
+            "concert",
+            "university",
+            "show"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9007,
+        "question": "What country is the native home of lemurs?",
+        "choices": [
+            "india",
+            "field",
+            "belarus",
+            "russia",
+            "heaven"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2705,
+        "question": "Dave didn't mind that Josh was punishing him, because he was experiencing what emotion?",
+        "choices": [
+            "feel sorry for",
+            "hatred",
+            "feel guilty",
+            "retribution",
+            "worried"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4342,
+        "question": "The man immediately recognized his picture opposite the crossword section, what was he reading?",
+        "choices": [
+            "table",
+            "art show",
+            "newspaper",
+            "desktop",
+            "biology book"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8645,
+        "question": "Where would you put a wooden rod after buying it if you do not have any clocks?",
+        "choices": [
+            "hardware store",
+            "old houses",
+            "clock shop",
+            "connecting pieces of wood",
+            "old clock"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6932,
+        "question": "Even though they were never told or forced to obey, the people still fashionably claimed they what?",
+        "choices": [
+            "resist",
+            "respect",
+            "violate",
+            "defy",
+            "rebel"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3470,
+        "question": "Drinking alcohol should be avoided. In addition to making you sick, it can cause what?",
+        "choices": [
+            "accidents",
+            "have fun",
+            "vomiting",
+            "wicked",
+            "frequent urination"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8835,
+        "question": "You might find a dirt highway out where?",
+        "choices": [
+            "atlas",
+            "repairs",
+            "countryside",
+            "in the city",
+            "united states"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3295,
+        "question": "What kind of feeling can sex lead to?",
+        "choices": [
+            "bliss",
+            "aids",
+            "getting pregnant",
+            "orgasm",
+            "educations"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5107,
+        "question": "If you're caught committing murder, an injection can lead to your own what?",
+        "choices": [
+            "own death",
+            "die",
+            "great sorrow",
+            "fear",
+            "banquet"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6537,
+        "question": "When is a garden the most beautiful?",
+        "choices": [
+            "backyard",
+            "own yard",
+            "full of mud",
+            "full bloom",
+            "back yard"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6118,
+        "question": "What is the legal consequence of killing likely to be?",
+        "choices": [
+            "being imprisoned",
+            "no longer live",
+            "dies",
+            "fine",
+            "feeling of guilt"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7177,
+        "question": "The round piece of road did well to slow down traffic versus the long what to a stop?",
+        "choices": [
+            "square",
+            "roundleaf",
+            "flat",
+            "winding",
+            "straight"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8479,
+        "question": "Where could you find thousands of chair?",
+        "choices": [
+            "friend's house",
+            "neighbor's house",
+            "office",
+            "school room",
+            "earth"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7397,
+        "question": "Where can a child get a wagon?",
+        "choices": [
+            "field",
+            "garage",
+            "bookstore",
+            "backyard",
+            "toy store"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1982,
+        "question": "what is a type of science?",
+        "choices": [
+            "space lab",
+            "nanotechnology",
+            "university",
+            "methodology",
+            "school"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4061,
+        "question": "The weasel had stolen the chicken eggs from the farm, it made it's escape through the tall what?",
+        "choices": [
+            "chicken coop",
+            "children's story",
+            "corn fields",
+            "animated film",
+            "chicken coop"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3681,
+        "question": "Everybody is their own, all people are what?",
+        "choices": [
+            "hurt",
+            "human",
+            "innocent until proven guilty",
+            "different",
+            "smile"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1049,
+        "question": "The introduction of industry greatly expanded human what?",
+        "choices": [
+            "big city",
+            "factory",
+            "machinery",
+            "poverty",
+            "civilization"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5539,
+        "question": "What does a farmer wanting to make a maze do?",
+        "choices": [
+            "farm land",
+            "grow chinese gooseberries",
+            "grow corn",
+            "raise cattle",
+            "supply food"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 344,
+        "question": "After going for run you have a sense of what?",
+        "choices": [
+            "satisfaction",
+            "flying",
+            "sweating",
+            "falling down",
+            "trip"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9638,
+        "question": "What could have an iron in some areas of it but not in other areas?",
+        "choices": [
+            "hematite",
+            "linen closet",
+            "house",
+            "laundry room",
+            "chemistry lab"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9075,
+        "question": "What would happen to someone when he or she is finished going somewhere?",
+        "choices": [
+            "going back somewhere.",
+            "getting there",
+            "having to travel",
+            "being there",
+            "get excited"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3770,
+        "question": "Why could someone fall down after eating lunch?",
+        "choices": [
+            "drowsiness",
+            "late for work",
+            "feel full",
+            "lethargy",
+            "feel sleepy"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9641,
+        "question": "What continent  has a country with a historical wall?",
+        "choices": [
+            "asia",
+            "canada",
+            "africa",
+            "great outdoors",
+            "region"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3608,
+        "question": "If you're moving, the people here will forward your letters for you.",
+        "choices": [
+            "envelopes",
+            "post office",
+            "mailbox",
+            "mail box",
+            "front door"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 117,
+        "question": "I'm looking for alcohol and fried foods, any suggestions?",
+        "choices": [
+            "pub",
+            "plane",
+            "beer",
+            "store",
+            "fraternity house"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1163,
+        "question": "There was an attendant at the door to keep light from coming in during the show, it was a big premiere night at the what?",
+        "choices": [
+            "theater",
+            "building",
+            "office",
+            "neighbor's house",
+            "funeral"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 964,
+        "question": "Along what feature will you find a rosebush?",
+        "choices": [
+            "park",
+            "in the ground",
+            "hedgerow",
+            "temperate climate",
+            "botanical gardens"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3750,
+        "question": "How might I procure what I need to eat?",
+        "choices": [
+            "make food",
+            "find food",
+            "prepare food",
+            "buy food",
+            "check your cat's mouth"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1104,
+        "question": "What is likely the result of falling from a height?",
+        "choices": [
+            "pain",
+            "broken bones",
+            "going down",
+            "diving",
+            "injuries"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 514,
+        "question": "Where is a lion likely to live?",
+        "choices": [
+            "veldt",
+            "ocean",
+            "savannah",
+            "africa",
+            "jungle"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5413,
+        "question": "What kind of pain can be caused my watching television too much?",
+        "choices": [
+            "fatigue",
+            "addiction",
+            "power gains",
+            "entertainment",
+            "headaches"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1160,
+        "question": "His long walk home wasn't over, he lived on the tenth storey of a walk up what?",
+        "choices": [
+            "skyscraper",
+            "book of stories",
+            "tall building",
+            "apartment building",
+            "mall"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8423,
+        "question": "Where would you go if you need an eraser?",
+        "choices": [
+            "desk drawer",
+            "schools",
+            "pencil box",
+            "principal",
+            "office supply store"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3899,
+        "question": "What does a projectile pass through?",
+        "choices": [
+            "battle field",
+            "air",
+            "gun",
+            "weapon",
+            "baseball"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4562,
+        "question": "Why might someone be going into a trance?",
+        "choices": [
+            "disorientation",
+            "loss of control",
+            "closed eyes",
+            "hallucination",
+            "confusion"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7953,
+        "question": "What kind of box does a fish live in?",
+        "choices": [
+            "aquarium",
+            "ocean",
+            "pond",
+            "bay",
+            "river"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3510,
+        "question": "Where is a dining area likely to be extravagant?",
+        "choices": [
+            "cruise ship",
+            "coming together",
+            "restaurant",
+            "mall",
+            "home"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8834,
+        "question": "If your shoes are too tight what will you get on your feet after jogging?",
+        "choices": [
+            "exhaustion",
+            "shortness of breath",
+            "knee pain",
+            "blisters",
+            "lose weight"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2167,
+        "question": "She was known for be soft and sensitive, but when all their wills were tested she was the only one who stood what?",
+        "choices": [
+            "non sensitive",
+            "resistant",
+            "stoic",
+            "hardened",
+            "uncaring"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9355,
+        "question": "Joe wants to have a relationship with someone.  He thinks that loving another will bring him what?",
+        "choices": [
+            "wonderful",
+            "enjoyment",
+            "jealousy",
+            "satisfaction",
+            "happiness"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9440,
+        "question": "The aboriginal people ended up being displaced by settlers who justified themselves with the fact that the displaced people didn't have a formal system to do what?",
+        "choices": [
+            "fight back",
+            "spend time",
+            "own home",
+            "talk to each other",
+            "own land"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7744,
+        "question": "Why do you need faith in religion?",
+        "choices": [
+            "unknowable",
+            "confusing",
+            "wars",
+            "both positive and negative",
+            "afterlife"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3981,
+        "question": "There was a surplus of condos due to the overuse of space in the area, where were the condos located?",
+        "choices": [
+            "central park",
+            "milwaukee",
+            "city",
+            "vacation spot",
+            "suburbia"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7749,
+        "question": "Having lunch seemed like the logically thing to do, this was because he was feeling what?",
+        "choices": [
+            "good mood",
+            "hunger",
+            "food",
+            "eating",
+            "anger"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6669,
+        "question": "The man had much to do, but was using television, what was his problem?",
+        "choices": [
+            "boredom",
+            "tv shows",
+            "eye strain",
+            "falling asleep",
+            "laziness"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3119,
+        "question": "The police didn't pay any favors, their job was to what?",
+        "choices": [
+            "force law",
+            "board vessels",
+            "arrest",
+            "arm weapons",
+            "direct traffic"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1545,
+        "question": "How does a maid start her work?",
+        "choices": [
+            "cleaning house",
+            "bathroom",
+            "clean room",
+            "clean house",
+            "airing sleeping room"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1588,
+        "question": "The toddler is awaking from a nap, what doesn't he feel anymore?",
+        "choices": [
+            "nervous",
+            "eyes opening",
+            "getting out of bed",
+            "tiredness",
+            "discomfort"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7062,
+        "question": "What does being fat lead a person to want to do in the gym?",
+        "choices": [
+            "lose weight",
+            "workout",
+            "eat healthily",
+            "look better",
+            "get in shape"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5804,
+        "question": "What does Discovery have a number of, starring a shark?",
+        "choices": [
+            "open ocean",
+            "gulf of mexico",
+            "tornado",
+            "television program",
+            "coral reef"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6939,
+        "question": "What kind of business would you make if you want to help people?",
+        "choices": [
+            "nonprofit",
+            "art",
+            "pyramid scheme",
+            "pleasure",
+            "personal"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6735,
+        "question": "When people in trance are trying to calm themselves what do they do?",
+        "choices": [
+            "run",
+            "confusion",
+            "meditate",
+            "epilepsy",
+            "hallucination"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7651,
+        "question": "What might someone not wanting to have someone talking to them have to a talkative person.?",
+        "choices": [
+            "increased understanding",
+            "rumors spread",
+            "boredom",
+            "adverse reaction",
+            "headache"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 887,
+        "question": "The mother was worried about all the spills, so she bought a rug for under the what?",
+        "choices": [
+            "persia",
+            "table",
+            "living room",
+            "house",
+            "desk"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1612,
+        "question": "How might we get so far up into the air around Earth, we cannot be seen?",
+        "choices": [
+            "balloon",
+            "space shuttle",
+            "supermarket",
+            "house",
+            "rocket"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 993,
+        "question": "When she went to examine the thing, what was she considering doing with it?",
+        "choices": [
+            "eat cake",
+            "buy",
+            "interests",
+            "complex",
+            "learn about"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6596,
+        "question": "The man suffered from beef allergies, what did he suffer from as a result of eating hamburger?",
+        "choices": [
+            "death",
+            "gas",
+            "gain weight",
+            "a meal",
+            "satisfaction"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5559,
+        "question": "The roadway  led away from town and towards what?",
+        "choices": [
+            "neighborhood",
+            "city",
+            "environment",
+            "metropolis",
+            "countryside"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1790,
+        "question": "The hamburger were frozen from exposure, where were they?",
+        "choices": [
+            "hockey game",
+            "fast food restaurant",
+            "burger king",
+            "made from beef",
+            "cooked on grill"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4073,
+        "question": "Where is a bird likely to feel free?",
+        "choices": [
+            "forest",
+            "ocean",
+            "roof",
+            "nest",
+            "sky"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3139,
+        "question": "What kind of object would you need to see something dirty underground?",
+        "choices": [
+            "bed",
+            "ground",
+            "bright",
+            "clean",
+            "sportsmanlike"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3116,
+        "question": "A big fountain was the center piece of the renovation, it had all been paid for by a grant to the what?",
+        "choices": [
+            "city",
+            "state",
+            "front of casino",
+            "rome",
+            "public place"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8786,
+        "question": "Where is an expressway likely to be crowded?",
+        "choices": [
+            "country",
+            "canada",
+            "michigan",
+            "michigan",
+            "large city"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7350,
+        "question": "Where might I find a mailbox and also buy stamps?",
+        "choices": [
+            "front yard",
+            "street corner",
+            "post office",
+            "school",
+            "apartment complex"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2296,
+        "question": "The membrane could be observed through magnification, it protected the what?",
+        "choices": [
+            "protect",
+            "cell",
+            "filtration",
+            "animal",
+            "fresh egg"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3006,
+        "question": "As in part of string theory, what particle makes up hadrons?",
+        "choices": [
+            "quark",
+            "guitar",
+            "bird's nest",
+            "kite",
+            "beads"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4563,
+        "question": "What does someone need when they're feeling hunger?",
+        "choices": [
+            "starvation",
+            "eat hamburger",
+            "eating",
+            "pizza",
+            "discomfort"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7579,
+        "question": "If you're going out often and talking to a lot of people you have an active what?",
+        "choices": [
+            "get tired of",
+            "social life",
+            "friendship",
+            "talking",
+            "eye contact"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4092,
+        "question": "Where do people go to shop for fruit?",
+        "choices": [
+            "have money",
+            "get money",
+            "go to market",
+            "use money",
+            "car lot"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1235,
+        "question": "Where would you find pamphlets when they're delivered to your home?",
+        "choices": [
+            "drawer",
+            "health department",
+            "library",
+            "mail box",
+            "on the floor"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7260,
+        "question": "100 centavos make a?",
+        "choices": [
+            "mexican peso",
+            "colon",
+            "good time",
+            "cordoba",
+            "austral"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9016,
+        "question": "James was from out of town. He lose his keep to his room where?",
+        "choices": [
+            "pocket",
+            "at hotel",
+            "bus depot",
+            "pub",
+            "own home"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1604,
+        "question": "How does water become ice?",
+        "choices": [
+            "become water",
+            "cool drink",
+            "cool off",
+            "melt",
+            "form crystals"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 828,
+        "question": "I was shopping at a car dealership, what did a salesman do?",
+        "choices": [
+            "appear suddenly",
+            "bottom out",
+            "go downtown",
+            "scream",
+            "roll over"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8856,
+        "question": "Where are there millions of marmoset sitting in trees?",
+        "choices": [
+            "france",
+            "latin america",
+            "columbia",
+            "underground",
+            "dictionary"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 241,
+        "question": "The man was cleaning clothes for his date, what was he looking to achieve?",
+        "choices": [
+            "ruined",
+            "clean clothes",
+            "sadness",
+            "attractive appearance",
+            "look better"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1528,
+        "question": "Where would a dance club be the furthest in the same direction as the side that won the Civil War?",
+        "choices": [
+            "ohio",
+            "downtown area",
+            "michigan",
+            "south",
+            "united states"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3872,
+        "question": "What could a real estate agent do if his or her customer wants to get a house?",
+        "choices": [
+            "misrepresent",
+            "cover up",
+            "offer price",
+            "deceive",
+            "leave town"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2724,
+        "question": "The fat man wanted to make a change in his life and make sure it stayed what?",
+        "choices": [
+            "concretely",
+            "permanent",
+            "remain stable",
+            "stagnant",
+            "constant"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6658,
+        "question": "She was beginning to age, an early sign of her memory problems was showing short term what?",
+        "choices": [
+            "increase in emotional resonance",
+            "forgetting",
+            "brainless",
+            "take shape",
+            "forgetfulness"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7956,
+        "question": "Why wouldn't someone want to work in an office?",
+        "choices": [
+            "blisters",
+            "frustration",
+            "being paid",
+            "making shareholders richer",
+            "making money"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7886,
+        "question": "What would happen to airplanes before they start falling down?",
+        "choices": [
+            "stall",
+            "taxi",
+            "crash",
+            "slow down",
+            "halt"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3502,
+        "question": "The weasel was scavenging in the cold winter on a farmer's land, where was he likely?",
+        "choices": [
+            "fairytale",
+            "mountain",
+            "great outdoors",
+            "corn fields",
+            "chicken coop"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6570,
+        "question": "James and Lilly have strong feelings for each other.  To express those feelings they kiss. What else might they do?",
+        "choices": [
+            "shake hands",
+            "fall in love",
+            "smile",
+            "embrace",
+            "falling in love"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 960,
+        "question": "How do you indicate that you agree wtih someone?",
+        "choices": [
+            "like more",
+            "nodding",
+            "by wearing rings",
+            "concordance",
+            "shake hands"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2697,
+        "question": "What is the way that couples like to have fun?",
+        "choices": [
+            "laughter",
+            "have sex",
+            "crying",
+            "spontaneous",
+            "enjoy yourself"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6209,
+        "question": "The temperature was inadequate for cooking turkey, what did it need to do?",
+        "choices": [
+            "drop rapidly",
+            "increase",
+            "heat up",
+            "lower temperature",
+            "drop to zero"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 35,
+        "question": "Mark's semen was very thick, but after his vasectomy it was also what?",
+        "choices": [
+            "blank",
+            "sparse",
+            "thin",
+            "clear",
+            "free flowing"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6396,
+        "question": "Before the party, what did the staff need to attend?",
+        "choices": [
+            "ocean",
+            "studying",
+            "celebrating birthday",
+            "meeting",
+            "stay home"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4345,
+        "question": "From where can you take home a highlight?",
+        "choices": [
+            "case",
+            "office drawer",
+            "marker store",
+            "desk drawer",
+            "office supply store"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7454,
+        "question": "What would you use to find out if there will be a cloud in the sky?",
+        "choices": [
+            "night or day",
+            "atmosphere",
+            "car",
+            "murky liquid",
+            "weather report"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4673,
+        "question": "Where are pictures kept with magnets?",
+        "choices": [
+            "bedroom wall",
+            "newspaper",
+            "suitcase",
+            "attic",
+            "fridge"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6930,
+        "question": "John was working late at night in a Casino.  When he got off work, he looked for a bar but couldn't find one.  Where might he go instead?",
+        "choices": [
+            "restaurant",
+            "nightclub",
+            "las vegas",
+            "atlantic city",
+            "new york city"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9105,
+        "question": "Nasa floods the immediate area when what takes off?",
+        "choices": [
+            "disneyland",
+            "electrical circuit",
+            "space shuttle",
+            "washing machine",
+            "sink"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7973,
+        "question": "Where in America is known for theaters?",
+        "choices": [
+            "new york city",
+            "shopping mall",
+            "downtown area",
+            "skating rink",
+            "military base"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2536,
+        "question": "Jenny answered the telephone because she couldn't stand the ringing. She shouldn't have though, because it wasn't here place.  She was just visiting. Where might she be?",
+        "choices": [
+            "party",
+            "hotel",
+            "friend's house",
+            "office",
+            "bedroom"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3111,
+        "question": "If you see a policeman in the street waving flashlights what are they there to do?",
+        "choices": [
+            "jump",
+            "arrest criminals",
+            "book robber",
+            "direct traffic",
+            "wave on"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4861,
+        "question": "A marmot is an animal that is normally found in what type of environment?",
+        "choices": [
+            "american forest",
+            "african desert",
+            "northern hemisphere",
+            "switzerland",
+            "northern climates"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3566,
+        "question": "The journalist had a simple approach, see story; do what?",
+        "choices": [
+            "sit down",
+            "would read",
+            "reading",
+            "remember",
+            "write down"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 958,
+        "question": "When having food at a formal place, what do you usually do?",
+        "choices": [
+            "sit",
+            "being sociable",
+            "talk",
+            "drinking",
+            "medium"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9489,
+        "question": "The comforter was missing from the couples' sleep the other night and they were cold, where should it have been?",
+        "choices": [
+            "livingroom",
+            "linen closet",
+            "bedroom",
+            "at the cleaners",
+            "washing machine"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8883,
+        "question": "It was very humid and he wasn't hydrated, so when he was running he was stricken with what?",
+        "choices": [
+            "becoming tired",
+            "sore feet",
+            "tiredness",
+            "leg cramps",
+            "headache"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 998,
+        "question": "It was breakfast time.  Brad ordered eggs, toast, and something to drink. What might he drink?",
+        "choices": [
+            "coffee",
+            "throw up",
+            "food",
+            "getting drunk",
+            "wine"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5138,
+        "question": "John thought that it was a mistake to pick A.  He meant to choose B put picked A by accident. He was relieved when he learned that A was what?",
+        "choices": [
+            "on purpose",
+            "correction",
+            "good",
+            "correct answer",
+            "success"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 936,
+        "question": "What is a convenient place for a bus station?",
+        "choices": [
+            "maps",
+            "street",
+            "catch bus",
+            "city centre",
+            "school"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 821,
+        "question": "What would happen to you if you are not good at playing violin?",
+        "choices": [
+            "happiness",
+            "relaxation",
+            "create music",
+            "sadness",
+            "loud noises"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9571,
+        "question": "Where would a beauty parlor be?",
+        "choices": [
+            "georgian houses",
+            "city",
+            "building",
+            "victorian house",
+            "underwater"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 7811,
+        "question": "The person worked hard and achieved his goals and got to feel what?",
+        "choices": [
+            "headache",
+            "disappointed",
+            "celebrated",
+            "simplicity",
+            "fulfilled"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8238,
+        "question": "Exercising daily requires a lot of what mental toughness?",
+        "choices": [
+            "effort",
+            "exercise",
+            "discipline",
+            "muscles",
+            "run"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8701,
+        "question": "What do women wear on their legs that is made of nylon?",
+        "choices": [
+            "many products",
+            "stockings",
+            "clothing",
+            "drawer",
+            "rope"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 2579,
+        "question": "If I wanted to play poker, where should I put the table?",
+        "choices": [
+            "demonstration",
+            "card room",
+            "rug",
+            "neighbor's house",
+            "middle of the road"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 931,
+        "question": "Where could you find a theater which only has unpaid actors?",
+        "choices": [
+            "shopping mall",
+            "hospitals",
+            "populated area",
+            "school",
+            "military base"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8320,
+        "question": "Going public about a controversial issue is likely to get what?",
+        "choices": [
+            "wide acceptance",
+            "consequences",
+            "getting high",
+            "media attention",
+            "press coverage"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1312,
+        "question": "Sean wanted to go to the Met, so he took a subway stop in what city?",
+        "choices": [
+            "new york city",
+            "toronto",
+            "large city",
+            "large city",
+            "metropolis"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3044,
+        "question": "When you see new people move in next door you might find it what?",
+        "choices": [
+            "new friends",
+            "new experience",
+            "look around",
+            "change of surroundings",
+            "interesting"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1122,
+        "question": "Where would you find a playroom with very young children just starting their education?",
+        "choices": [
+            "preschool",
+            "playground",
+            "big house",
+            "building",
+            "grandma's house"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1113,
+        "question": "Where was he one speaker of many?",
+        "choices": [
+            "drive in movie",
+            "shelf",
+            "conference",
+            "lecture hall",
+            "demonstration"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3853,
+        "question": "What does someone want to do fast when they complete something in a perfunctory way?",
+        "choices": [
+            "careful",
+            "complete",
+            "thoughtful",
+            "thorough",
+            "go on"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6615,
+        "question": "The child had never seen a jellyfish in real life, he had only seen them in a what?",
+        "choices": [
+            "pacific ocean",
+            "shore",
+            "tank",
+            "movie",
+            "sea"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1964,
+        "question": "What place has many coasts and is a place where you could find a sloth?",
+        "choices": [
+            "commercial",
+            "costa rica",
+            "dictionary",
+            "civil service",
+            "paraguay"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9333,
+        "question": "Joe didn't have any concern for small things.   Some people thought that he was irresponsible, but Sarah insisted he was just what?",
+        "choices": [
+            "uncaring",
+            "indifference",
+            "arrogant",
+            "carefree",
+            "carelessness"
+        ],
+        "answer": "D",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4033,
+        "question": "Where might baggage be searched?",
+        "choices": [
+            "airports",
+            "helicopter",
+            "cruise ship",
+            "train station",
+            "room"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9485,
+        "question": "If you aren't in a jewelry store or looking in a jewelry box where might you find a choker?",
+        "choices": [
+            "boutique",
+            "kennel",
+            "jewelry box",
+            "pet store",
+            "jewelry store"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9740,
+        "question": "I forgot to pay the electricity bill, now what can't I do with my ground pump?",
+        "choices": [
+            "put in to the water",
+            "cause fire",
+            "produce heat",
+            "short fuse",
+            "shock"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 651,
+        "question": "What is a parents primary duty?",
+        "choices": [
+            "speak freely",
+            "happiness of a child",
+            "care for children",
+            "school child",
+            "control children"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 1343,
+        "question": "Sam thought that his efforts were necessary, but in reality the accomplished nothing.  They were what?",
+        "choices": [
+            "superfluous",
+            "useless",
+            "swap cs",
+            "unneeded",
+            "useless"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 6868,
+        "question": "Where could you find one booking office?",
+        "choices": [
+            "city",
+            "bank",
+            "building",
+            "mall",
+            "england"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9562,
+        "question": "What can you put in a parking lot?",
+        "choices": [
+            "car",
+            "town",
+            "circus",
+            "city",
+            "business district"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 9260,
+        "question": "What activity should I partake in to have fun?",
+        "choices": [
+            "spontaneous",
+            "work less",
+            "do enjoy",
+            "death",
+            "do like"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 8565,
+        "question": "Where are peas likely to be freshest?",
+        "choices": [
+            "farmer's market",
+            "supermarket",
+            "freezer",
+            "microwave",
+            "grocery store"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5183,
+        "question": "If you believe something but then you begin getting and understanding new information you may come to a what?",
+        "choices": [
+            "disappointment",
+            "new realization",
+            "heat wave",
+            "joy",
+            "wanting more"
+        ],
+        "answer": "B",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4272,
+        "question": "What would happen if you are sleeping well?",
+        "choices": [
+            "sweat",
+            "nightmares",
+            "dreams",
+            "have fun",
+            "relaxation"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3346,
+        "question": "What might lock after someone drives in?",
+        "choices": [
+            "mouths",
+            "doorknob",
+            "gate",
+            "entrance",
+            "front door"
+        ],
+        "answer": "C",
+        "dataset": "csqa"
+    },
+    {
+        "id": 5147,
+        "question": "Why might someone go to an office building?",
+        "choices": [
+            "advertising company",
+            "project",
+            "new york",
+            "city",
+            "work"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 3910,
+        "question": "Sean was an honest person, but his married June, who wasn't honest at all. In fact, who was very what?",
+        "choices": [
+            "untruthful",
+            "liar",
+            "untrustworthy",
+            "disloyal",
+            "deceitful"
+        ],
+        "answer": "E",
+        "dataset": "csqa"
+    },
+    {
+        "id": 4351,
+        "question": "When frozen it showed solidity, but as it thawed and melted it showed what?",
+        "choices": [
+            "fluidity",
+            "hollowness",
+            "openness",
+            "weakness",
+            "instability"
+        ],
+        "answer": "A",
+        "dataset": "csqa"
+    }
+]
