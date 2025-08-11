@@ -1,313 +1,318 @@
 {
+  "schema_version": "1.1",
   "correct_examples": [
     {
+      "id": 0,
+      "predicted_class": "entailment",
+      "confidence": 0.98095703125,
+      "top_tokens": [
+        [
+          "Two",
+          -0.07541213652759605
+        ],
+        [
+          "running",
+          -0.06740413580364688
+        ],
+        [
+          "dogs",
+          -0.06085133575469006
+        ],
+        [
+          "sand",
+          0.009860422591249082
+        ],
+        [
+          "together",
+          -0.005113789084151183
+        ]
+      ],
+      "premise": "Two brown dogs running together on sand",
+      "hypothesis": "Two dogs running"
+    },
+    {
       "id": 1,
-      "predicted_class": "neutral",
-      "confidence": 0.8367478251457214,
+      "predicted_class": "contradiction",
+      "confidence": 0.99658203125,
       "top_tokens": [
         [
-          "harley",
-          0.6401050915155013
-        ],
-        [
-          "riding",
-          0.12785773289485167
-        ],
-        [
-          "mouth",
-          -0.0416654946567354
-        ],
-        [
-          "cigarette",
-          0.02051036923431076
-        ]
-      ],
-      "premise": "A man with a cigarette in his mouth is riding a motorcycle.",
-      "hypothesis": "A man has a cigarette while riding a harley."
-    },
-    {
-      "id": 2,
-      "predicted_class": "neutral",
-      "confidence": 0.9969038367271423,
-      "top_tokens": [
-        [
-          "wearing",
-          0.32594574633129064
-        ],
-        [
-          "helmet",
-          0.2380617486589531
-        ],
-        [
-          "past",
-          0.09995132536740177
-        ],
-        [
-          "missionary",
-          0.08203931693708433
-        ],
-        [
-          "walks",
-          0.07703329178009025
-        ]
-      ],
-      "premise": "A Mormon missionary walks his bicycle past a Metro sign.",
-      "hypothesis": "The missionary is wearing a helmet."
-    },
-    {
-      "id": 12,
-      "predicted_class": "neutral",
-      "confidence": 0.9961430430412292,
-      "top_tokens": [
-        [
-          "rodeo",
-          0.43307869226417434
-        ],
-        [
-          "hats",
-          -0.04015687430471404
-        ],
-        [
-          "children",
-          -0.03229156346086678
-        ],
-        [
-          "horse",
-          -0.013059351890256005
-        ],
-        [
-          "playing",
-          -0.009860049753964959
-        ]
-      ],
-      "premise": "3 children wearing hats playing on a horse",
-      "hypothesis": "3 children wearing hats playing on a horse at the rodeo"
-    },
-    {
-      "id": 13,
-      "predicted_class": "neutral",
-      "confidence": 0.997545063495636,
-      "top_tokens": [
-        [
-          "sunny",
-          0.3861689314966696
-        ],
-        [
-          "day",
-          0.18243525054345902
-        ],
-        [
-          "near",
-          0.08382566198279395
-        ],
-        [
-          "marketplace",
-          -0.0747044338149334
+          "vendor",
+          -0.25796644396267515
         ],
         [
           "street",
-          0.0341068130936381
+          -0.20513412516653415
+        ],
+        [
+          "grocery",
+          0.06503047870593351
+        ],
+        [
+          "woman",
+          -0.06039984935636883
+        ],
+        [
+          "purchases",
+          0.05679200634662509
         ]
       ],
-      "premise": "A woman dressed in blue is walking down a street near a marketplace.",
-      "hypothesis": "A woman is walking down the street on a sunny day."
+      "premise": "A woman purchases food from a street vendor.",
+      "hypothesis": "The woman is at the grocery store."
     },
     {
-      "id": 14,
-      "predicted_class": "neutral",
-      "confidence": 0.6168627738952637,
+      "id": 3,
+      "predicted_class": "contradiction",
+      "confidence": 0.68701171875,
       "top_tokens": [
         [
-          "related",
-          0.23479112056520343
+          "stands",
+          -0.16906000464791723
         ],
         [
-          "boy",
-          0.04546271398661951
+          "jackhammer",
+          0.15387559028856793
         ],
         [
-          "stones",
-          -0.0203336868769564
+          "store",
+          -0.15272311293940105
+        ],
+        [
+          "uses",
+          0.14357458119095712
+        ],
+        [
+          "outside",
+          0.1083909522992663
+        ]
+      ],
+      "premise": "A woman stands outside a store.",
+      "hypothesis": "A woman uses a jackhammer"
+    },
+    {
+      "id": 4,
+      "predicted_class": "contradiction",
+      "confidence": 0.9306640625,
+      "top_tokens": [
+        [
+          "sitting",
+          -0.21439434507874505
+        ],
+        [
+          "woman",
+          -0.12018350379796558
         ],
         [
           "walking",
-          -0.018849758133278258
+          0.06067806377244363
+        ],
+        [
+          "man",
+          -0.05557710647614613
+        ],
+        [
+          "locked",
+          -0.05423679726850618
         ]
       ],
-      "premise": "A girl and a boy walking on stones.",
-      "hypothesis": "They are related."
+      "premise": "A man and woman are locked arms sitting down and all dressed up.",
+      "hypothesis": "A man and women are walking with their arms locked."
+    },
+    {
+      "id": 8,
+      "predicted_class": "contradiction",
+      "confidence": 0.98974609375,
+      "top_tokens": [
+        [
+          "walking",
+          -0.19538378155741598
+        ],
+        [
+          "People",
+          -0.09435645489785717
+        ],
+        [
+          "home",
+          0.07679806064876243
+        ],
+        [
+          "lined",
+          0.06483398071399712
+        ],
+        [
+          "street",
+          -0.04580767885390505
+        ]
+      ],
+      "premise": "People walking down street lined with Chinese lanterns.",
+      "hypothesis": "People running home"
     }
   ],
   "incorrect_examples": [
     {
-      "id": 0,
-      "true_class": "entailment",
-      "predicted_class": "entailment",
-      "confidence": 0.9866927266120911,
-      "top_tokens": [
-        [
-          "blue",
-          -0.23383593446396103
-        ],
-        [
-          "shirts",
-          -0.05874168316175433
-        ],
-        [
-          "spelling",
-          0.016990940768520726
-        ],
-        [
-          "word",
-          -0.014295651287877638
-        ],
-        [
-          "wearing",
-          -0.013654027443442464
-        ]
-      ],
-      "premise": "Some people in blue shirts are standing up at an even with big letters spelling out the word \"KRUNCH...",
-      "hypothesis": "The people are wearing blue."
-    },
-    {
-      "id": 3,
+      "id": 2,
       "true_class": "contradiction",
-      "predicted_class": "contradiction",
-      "confidence": 0.9229692220687866,
-      "top_tokens": [
-        [
-          "shorts",
-          -0.4492805191952196
-        ],
-        [
-          "shirts",
-          0.19369027282854698
-        ],
-        [
-          "Boy",
-          -0.05209849282710622
-        ],
-        [
-          "white",
-          0.046036357055337956
-        ],
-        [
-          "little",
-          -0.01547191273543417
-        ]
-      ],
-      "premise": "The little boy is wearing white shorts.",
-      "hypothesis": "Boy has on white shirts."
-    },
-    {
-      "id": 4,
-      "true_class": "entailment",
       "predicted_class": "entailment",
-      "confidence": 0.9881591796875,
+      "confidence": 0.55419921875,
       "top_tokens": [
         [
-          "Woman",
-          -0.23827974064316004
+          "stands",
+          -0.08754045538548405
         ],
         [
-          "forest",
-          -0.04866365821374602
+          "near",
+          0.08730073446700386
         ],
         [
-          "woman",
-          0.03811191689804819
+          "ATM",
+          -0.06222613907524391
         ],
         [
-          "jeans",
-          -0.019625772173469867
+          "sitting",
+          0.04653150808413837
         ],
         [
-          "running",
-          -0.015880046534657192
+          "person",
+          -0.03318845608775521
         ]
       ],
-      "premise": "Woman running in jeans in a forest on a trail.",
-      "hypothesis": "A woman is running in a forest."
+      "premise": "A woman in a casino stands at an ATM to withdraw money.",
+      "hypothesis": "A person in a casion is sitting near an ATM."
     },
     {
       "id": 5,
-      "true_class": "contradiction",
-      "predicted_class": "contradiction",
-      "confidence": 0.9994255304336548,
+      "true_class": "neutral",
+      "predicted_class": "entailment",
+      "confidence": 0.9912109375,
       "top_tokens": [
         [
-          "two",
-          -0.2240473124594314
-        ],
-        [
-          "beds",
-          -0.10407306947994299
-        ],
-        [
-          "jumping",
-          -0.04534464163212634
-        ],
-        [
-          "one",
-          -0.04014551849557207
-        ],
-        [
-          "arms",
-          -0.024289425788140452
-        ]
-      ],
-      "premise": "A man is standing with his arms folded looking at something while the person behind him is jumping o...",
-      "hypothesis": "There is only one bed in the room."
-    },
-    {
-      "id": 6,
-      "true_class": "contradiction",
-      "predicted_class": "contradiction",
-      "confidence": 0.9994035959243774,
-      "top_tokens": [
-        [
-          "woman",
-          -0.15107534269611542
-        ],
-        [
-          "wall",
-          -0.03468519820715888
-        ],
-        [
-          "apron",
-          -0.02807658259090485
+          "hair",
+          -0.09186632904895897
         ],
         [
           "man",
-          0.02582230971656241
+          -0.04679614710894895
         ],
         [
-          "wearing",
-          0.017264437642654354
+          "long",
+          -0.03839472827641625
+        ],
+        [
+          "security",
+          0.010855018372971278
+        ],
+        [
+          "stopped",
+          -0.007323135031736673
         ]
       ],
-      "premise": "A woman wearing a red and white apron is standing next to a wall with the number 333 written on it.",
-      "hypothesis": "A man is standing next to a wall."
+      "premise": "A man with long hair getting stopped by security guards.",
+      "hypothesis": "The man has long hair."
+    },
+    {
+      "id": 6,
+      "true_class": "neutral",
+      "predicted_class": "entailment",
+      "confidence": 0.98583984375,
+      "top_tokens": [
+        [
+          "spinning",
+          -0.09914017195643278
+        ],
+        [
+          "potter",
+          -0.07887549464879369
+        ],
+        [
+          "wheel",
+          -0.05600460769896839
+        ],
+        [
+          "spins",
+          -0.05411154984061082
+        ],
+        [
+          "making",
+          -0.0033057153130511985
+        ]
+      ],
+      "premise": "A potter making a vase on a spinning wheel.",
+      "hypothesis": "The potter's wheel spins."
+    },
+    {
+      "id": 7,
+      "true_class": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.6220703125,
+      "top_tokens": [
+        [
+          "scientist",
+          -0.18819708269279406
+        ],
+        [
+          "woman",
+          0.16927296512120488
+        ],
+        [
+          "young",
+          0.1378219648331915
+        ],
+        [
+          "coat",
+          -0.07945049305332702
+        ],
+        [
+          "using",
+          -0.04843276915489985
+        ]
+      ],
+      "premise": "A scientist in a lab coat is using a microscope.",
+      "hypothesis": "A young woman using a microscope."
+    },
+    {
+      "id": 19,
+      "true_class": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.9443359375,
+      "top_tokens": [
+        [
+          "tricks",
+          -0.16510147301971068
+        ],
+        [
+          "falling",
+          0.11738418490708817
+        ],
+        [
+          "bike",
+          -0.035506026916012186
+        ],
+        [
+          "person",
+          -0.03169349997576624
+        ]
+      ],
+      "premise": "A person does tricks on their bike.",
+      "hypothesis": "A person is falling off their bike."
     }
   ],
   "shuffle_test_results": [
     {
       "id": 0,
-      "original_faithfulness": 0.010072886943817139,
-      "shuffled_faithfulness": 0.0020336508750915527,
-      "faithfulness_drop": 0.008039236068725586
+      "original_faithfulness": 0.0,
+      "shuffled_faithfulness": 0.200439453125,
+      "faithfulness_drop": -0.200439453125
     },
     {
       "id": 1,
-      "original_faithfulness": 0.2288230061531067,
-      "shuffled_faithfulness": 0.0009248256683349609,
-      "faithfulness_drop": 0.22789818048477173
+      "original_faithfulness": 0.03173828125,
+      "shuffled_faithfulness": 0.255859375,
+      "faithfulness_drop": -0.22412109375
     },
     {
       "id": 2,
-      "original_faithfulness": 0.18930238485336304,
-      "shuffled_faithfulness": 0.0348818302154541,
-      "faithfulness_drop": 0.15442055463790894
+      "original_faithfulness": 0.07421875,
+      "shuffled_faithfulness": 0.17333984375,
+      "faithfulness_drop": -0.09912109375
     }
   ]
 }

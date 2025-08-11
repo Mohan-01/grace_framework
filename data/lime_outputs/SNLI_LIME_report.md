@@ -5,13 +5,13 @@
 **Dataset**: SNLI (Stanford Natural Language Inference)  
 **Model**: roberta-large-mnli  
 **Analysis Date**: 2025-08-11  
-**Total Examples**: 50  
-**Git Hash**: 41a0e17f  
+**Total Examples**: 1000  
+**Git Hash**: a5cf6fc0  
 
 ### Key Results
-- **Model Accuracy**: 0.380 (19/50)
-- **Average Confidence**: 0.943
-- **LIME Parameters**: 1000 samples, 10 features
+- **Model Accuracy**: 0.861 (861/1000)
+- **Average Confidence**: 0.934
+- **LIME Parameters**: 700 samples, 10 features
 - **Random Seed**: 42
 
 ## Attribution Metrics Results
@@ -20,13 +20,13 @@
 
 | Metric | Mean | Std | Min | Max | 95% CI |
 |--------|------|-----|-----|-----|--------|
-| Faithfulness | 0.171 | 0.163 | 0.000 | 0.627 | [0.127, 0.218] |
-| Sufficiency | 0.538 | 0.124 | 0.000 | 0.804 | [0.504, 0.570] |
-| Comprehensiveness | 0.122 | 0.203 | -0.412 | 0.627 | [0.066, 0.177] |
+| Faithfulness | 0.102 | 0.137 | 0.000 | 0.602 | [0.093, 0.110] |
+| Sufficiency | 0.675 | 0.318 | 0.000 | 1.000 | [0.655, 0.695] |
+| Comprehensiveness | 0.063 | 0.159 | -0.507 | 0.602 | [0.054, 0.073] |
 
 ## LIME Configuration
 
-- **Number of Samples**: 1000
+- **Number of Samples**: 700
 - **Number of Features**: 10
 - **Top-k Tokens for Metrics**: 3
 - **Chunk Size**: 64
@@ -35,37 +35,37 @@
 
 ### Top Correct Predictions
 
-**Example 1** (Confidence: 0.998)
-- **Premise**: Five kids are on a yellow ride at the amusement park.
-- **Hypothesis**: The kids are having fun on the ride.
-- **Predicted**: neutral
-- **Top Attributions**: fun(0.400), ride(0.104), amusement(-0.094), park(0.088), Five(-0.045)
+**Example 1** (Confidence: 1.000)
+- **Premise**: A city street with a telephone booth, passing cars, a parked bicycle, and a blond woman with a purse and young girl with a backpack walking away.
+- **Hypothesis**: None of the cars are moving.
+- **Predicted**: contradiction
+- **Top Attributions**: None(-0.263), passing(-0.062), walking(-0.026)
 
-**Example 2** (Confidence: 0.998)
-- **Premise**: A group of produce buyers inspecting fresh produce.
-- **Hypothesis**: The people are looking at tomatoes.
-- **Predicted**: neutral
-- **Top Attributions**: tomatoes(0.561), produce(0.091), people(-0.029), buyers(0.017), group(0.014)
+**Example 2** (Confidence: 1.000)
+- **Premise**: A man is laying on a deck.
+- **Hypothesis**: A woman is laying on a deck in a bikini.
+- **Predicted**: contradiction
+- **Top Attributions**: man(-0.411), woman(-0.299), bikini(0.243), deck(0.075), laying(0.039)
 
-**Example 3** (Confidence: 0.998)
-- **Premise**: People are watching a boy on a skateboard at the top of a skate ramp.
-- **Hypothesis**: People are watching a boy on a skateboard at the top of a skate ramp before he attempts to break a world record.
-- **Predicted**: neutral
-- **Top Attributions**: break(0.047), record(0.043), People(0.036), attempts(0.029), skateboard(0.019)
+**Example 3** (Confidence: 1.000)
+- **Premise**: Guitar player practices surrounded by instruments.
+- **Hypothesis**: The guitar player is cooking dinner.
+- **Predicted**: contradiction
+- **Top Attributions**: Guitar(-0.124), practices(-0.107), cooking(-0.101), instruments(-0.068), surrounded(0.028)
 
 ### Top Incorrect Predictions
 
 **Example 1** (Confidence: 1.000)
-- **Premise**: A young man is participating in a competitive gun shooting event.
-- **Hypothesis**: The young man is asleep at home.
-- **True**: contradiction, **Predicted**: contradiction
-- **Top Attributions**: asleep(-0.103), home(-0.092), man(-0.040), gun(-0.025), shooting(-0.017)
+- **Premise**: a man and a woman enjoy a nice meal at an outdoor restaurant.
+- **Hypothesis**: The people eating are indoors.
+- **True**: entailment, **Predicted**: contradiction
+- **Top Attributions**: outdoor(-0.366), indoors(-0.253), eating(0.098), meal(-0.062), woman(-0.029)
 
-**Example 2** (Confidence: 0.999)
-- **Premise**: A little girl wearing a yellow dress moves frantically in front of a crowded baseball stadium.
-- **Hypothesis**: Everything is calm at the stadium.
-- **True**: contradiction, **Predicted**: contradiction
-- **Top Attributions**: calm(-0.371), frantically(-0.062), Everything(0.056), moves(-0.039), crowded(-0.035)
+**Example 2** (Confidence: 0.998)
+- **Premise**: A man and his son are sitting in the open door of a white van.
+- **Hypothesis**: The man and his son were watching tv
+- **True**: contradiction, **Predicted**: neutral
+- **Top Attributions**: watching(0.520), tv(0.098), sitting(0.093), van(0.050), open(0.045)
 
 
 ## Known Caveats

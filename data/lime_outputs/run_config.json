@@ -1,12 +1,27 @@
 {
-  "schema_version": "1.0",
-  "timestamp": "2025-08-11T01:50:46.205436",
-  "git_hash": "41a0e17f",
+  "schema_version": "1.1",
+  "timestamp": "2025-08-11T03:55:30.608445",
+  "git_hash": "a5cf6fc0",
   "model_name": "roberta-large-mnli",
   "random_seed": 42,
-  "num_samples": 50,
+  "num_samples": 1000,
   "chunk_size": 64,
-  "lime_num_samples": 1000,
+  "lime_num_samples": 700,
   "lime_num_features": 10,
-  "k_tokens": 3
+  "k_tokens": 3,
+  "snli_labels": [
+    "entailment",
+    "neutral",
+    "contradiction"
+  ],
+  "mnli_labels": [
+    "contradiction",
+    "neutral",
+    "entailment"
+  ],
+  "snli_to_mnli_idx": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  }
 }
