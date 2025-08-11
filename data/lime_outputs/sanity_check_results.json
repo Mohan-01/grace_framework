@@ -1,5 +1,9 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
+  "meta": {
+    "source": "lime_filtered",
+    "source_hash": "52a67e4dd3d129b5b15daab989ad7af9"
+  },
   "correct_examples": [
     {
       "id": 0,
@@ -299,20 +303,20 @@
     {
       "id": 0,
       "original_faithfulness": 0.0,
-      "shuffled_faithfulness": 0.200439453125,
-      "faithfulness_drop": -0.200439453125
+      "shuffled_faithfulness": 0.179443359375,
+      "faithfulness_drop": -0.179443359375
     },
     {
       "id": 1,
       "original_faithfulness": 0.03173828125,
-      "shuffled_faithfulness": 0.255859375,
-      "faithfulness_drop": -0.22412109375
+      "shuffled_faithfulness": 0.26806640625,
+      "faithfulness_drop": -0.236328125
     },
     {
       "id": 2,
       "original_faithfulness": 0.07421875,
-      "shuffled_faithfulness": 0.17333984375,
-      "faithfulness_drop": -0.09912109375
+      "shuffled_faithfulness": 0.04345703125,
+      "faithfulness_drop": 0.03076171875
     }
   ]
 }

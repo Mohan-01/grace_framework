@@ -1,5 +1,9 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
+  "meta": {
+    "source": "processed_snli_subset",
+    "source_hash": "89398fef8e5b7eb15af2a8b7d53f5182"
+  },
   "results": [
     {
       "params": {

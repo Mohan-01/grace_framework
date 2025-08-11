@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "evaluation_metrics": {
     "avg_faithfulness": 0.10198308660222723,
     "avg_sufficiency": 0.6751167671577828,

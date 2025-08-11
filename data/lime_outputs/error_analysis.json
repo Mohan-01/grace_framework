@@ -1,331 +1,323 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
+  "meta": {
+    "source": "lime_filtered",
+    "source_hash": "364d8214f0c93f45fbc5991fb5480ab9"
+  },
   "most_confident_wrong_predictions": [
     {
-      "id": 50,
-      "premise": "A city street with a telephone booth, passing cars, a parked bicycle, and a blond woman with a purse and young girl with a backpack walking away.",
-      "hypothesis": "None of the cars are moving.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
+      "id": 256,
+      "premise": "a man and a woman enjoy a nice meal at an outdoor restaurant.",
+      "hypothesis": "The people eating are indoors.",
+      "true_label_name": "entailment",
+      "predicted_class": "contradiction",
       "confidence": 0.99951171875,
       "top_10_attributions": [
         [
-          "None",
-          -0.26311967750269916
+          "outdoor",
+          -0.3656627520721158
         ],
         [
-          "passing",
-          -0.06194523959741941
+          "indoors",
+          -0.253482342330498
         ],
         [
-          "walking",
-          -0.02623613157313983
-        ]
-      ]
-    },
-    {
-      "id": 59,
-      "premise": "A man is laying on a deck.",
-      "hypothesis": "A woman is laying on a deck in a bikini.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
-      "top_10_attributions": [
+          "eating",
+          0.09792430183275641
+        ],
         [
-          "man",
-          -0.4109828295268151
+          "meal",
+          -0.06220808751953924
         ],
         [
           "woman",
-          -0.299427147662109
-        ],
-        [
-          "bikini",
-          0.24332055497363486
-        ],
-        [
-          "deck",
-          0.07497416770483288
-        ],
-        [
-          "laying",
-          0.038960499243068526
+          -0.028676199774557976
         ]
       ]
     },
     {
-      "id": 133,
-      "premise": "Guitar player practices surrounded by instruments.",
-      "hypothesis": "The guitar player is cooking dinner.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
+      "id": 130,
+      "premise": "A man and his son are sitting in the open door of a white van.",
+      "hypothesis": "The man and his son were watching tv",
+      "true_label_name": "contradiction",
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
       "top_10_attributions": [
         [
-          "Guitar",
-          -0.12380908165895023
+          "watching",
+          0.5195920709900903
         ],
         [
-          "practices",
-          -0.10661550601290702
+          "tv",
+          0.09803572891382097
         ],
         [
-          "cooking",
-          -0.10073536021249445
+          "sitting",
+          0.09310262060296823
         ],
         [
-          "instruments",
-          -0.06778278136534574
+          "van",
+          0.049569001621811715
         ],
         [
-          "surrounded",
-          0.027635482362372624
-        ],
-        [
-          "dinner",
-          -0.02692935319540891
-        ],
-        [
-          "guitar",
-          0.02003511034633076
-        ],
-        [
-          "player",
-          -0.01592270475159284
+          "open",
+          0.045457935695602275
         ]
       ]
     },
     {
-      "id": 165,
-      "premise": "Children playing soccer with a yellow ball on a bright green field in the city.",
-      "hypothesis": "There is no one on the field",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
+      "id": 390,
+      "premise": "A man wearing all black jumps through a man-made waterfall.",
+      "hypothesis": "There are many waterfalls in Hawaii.",
+      "true_label_name": "contradiction",
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
       "top_10_attributions": [
         [
-          "field",
-          -0.042154288098886813
+          "many",
+          0.32206572090398555
+        ],
+        [
+          "waterfall",
+          0.11546279593241929
+        ],
+        [
+          "Hawaii",
+          0.07903620879222385
+        ],
+        [
+          "waterfalls",
+          0.06469839462481174
+        ],
+        [
+          "made",
+          0.03352416509571551
+        ]
+      ]
+    },
+    {
+      "id": 729,
+      "premise": "A boy in a black vest holds two elephant tusks to his face in a store.",
+      "hypothesis": "He thought the tusks looked good on him.",
+      "true_label_name": "entailment",
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
+      "top_10_attributions": [
+        [
+          "good",
+          0.219003881700386
+        ],
+        [
+          "looked",
+          0.1254868628223917
+        ],
+        [
+          "thought",
+          0.10414066587198946
+        ],
+        [
+          "tusks",
+          0.04363664080888231
+        ]
+      ]
+    },
+    {
+      "id": 814,
+      "premise": "Two middle eastern women walk down the street with their shopping bags.",
+      "hypothesis": "The women were enjoying shopping and walking down the street.",
+      "true_label_name": "entailment",
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
+      "top_10_attributions": [
+        [
+          "enjoying",
+          0.7363877906615074
+        ],
+        [
+          "bags",
+          0.05152109651720867
+        ],
+        [
+          "street",
+          -0.039745374565471565
+        ],
+        [
+          "walking",
+          0.03696236593231371
+        ],
+        [
+          "women",
+          -0.030065853412199386
+        ],
+        [
+          "shopping",
+          0.021682308261229015
+        ]
+      ]
+    },
+    {
+      "id": 837,
+      "premise": "Crowd in an Asian city surrounding a man, in the foreground a woman holding a purple bicycle overlooking the scene.",
+      "hypothesis": "A woman is carrying a 20 ton Schwinn bicycle.",
+      "true_label_name": "contradiction",
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
+      "top_10_attributions": [
+        [
+          "bicycle",
+          0.3355976973597275
+        ],
+        [
+          "Schwinn",
+          0.15160210521841286
+        ],
+        [
+          "ton",
+          0.12518968332935168
+        ],
+        [
+          "20",
+          0.11520046320681612
+        ],
+        [
+          "purple",
+          -0.0705906786654027
+        ],
+        [
+          "carrying",
+          0.05033131160572392
         ],
         [
           "city",
-          -0.03044470171715311
-        ],
-        [
-          "Children",
-          -0.021974961945277535
-        ],
-        [
-          "one",
-          -0.018284365864947045
-        ],
-        [
-          "ball",
-          0.014450310601666847
-        ]
-      ]
-    },
-    {
-      "id": 189,
-      "premise": "Children play in fountains that spray water from the ground.",
-      "hypothesis": "Nobody is playing.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
-      "top_10_attributions": [
-        [
-          "Nobody",
-          -0.23139567509142978
-        ],
-        [
-          "play",
-          -0.1137161830221333
-        ],
-        [
-          "Children",
-          -0.03272853410277154
-        ],
-        [
-          "ground",
-          -0.02113886129214333
-        ],
-        [
-          "fountains",
-          -0.014018837550385669
-        ],
-        [
-          "spray",
-          -0.012896220918381643
-        ]
-      ]
-    },
-    {
-      "id": 220,
-      "premise": "a man in a gray shirt and a hat holding a jackhammer",
-      "hypothesis": "A woman holds a jackhammer.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
-      "top_10_attributions": [
-        [
-          "man",
-          -0.26270954085677906
-        ],
-        [
-          "jackhammer",
-          -0.07204786544814358
+          -0.04226620650190399
         ],
         [
           "holding",
-          -0.041104337497229596
-        ],
-        [
-          "hat",
-          -0.02485123561056568
-        ],
-        [
-          "holds",
-          0.02455949224557713
-        ],
-        [
-          "woman",
-          0.019115607639942665
+          -0.03896998752212211
         ]
       ]
     },
     {
-      "id": 282,
-      "premise": "Little girl playing with two rocks.",
-      "hypothesis": "The girl is sleeping.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
+      "id": 292,
+      "premise": "Three women and a child looking at something in the water, a man is next to the floating object.",
+      "hypothesis": "A man is flying a drone",
+      "true_label_name": "contradiction",
+      "predicted_class": "neutral",
+      "confidence": 0.99658203125,
       "top_10_attributions": [
         [
-          "playing",
-          -0.19475574980032384
+          "drone",
+          0.5136752840212379
         ],
         [
-          "sleeping",
-          -0.19166677638889243
+          "object",
+          0.13744481620152105
         ],
         [
-          "two",
-          0.03465459633450468
+          "water",
+          -0.06980577572004046
         ],
         [
-          "rocks",
-          0.016210683786116658
-        ],
-        [
-          "girl",
-          0.006248676196373385
-        ],
-        [
-          "Little",
-          -0.004708871224170751
+          "flying",
+          0.06666012646725507
         ]
       ]
     },
     {
-      "id": 290,
-      "premise": "The two men are posing for a photo in the field.",
-      "hypothesis": "The two men are posing inside the house.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
+      "id": 648,
+      "premise": "A group of young people walks into a building.",
+      "hypothesis": "Young people doing yoga with older guys in a building",
+      "true_label_name": "contradiction",
+      "predicted_class": "neutral",
+      "confidence": 0.99658203125,
       "top_10_attributions": [
         [
-          "field",
-          -0.43296980370201793
+          "Young",
+          0.22956390549464536
         ],
         [
-          "house",
-          0.07503748077271284
+          "walks",
+          -0.1523472572652976
         ],
         [
-          "photo",
-          0.03589437859488458
+          "young",
+          -0.14749937869360302
         ],
         [
-          "posing",
-          0.029354024160290513
+          "building",
+          0.06565754570053722
         ],
         [
-          "men",
-          -0.029013402856385345
+          "guys",
+          0.04954245622611666
         ],
         [
-          "two",
-          0.02392541309573034
+          "group",
+          0.048170006975515066
+        ],
+        [
+          "people",
+          0.04444502738492855
         ]
       ]
     },
     {
-      "id": 293,
-      "premise": "Two men working on a roof installing insulation.",
-      "hypothesis": "The men are at a bar.",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
+      "id": 423,
+      "premise": "A blond girl with a ponytail an glasses listens to earphones and carries a backpack.",
+      "hypothesis": "A blond girl is having a conversation with her friends",
+      "true_label_name": "contradiction",
+      "predicted_class": "neutral",
+      "confidence": 0.99609375,
       "top_10_attributions": [
         [
-          "bar",
-          -0.1463298688806311
+          "friends",
+          0.35790539615649647
         ],
         [
-          "roof",
-          -0.062063887423337176
+          "conversation",
+          0.06658772058361045
         ],
         [
-          "men",
-          -0.047782907707550906
+          "carries",
+          0.0264497991104946
         ],
         [
-          "installing",
-          -0.0432214851120439
-        ],
-        [
-          "insulation",
-          -0.03644269812495257
-        ],
-        [
-          "working",
-          -0.025773581286622847
+          "listens",
+          -0.01730380154755385
         ]
       ]
     },
     {
-      "id": 333,
-      "premise": "A man in a suit and a woman in a wedding dress walk down a damp pier.",
-      "hypothesis": "Nobody is walking",
-      "true_label": "contradiction",
-      "predicted_label": "contradiction",
-      "confidence": 0.99951171875,
+      "id": 343,
+      "premise": "Three officers dig a hole in a desert.",
+      "hypothesis": "the officers are shivering with cold",
+      "true_label_name": "contradiction",
+      "predicted_class": "neutral",
+      "confidence": 0.9951171875,
       "top_10_attributions": [
         [
-          "Nobody",
-          -0.21101922153036162
+          "shivering",
+          0.1965755794361974
         ],
         [
-          "walk",
-          -0.04237037103489449
+          "officers",
+          0.18562204975783
         ],
         [
-          "damp",
-          0.020797927612983356
+          "cold",
+          0.16894132399071857
         ],
         [
-          "walking",
-          -0.01401207194580874
+          "desert",
+          0.1078585929697249
         ],
         [
-          "pier",
-          -0.012514040647928205
+          "dig",
+          -0.09791314464105441
         ],
         [
-          "wedding",
-          -0.009813532645875195
+          "Three",
+          0.08635669857168687
         ]
       ]
     }
@@ -354,7 +346,7 @@
   ],
   "summary": {
     "total_examples": 1000,
-    "wrong_predictions": 710,
-    "error_rate": 0.71
+    "wrong_predictions": 139,
+    "error_rate": 0.139
   }
 }

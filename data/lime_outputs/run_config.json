@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.1",
-  "timestamp": "2025-08-11T03:55:30.608445",
-  "git_hash": "a5cf6fc0",
+  "schema_version": "1.2",
+  "timestamp": "2025-08-11T20:49:49.427577",
+  "git_hash": "26f48de6",
   "model_name": "roberta-large-mnli",
   "random_seed": 42,
   "num_samples": 1000,
