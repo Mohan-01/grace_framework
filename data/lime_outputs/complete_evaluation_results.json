@@ -10,11 +10,11 @@
     "num_examples": 999
   },
   "model_performance": {
-    "accuracy": 0.29,
+    "accuracy": 0.861,
     "avg_confidence": 0.93364501953125,
-    "correct_predictions": 290,
+    "correct_predictions": 861,
     "total_examples": 1000,
-    "error_rate": 0.71
+    "error_rate": 0.139
   },
   "confidence_analysis": {
     "high_confidence": 877,
