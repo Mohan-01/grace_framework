@@ -10,8 +10,8 @@
         "num_samples": 500,
         "kernel_width": null
       },
-      "avg_faithfulness": 0.222509765625,
-      "avg_sufficiency": 0.683795166015625,
+      "avg_faithfulness": 0.271142578125,
+      "avg_sufficiency": 0.650543212890625,
       "num_examples": 10
     },
     {
@@ -19,8 +19,8 @@
         "num_samples": 1000,
         "kernel_width": null
       },
-      "avg_faithfulness": 0.2244140625,
-      "avg_sufficiency": 0.6780792236328125,
+      "avg_faithfulness": 0.23505859375,
+      "avg_sufficiency": 0.66904296875,
       "num_examples": 10
     }
   ]

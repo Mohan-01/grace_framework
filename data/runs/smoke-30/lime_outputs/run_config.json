@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "timestamp": "2025-08-13T18:18:18.617327",
+  "timestamp": "2025-08-13T04:09:08.639567",
   "git_hash": "b1491a0b",
   "model_name": "roberta-large-mnli",
   "random_seed": 42,
@@ -23,16 +23,5 @@
     "0": 2,
     "1": 1,
     "2": 0
-  },
-  "do_ig": true,
-  "do_gshap": true,
-  "gshap_num_examples": 200,
-  "attr_k_metrics": 3,
-  "stable_pool": {
-    "enable": true,
-    "k": 5,
-    "jaccard_min": 0.4,
-    "suff_min": 0.8,
-    "faith_min": 0.0
   }
 }
