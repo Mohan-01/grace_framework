@@ -1,0 +1,1565 @@
+{
+  "schema_version": "1.2",
+  "data": [
+    {
+      "id": 0,
+      "premise": "Two brown dogs running together on sand",
+      "hypothesis": "Two dogs running",
+      "input_text": "Two brown dogs running together on sand [SEP] Two dogs running",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98095703125,
+      "all_probabilities": {
+        "contradiction": 0.00640869140625,
+        "neutral": 0.0124969482421875,
+        "entailment": 0.98095703125
+      },
+      "ig_attributions": [
+        [
+          "Two",
+          0.1340019702911377
+        ],
+        [
+          "dogs",
+          0.23995496332645416
+        ],
+        [
+          "running",
+          0.420871764421463
+        ]
+      ],
+      "ig_delta": 1.265596628189087,
+      "ig_runtime_sec": 4.3286461000097916
+    },
+    {
+      "id": 1,
+      "premise": "A woman purchases food from a street vendor.",
+      "hypothesis": "The woman is at the grocery store.",
+      "input_text": "A woman purchases food from a street vendor. [SEP] The woman is at the grocery store.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.99658203125,
+      "all_probabilities": {
+        "contradiction": 0.99658203125,
+        "neutral": 0.0024623870849609375,
+        "entailment": 0.0008673667907714844
+      },
+      "ig_attributions": [
+        [
+          "The",
+          -0.0644463524222374
+        ],
+        [
+          "woman",
+          0.10338738560676575
+        ],
+        [
+          "is",
+          -0.04792597144842148
+        ],
+        [
+          "at",
+          -0.2540922164916992
+        ],
+        [
+          "the",
+          -0.019532790407538414
+        ],
+        [
+          "grocery",
+          -0.16584420204162598
+        ],
+        [
+          "store",
+          -0.10364629328250885
+        ],
+        [
+          ".",
+          0.4997137784957886
+        ]
+      ],
+      "ig_delta": 0.07854580879211426,
+      "ig_runtime_sec": 6.812322999991011
+    },
+    {
+      "id": 2,
+      "premise": "A woman in a casino stands at an ATM to withdraw money.",
+      "hypothesis": "A person in a casion is sitting near an ATM.",
+      "input_text": "A woman in a casino stands at an ATM to withdraw money. [SEP] A person in a casion is sitting near an ATM.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.55419921875,
+      "all_probabilities": {
+        "contradiction": 0.340087890625,
+        "neutral": 0.1053466796875,
+        "entailment": 0.55419921875
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.04000931233167648
+        ],
+        [
+          "person",
+          -0.06554895639419556
+        ],
+        [
+          "in",
+          -0.04575406759977341
+        ],
+        [
+          "a",
+          0.016027502715587616
+        ],
+        [
+          "c",
+          -0.07288968563079834
+        ],
+        [
+          "asion",
+          0.16770097613334656
+        ],
+        [
+          "is",
+          -0.21058712899684906
+        ],
+        [
+          "sitting",
+          -0.6059073209762573
+        ],
+        [
+          "near",
+          0.32180237770080566
+        ],
+        [
+          "an",
+          -0.16833235323429108
+        ],
+        [
+          "ATM",
+          0.02627020701766014
+        ],
+        [
+          ".",
+          -0.08707085251808167
+        ]
+      ],
+      "ig_delta": -0.8768562078475952,
+      "ig_runtime_sec": 8.71761069999775
+    },
+    {
+      "id": 3,
+      "premise": "A woman stands outside a store.",
+      "hypothesis": "A woman uses a jackhammer",
+      "input_text": "A woman stands outside a store. [SEP] A woman uses a jackhammer",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.68701171875,
+      "all_probabilities": {
+        "contradiction": 0.68701171875,
+        "neutral": 0.305419921875,
+        "entailment": 0.0077667236328125
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.14008913934230804
+        ],
+        [
+          "woman",
+          -0.21605370938777924
+        ],
+        [
+          "uses",
+          1.1041147708892822
+        ],
+        [
+          "a",
+          0.02997024543583393
+        ],
+        [
+          "jack",
+          0.2896914780139923
+        ],
+        [
+          "hammer",
+          0.11505008488893509
+        ]
+      ],
+      "ig_delta": -0.3253861665725708,
+      "ig_runtime_sec": 5.663639100006549
+    },
+    {
+      "id": 4,
+      "premise": "A man and woman are locked arms sitting down and all dressed up.",
+      "hypothesis": "A man and women are walking with their arms locked.",
+      "input_text": "A man and woman are locked arms sitting down and all dressed up. [SEP] A man and women are walking with their arms locked.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9306640625,
+      "all_probabilities": {
+        "contradiction": 0.9306640625,
+        "neutral": 0.023406982421875,
+        "entailment": 0.046051025390625
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.02569328434765339
+        ],
+        [
+          "man",
+          0.11118984967470169
+        ],
+        [
+          "and",
+          0.018408510833978653
+        ],
+        [
+          "women",
+          -0.2164972871541977
+        ],
+        [
+          "are",
+          0.10479636490345001
+        ],
+        [
+          "walking",
+          -0.3928845524787903
+        ],
+        [
+          "with",
+          -0.07752226293087006
+        ],
+        [
+          "their",
+          0.18359673023223877
+        ],
+        [
+          "arms",
+          -0.027296701446175575
+        ],
+        [
+          "locked",
+          -0.0398230142891407
+        ],
+        [
+          ".",
+          0.04834543168544769
+        ]
+      ],
+      "ig_delta": 0.8324877023696899,
+      "ig_runtime_sec": 8.641004600009182
+    },
+    {
+      "id": 5,
+      "premise": "A man with long hair getting stopped by security guards.",
+      "hypothesis": "The man has long hair.",
+      "input_text": "A man with long hair getting stopped by security guards. [SEP] The man has long hair.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9912109375,
+      "all_probabilities": {
+        "contradiction": 0.0017833709716796875,
+        "neutral": 0.00701904296875,
+        "entailment": 0.9912109375
+      },
+      "ig_attributions": [
+        [
+          "The",
+          0.0552186518907547
+        ],
+        [
+          "man",
+          0.22568829357624054
+        ],
+        [
+          "has",
+          0.3566185534000397
+        ],
+        [
+          "long",
+          0.5389319658279419
+        ],
+        [
+          "hair",
+          0.6979098320007324
+        ],
+        [
+          ".",
+          0.11446555703878403
+        ]
+      ],
+      "ig_delta": 0.5781067609786987,
+      "ig_runtime_sec": 6.605483199993614
+    },
+    {
+      "id": 6,
+      "premise": "A potter making a vase on a spinning wheel.",
+      "hypothesis": "The potter's wheel spins.",
+      "input_text": "A potter making a vase on a spinning wheel. [SEP] The potter's wheel spins.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98583984375,
+      "all_probabilities": {
+        "contradiction": 0.0019063949584960938,
+        "neutral": 0.01238250732421875,
+        "entailment": 0.98583984375
+      },
+      "ig_attributions": [
+        [
+          "The",
+          0.3900664448738098
+        ],
+        [
+          "pot",
+          -0.1964341104030609
+        ],
+        [
+          "ter",
+          0.035673584789037704
+        ],
+        [
+          "'s",
+          0.4314388036727905
+        ],
+        [
+          "wheel",
+          0.5271326303482056
+        ],
+        [
+          "spins",
+          0.879304826259613
+        ],
+        [
+          ".",
+          -7.628686428070068
+        ]
+      ],
+      "ig_delta": -7.748661041259766,
+      "ig_runtime_sec": 6.716783899988513
+    },
+    {
+      "id": 7,
+      "premise": "A scientist in a lab coat is using a microscope.",
+      "hypothesis": "A young woman using a microscope.",
+      "input_text": "A scientist in a lab coat is using a microscope. [SEP] A young woman using a microscope.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.6220703125,
+      "all_probabilities": {
+        "contradiction": 0.6220703125,
+        "neutral": 0.251708984375,
+        "entailment": 0.1260986328125
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.4795047342777252
+        ],
+        [
+          "young",
+          -0.9239104390144348
+        ],
+        [
+          "woman",
+          0.10028505325317383
+        ],
+        [
+          "using",
+          -0.1784054934978485
+        ],
+        [
+          "a",
+          0.001994872000068426
+        ],
+        [
+          "microscope",
+          0.06775770336389542
+        ],
+        [
+          ".",
+          0.08512482047080994
+        ]
+      ],
+      "ig_delta": 0.42225998640060425,
+      "ig_runtime_sec": 6.646069300011732
+    },
+    {
+      "id": 8,
+      "premise": "People walking down street lined with Chinese lanterns.",
+      "hypothesis": "People running home",
+      "input_text": "People walking down street lined with Chinese lanterns. [SEP] People running home",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.98974609375,
+      "all_probabilities": {
+        "contradiction": 0.98974609375,
+        "neutral": 0.007343292236328125,
+        "entailment": 0.0030117034912109375
+      },
+      "ig_attributions": [
+        [
+          "People",
+          0.2305321991443634
+        ],
+        [
+          "running",
+          1.4270591735839844
+        ],
+        [
+          "home",
+          -0.28339868783950806
+        ]
+      ],
+      "ig_delta": 0.5308802127838135,
+      "ig_runtime_sec": 5.6772267000051215
+    },
+    {
+      "id": 9,
+      "premise": "A woman wearing a silver shirt and a man in a black jacket are at a club.",
+      "hypothesis": "Woman and Man at a club",
+      "input_text": "A woman wearing a silver shirt and a man in a black jacket are at a club. [SEP] Woman and Man at a club",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9853515625,
+      "all_probabilities": {
+        "contradiction": 0.0015773773193359375,
+        "neutral": 0.01299285888671875,
+        "entailment": 0.9853515625
+      },
+      "ig_attributions": [
+        [
+          "Woman",
+          0.03606409952044487
+        ],
+        [
+          "and",
+          0.22795987129211426
+        ],
+        [
+          "Man",
+          0.07210169732570648
+        ],
+        [
+          "at",
+          0.27958711981773376
+        ],
+        [
+          "a",
+          0.07775400578975677
+        ],
+        [
+          "club",
+          0.21780851483345032
+        ]
+      ],
+      "ig_delta": 0.19028818607330322,
+      "ig_runtime_sec": 7.42404140002327
+    },
+    {
+      "id": 10,
+      "premise": "A man in a hat is standing at a corner in front of a row of bikes.",
+      "hypothesis": "The man is waiting for a taxi.",
+      "input_text": "A man in a hat is standing at a corner in front of a row of bikes. [SEP] The man is waiting for a taxi.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.99609375,
+      "all_probabilities": {
+        "contradiction": 0.00316619873046875,
+        "neutral": 0.99609375,
+        "entailment": 0.0008530616760253906
+      },
+      "ig_attributions": [
+        [
+          "The",
+          0.13214121758937836
+        ],
+        [
+          "man",
+          0.08014704287052155
+        ],
+        [
+          "is",
+          0.13318923115730286
+        ],
+        [
+          "waiting",
+          0.180209219455719
+        ],
+        [
+          "for",
+          -0.05478227138519287
+        ],
+        [
+          "a",
+          0.047830503433942795
+        ],
+        [
+          "taxi",
+          0.2849613130092621
+        ],
+        [
+          ".",
+          -0.06816498190164566
+        ]
+      ],
+      "ig_delta": -4.461606979370117,
+      "ig_runtime_sec": 8.937102600000799
+    },
+    {
+      "id": 11,
+      "premise": "Two men on a stage playing guitar and singing.",
+      "hypothesis": "A group on stage playing music.",
+      "input_text": "Two men on a stage playing guitar and singing. [SEP] A group on stage playing music.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.978515625,
+      "all_probabilities": {
+        "contradiction": 0.0016727447509765625,
+        "neutral": 0.0200347900390625,
+        "entailment": 0.978515625
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.22880816459655762
+        ],
+        [
+          "group",
+          0.0627092570066452
+        ],
+        [
+          "on",
+          0.3063914477825165
+        ],
+        [
+          "stage",
+          0.22944030165672302
+        ],
+        [
+          "playing",
+          0.4347898066043854
+        ],
+        [
+          "music",
+          0.7741398811340332
+        ],
+        [
+          ".",
+          -0.104864701628685
+        ]
+      ],
+      "ig_delta": 0.522341251373291,
+      "ig_runtime_sec": 6.836078499996802
+    },
+    {
+      "id": 12,
+      "premise": "a black and white dog is wearing a red collar whilst walking on the grass.",
+      "hypothesis": "A dog is walking outdoors.",
+      "input_text": "a black and white dog is wearing a red collar whilst walking on the grass. [SEP] A dog is walking outdoors.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98779296875,
+      "all_probabilities": {
+        "contradiction": 0.0007762908935546875,
+        "neutral": 0.01152801513671875,
+        "entailment": 0.98779296875
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.14784206449985504
+        ],
+        [
+          "dog",
+          0.023041315376758575
+        ],
+        [
+          "is",
+          0.05245668441057205
+        ],
+        [
+          "walking",
+          0.2771691083908081
+        ],
+        [
+          "outdoors",
+          1.7848989963531494
+        ],
+        [
+          ".",
+          0.22546322643756866
+        ]
+      ],
+      "ig_delta": 0.9394567012786865,
+      "ig_runtime_sec": 7.501487800007453
+    },
+    {
+      "id": 13,
+      "premise": "A young boy in a blue shirt is surrounded by cheerleaders wearing red and white.",
+      "hypothesis": "A boy is surrounded by cheerleaders.",
+      "input_text": "A young boy in a blue shirt is surrounded by cheerleaders wearing red and white. [SEP] A boy is surrounded by cheerleaders.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9912109375,
+      "all_probabilities": {
+        "contradiction": 0.0037689208984375,
+        "neutral": 0.0048828125,
+        "entailment": 0.9912109375
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.05056963860988617
+        ],
+        [
+          "boy",
+          -0.0035485499538481236
+        ],
+        [
+          "is",
+          -0.12010809779167175
+        ],
+        [
+          "surrounded",
+          0.1552731990814209
+        ],
+        [
+          "by",
+          0.16220006346702576
+        ],
+        [
+          "cheer",
+          0.06973162293434143
+        ],
+        [
+          "leaders",
+          0.18496640026569366
+        ],
+        [
+          ".",
+          -0.6165500283241272
+        ]
+      ],
+      "ig_delta": -0.9069084525108337,
+      "ig_runtime_sec": 8.668510399991646
+    },
+    {
+      "id": 14,
+      "premise": "Three people are talking in front of an airport",
+      "hypothesis": "Three friends are talking to each other in front of the local airport.",
+      "input_text": "Three people are talking in front of an airport [SEP] Three friends are talking to each other in front of the local airport.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.9970703125,
+      "all_probabilities": {
+        "contradiction": 0.0005407333374023438,
+        "neutral": 0.9970703125,
+        "entailment": 0.002471923828125
+      },
+      "ig_attributions": [
+        [
+          "Three",
+          0.21012720465660095
+        ],
+        [
+          "friends",
+          1.1361398696899414
+        ],
+        [
+          "are",
+          0.18592649698257446
+        ],
+        [
+          "talking",
+          0.7956929206848145
+        ],
+        [
+          "to",
+          0.12783750891685486
+        ],
+        [
+          "each",
+          0.12313123792409897
+        ],
+        [
+          "other",
+          -0.033706389367580414
+        ],
+        [
+          "in",
+          0.19809195399284363
+        ],
+        [
+          "front",
+          -0.10560435056686401
+        ],
+        [
+          "of",
+          0.10839042067527771
+        ],
+        [
+          "the",
+          0.16425925493240356
+        ],
+        [
+          "local",
+          0.022441908717155457
+        ],
+        [
+          "airport",
+          0.49745073914527893
+        ],
+        [
+          ".",
+          0.5276292562484741
+        ]
+      ],
+      "ig_delta": 1.034679889678955,
+      "ig_runtime_sec": 7.414711399993394
+    },
+    {
+      "id": 15,
+      "premise": "A boy in a green sweatshirt and blue jeans performs a trick on a skateboard while spectators in the background are looking on.",
+      "hypothesis": "A young man rides a skateboard.",
+      "input_text": "A boy in a green sweatshirt and blue jeans performs a trick on a skateboard while spectators in the background are looking on. [SEP] A young man rides a skateboard.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.99072265625,
+      "all_probabilities": {
+        "contradiction": 0.0016460418701171875,
+        "neutral": 0.0075225830078125,
+        "entailment": 0.99072265625
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.0807938426733017
+        ],
+        [
+          "young",
+          0.17510242760181427
+        ],
+        [
+          "man",
+          0.014202108606696129
+        ],
+        [
+          "rides",
+          0.2905709147453308
+        ],
+        [
+          "a",
+          0.06981541961431503
+        ],
+        [
+          "skate",
+          -0.016466856002807617
+        ],
+        [
+          "board",
+          0.13916049897670746
+        ],
+        [
+          ".",
+          -0.03156963735818863
+        ]
+      ],
+      "ig_delta": -0.5883771777153015,
+      "ig_runtime_sec": 10.999871400010306
+    },
+    {
+      "id": 16,
+      "premise": "The waiter with a white shirt and black vest is waiting on the people in the restaurant with a big mirror in the wall.",
+      "hypothesis": "There is a waiter in the restaurant.",
+      "input_text": "The waiter with a white shirt and black vest is waiting on the people in the restaurant with a big mirror in the wall. [SEP] There is a waiter in the restaurant.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.97314453125,
+      "all_probabilities": {
+        "contradiction": 0.016571044921875,
+        "neutral": 0.01015472412109375,
+        "entailment": 0.97314453125
+      },
+      "ig_attributions": [
+        [
+          "There",
+          0.19219689071178436
+        ],
+        [
+          "is",
+          0.001919143833220005
+        ],
+        [
+          "a",
+          -0.002692270092666149
+        ],
+        [
+          "waiter",
+          0.2554666996002197
+        ],
+        [
+          "in",
+          -0.043006766587495804
+        ],
+        [
+          "the",
+          -0.22616685926914215
+        ],
+        [
+          "restaurant",
+          0.287518709897995
+        ],
+        [
+          ".",
+          0.11423297971487045
+        ]
+      ],
+      "ig_delta": 0.3579838275909424,
+      "ig_runtime_sec": 11.019286900002044
+    },
+    {
+      "id": 17,
+      "premise": "5 Asians jumping for a picture in front of some totem poles.",
+      "hypothesis": "People are jumping.",
+      "input_text": "5 Asians jumping for a picture in front of some totem poles. [SEP] People are jumping.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98681640625,
+      "all_probabilities": {
+        "contradiction": 0.000995635986328125,
+        "neutral": 0.0121917724609375,
+        "entailment": 0.98681640625
+      },
+      "ig_attributions": [
+        [
+          "People",
+          0.8237260580062866
+        ],
+        [
+          "are",
+          0.7669660449028015
+        ],
+        [
+          "jumping",
+          0.5054576396942139
+        ],
+        [
+          ".",
+          0.2128736823797226
+        ]
+      ],
+      "ig_delta": 0.3676053285598755,
+      "ig_runtime_sec": 6.643645900010597
+    },
+    {
+      "id": 18,
+      "premise": "A busy market street in the middle east.",
+      "hypothesis": "the market is busy in the middle east",
+      "input_text": "A busy market street in the middle east. [SEP] the market is busy in the middle east",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9599609375,
+      "all_probabilities": {
+        "contradiction": 0.0015420913696289062,
+        "neutral": 0.0386962890625,
+        "entailment": 0.9599609375
+      },
+      "ig_attributions": [
+        [
+          "the",
+          0.06879902631044388
+        ],
+        [
+          "market",
+          0.39653387665748596
+        ],
+        [
+          "is",
+          0.2426372468471527
+        ],
+        [
+          "busy",
+          0.23023876547813416
+        ],
+        [
+          "in",
+          0.078551284968853
+        ],
+        [
+          "the",
+          0.00800785981118679
+        ],
+        [
+          "middle",
+          -0.18710589408874512
+        ],
+        [
+          "east",
+          0.28915566205978394
+        ]
+      ],
+      "ig_delta": 0.12755674123764038,
+      "ig_runtime_sec": 6.622667599993292
+    },
+    {
+      "id": 19,
+      "premise": "A person does tricks on their bike.",
+      "hypothesis": "A person is falling off their bike.",
+      "input_text": "A person does tricks on their bike. [SEP] A person is falling off their bike.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9443359375,
+      "all_probabilities": {
+        "contradiction": 0.9443359375,
+        "neutral": 0.04840087890625,
+        "entailment": 0.007266998291015625
+      },
+      "ig_attributions": [
+        [
+          "A",
+          -0.006750698201358318
+        ],
+        [
+          "person",
+          0.023833084851503372
+        ],
+        [
+          "is",
+          -0.26940077543258667
+        ],
+        [
+          "falling",
+          0.6097844839096069
+        ],
+        [
+          "off",
+          0.4464073181152344
+        ],
+        [
+          "their",
+          -0.0386960506439209
+        ],
+        [
+          "bike",
+          0.0973006933927536
+        ],
+        [
+          ".",
+          -0.02666197530925274
+        ]
+      ],
+      "ig_delta": -1.542209506034851,
+      "ig_runtime_sec": 5.672471099998802
+    },
+    {
+      "id": 20,
+      "premise": "People look at a glass case holding food for sale.",
+      "hypothesis": "The person looked away from the glass case.",
+      "input_text": "People look at a glass case holding food for sale. [SEP] The person looked away from the glass case.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9990234375,
+      "all_probabilities": {
+        "contradiction": 0.9990234375,
+        "neutral": 0.0007390975952148438,
+        "entailment": 0.00018990039825439453
+      },
+      "ig_attributions": [
+        [
+          "The",
+          -0.030882425606250763
+        ],
+        [
+          "person",
+          0.06467630714178085
+        ],
+        [
+          "looked",
+          -0.9632014632225037
+        ],
+        [
+          "away",
+          2.4715781211853027
+        ],
+        [
+          "from",
+          0.7772585153579712
+        ],
+        [
+          "the",
+          0.07569310814142227
+        ],
+        [
+          "glass",
+          -0.2489168792963028
+        ],
+        [
+          "case",
+          0.25066906213760376
+        ],
+        [
+          ".",
+          0.36857953667640686
+        ]
+      ],
+      "ig_delta": -0.6749162673950195,
+      "ig_runtime_sec": 6.7973098999937065
+    },
+    {
+      "id": 21,
+      "premise": "A blue car in front of people under a tent.",
+      "hypothesis": "The people are hiding from the rain.",
+      "input_text": "A blue car in front of people under a tent. [SEP] The people are hiding from the rain.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
+      "all_probabilities": {
+        "contradiction": 0.0011529922485351562,
+        "neutral": 0.99755859375,
+        "entailment": 0.0011425018310546875
+      },
+      "ig_attributions": [
+        [
+          "The",
+          0.2505266070365906
+        ],
+        [
+          "people",
+          -0.2076658010482788
+        ],
+        [
+          "are",
+          0.37089261412620544
+        ],
+        [
+          "hiding",
+          1.1052148342132568
+        ],
+        [
+          "from",
+          0.35471296310424805
+        ],
+        [
+          "the",
+          0.30069613456726074
+        ],
+        [
+          "rain",
+          0.4295903742313385
+        ],
+        [
+          ".",
+          0.3843740224838257
+        ]
+      ],
+      "ig_delta": -0.16272234916687012,
+      "ig_runtime_sec": 6.9466448000166565
+    },
+    {
+      "id": 22,
+      "premise": "A man in a business suit is walking down the street, pulling luggage.",
+      "hypothesis": "A businessman is walking while trying to pull his luggage behind him",
+      "input_text": "A man in a business suit is walking down the street, pulling luggage. [SEP] A businessman is walking while trying to pull his luggage behind him",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.97509765625,
+      "all_probabilities": {
+        "contradiction": 0.0007529258728027344,
+        "neutral": 0.0242462158203125,
+        "entailment": 0.97509765625
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.10818120837211609
+        ],
+        [
+          "businessman",
+          0.11547251790761948
+        ],
+        [
+          "is",
+          0.03188154101371765
+        ],
+        [
+          "walking",
+          0.1519158035516739
+        ],
+        [
+          "while",
+          0.07795964181423187
+        ],
+        [
+          "trying",
+          0.2367311269044876
+        ],
+        [
+          "to",
+          0.0675954595208168
+        ],
+        [
+          "pull",
+          0.21626496315002441
+        ],
+        [
+          "his",
+          -0.016960760578513145
+        ],
+        [
+          "luggage",
+          0.22082418203353882
+        ],
+        [
+          "behind",
+          0.30971914529800415
+        ],
+        [
+          "him",
+          0.1409638524055481
+        ]
+      ],
+      "ig_delta": 0.011151492595672607,
+      "ig_runtime_sec": 9.06530719998409
+    },
+    {
+      "id": 23,
+      "premise": "A red bus is driving on a street between a large building and a water fountain.",
+      "hypothesis": "A purple bus is driving on the street.",
+      "input_text": "A red bus is driving on a street between a large building and a water fountain. [SEP] A purple bus is driving on the street.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9990234375,
+      "all_probabilities": {
+        "contradiction": 0.9990234375,
+        "neutral": 0.0005369186401367188,
+        "entailment": 0.00019824504852294922
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.24888873100280762
+        ],
+        [
+          "purple",
+          1.8151434659957886
+        ],
+        [
+          "bus",
+          0.5035712122917175
+        ],
+        [
+          "is",
+          0.1416396200656891
+        ],
+        [
+          "driving",
+          0.10324810445308685
+        ],
+        [
+          "on",
+          0.27587538957595825
+        ],
+        [
+          "the",
+          0.1752607375383377
+        ],
+        [
+          "street",
+          0.11334165930747986
+        ],
+        [
+          ".",
+          0.6481395959854126
+        ]
+      ],
+      "ig_delta": 2.204253911972046,
+      "ig_runtime_sec": 8.678545400005532
+    },
+    {
+      "id": 24,
+      "premise": "A group of people with luggage line up outside of an airport.",
+      "hypothesis": "A group of people are in line.",
+      "input_text": "A group of people with luggage line up outside of an airport. [SEP] A group of people are in line.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.97216796875,
+      "all_probabilities": {
+        "contradiction": 0.0159759521484375,
+        "neutral": 0.0120086669921875,
+        "entailment": 0.97216796875
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.16091088950634003
+        ],
+        [
+          "group",
+          0.14011543989181519
+        ],
+        [
+          "of",
+          0.1620892584323883
+        ],
+        [
+          "people",
+          0.3522772789001465
+        ],
+        [
+          "are",
+          0.3047811985015869
+        ],
+        [
+          "in",
+          0.24571667611598969
+        ],
+        [
+          "line",
+          0.3534855544567108
+        ],
+        [
+          ".",
+          -0.25310641527175903
+        ]
+      ],
+      "ig_delta": 0.8511378765106201,
+      "ig_runtime_sec": 7.401583800005028
+    },
+    {
+      "id": 25,
+      "premise": "A woman in blue with a striped purple scarf on her head, stands in front of a woman with a brown headband on her forehead who is speaking with a man wearing light blue and wearing a purple turban.",
+      "hypothesis": "The women are wearing black skirts.",
+      "input_text": "A woman in blue with a striped purple scarf on her head, stands in front of a woman with a brown headband on her forehead who is speaking with a man wearing light blue and wearing a purple turban. [SEP] The women are wearing black skirts.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.6923828125,
+      "all_probabilities": {
+        "contradiction": 0.6923828125,
+        "neutral": 0.305419921875,
+        "entailment": 0.0022602081298828125
+      },
+      "ig_attributions": [
+        [
+          "The",
+          0.060223545879125595
+        ],
+        [
+          "women",
+          0.19217491149902344
+        ],
+        [
+          "are",
+          0.06841723620891571
+        ],
+        [
+          "wearing",
+          0.06632125377655029
+        ],
+        [
+          "black",
+          0.10263147950172424
+        ],
+        [
+          "skirts",
+          -0.08879858255386353
+        ],
+        [
+          ".",
+          -0.27803903818130493
+        ]
+      ],
+      "ig_delta": -1.0475246906280518,
+      "ig_runtime_sec": 14.688329299999168
+    },
+    {
+      "id": 26,
+      "premise": "A woman in an orange dress walks down the street with a cellphone in her hand.",
+      "hypothesis": "A woman is working out at the gym.",
+      "input_text": "A woman in an orange dress walks down the street with a cellphone in her hand. [SEP] A woman is working out at the gym.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.93701171875,
+      "all_probabilities": {
+        "contradiction": 0.93701171875,
+        "neutral": 0.057220458984375,
+        "entailment": 0.005603790283203125
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.04000990837812424
+        ],
+        [
+          "woman",
+          0.03039161115884781
+        ],
+        [
+          "is",
+          -0.1599479466676712
+        ],
+        [
+          "working",
+          -0.12097339332103729
+        ],
+        [
+          "out",
+          0.3915316164493561
+        ],
+        [
+          "at",
+          0.6033047437667847
+        ],
+        [
+          "the",
+          0.0975116491317749
+        ],
+        [
+          "gym",
+          0.5225152969360352
+        ],
+        [
+          ".",
+          0.05904470756649971
+        ]
+      ],
+      "ig_delta": -1.51935875415802,
+      "ig_runtime_sec": 8.663799200003268
+    },
+    {
+      "id": 27,
+      "premise": "A crowded carousel surrounded by parents with baby strollers sitting on a bench.",
+      "hypothesis": "Families sitting on a beach on a cloudy day.",
+      "input_text": "A crowded carousel surrounded by parents with baby strollers sitting on a bench. [SEP] Families sitting on a beach on a cloudy day.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9189453125,
+      "all_probabilities": {
+        "contradiction": 0.9189453125,
+        "neutral": 0.06207275390625,
+        "entailment": 0.0187835693359375
+      },
+      "ig_attributions": [
+        [
+          "F",
+          -0.02672668732702732
+        ],
+        [
+          "am",
+          -0.03587103635072708
+        ],
+        [
+          "ilies",
+          -0.33225852251052856
+        ],
+        [
+          "sitting",
+          -0.0951974168419838
+        ],
+        [
+          "on",
+          0.03180472552776337
+        ],
+        [
+          "a",
+          -0.05373365804553032
+        ],
+        [
+          "beach",
+          1.2807276248931885
+        ],
+        [
+          "on",
+          -0.03163576126098633
+        ],
+        [
+          "a",
+          -0.0012567751109600067
+        ],
+        [
+          "cloudy",
+          -0.15031030774116516
+        ],
+        [
+          "day",
+          -0.1806534379720688
+        ],
+        [
+          ".",
+          -0.005883608013391495
+        ]
+      ],
+      "ig_delta": -0.4590376615524292,
+      "ig_runtime_sec": 8.961673499987228
+    },
+    {
+      "id": 28,
+      "premise": "A woman attends a candlelight vigil.",
+      "hypothesis": "A woman is holding a candle at a vigil.",
+      "input_text": "A woman attends a candlelight vigil. [SEP] A woman is holding a candle at a vigil.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.96484375,
+      "all_probabilities": {
+        "contradiction": 0.0013208389282226562,
+        "neutral": 0.033843994140625,
+        "entailment": 0.96484375
+      },
+      "ig_attributions": [
+        [
+          "A",
+          0.034747231751680374
+        ],
+        [
+          "woman",
+          0.06416725367307663
+        ],
+        [
+          "is",
+          0.27872800827026367
+        ],
+        [
+          "holding",
+          0.39160215854644775
+        ],
+        [
+          "a",
+          0.14047454297542572
+        ],
+        [
+          "candle",
+          0.1252622902393341
+        ],
+        [
+          "at",
+          0.1348821520805359
+        ],
+        [
+          "a",
+          0.19995003938674927
+        ],
+        [
+          "vigil",
+          0.2020033895969391
+        ],
+        [
+          ".",
+          -0.3451865315437317
+        ]
+      ],
+      "ig_delta": -1.4243803024291992,
+      "ig_runtime_sec": 6.6532637999916915
+    },
+    {
+      "id": 29,
+      "premise": "Two young adults are playing on cube-shaped arcade consoles.",
+      "hypothesis": "The people are playing Pac-man.",
+      "input_text": "Two young adults are playing on cube-shaped arcade consoles. [SEP] The people are playing Pac-man.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
+      "all_probabilities": {
+        "contradiction": 0.0015764236450195312,
+        "neutral": 0.99755859375,
+        "entailment": 0.0009131431579589844
+      },
+      "ig_attributions": [
+        [
+          "The",
+          -0.024477960541844368
+        ],
+        [
+          "people",
+          0.28287070989608765
+        ],
+        [
+          "are",
+          0.040145937353372574
+        ],
+        [
+          "playing",
+          0.5248716473579407
+        ],
+        [
+          "Pac",
+          0.3142797350883484
+        ],
+        [
+          "-",
+          -0.04256868362426758
+        ],
+        [
+          "man",
+          0.1290959268808365
+        ],
+        [
+          ".",
+          0.3396300673484802
+        ]
+      ],
+      "ig_delta": -0.3328585624694824,
+      "ig_runtime_sec": 6.746413199987728
+    }
+  ]
+}

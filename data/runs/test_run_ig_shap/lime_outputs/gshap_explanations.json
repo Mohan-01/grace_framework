@@ -1,0 +1,1535 @@
+{
+  "schema_version": "1.2",
+  "data": [
+    {
+      "id": 0,
+      "premise": "Two brown dogs running together on sand",
+      "hypothesis": "Two dogs running",
+      "input_text": "Two brown dogs running together on sand [SEP] Two dogs running",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98095703125,
+      "all_probabilities": {
+        "contradiction": 0.00640869140625,
+        "neutral": 0.0124969482421875,
+        "entailment": 0.98095703125
+      },
+      "gshap_attributions": [
+        [
+          "Two",
+          0.9702830910682678
+        ],
+        [
+          "dogs",
+          0.301830530166626
+        ],
+        [
+          "running",
+          -0.38069745898246765
+        ]
+      ],
+      "gshap_runtime_sec": 1.7704170999932103
+    },
+    {
+      "id": 1,
+      "premise": "A woman purchases food from a street vendor.",
+      "hypothesis": "The woman is at the grocery store.",
+      "input_text": "A woman purchases food from a street vendor. [SEP] The woman is at the grocery store.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.99658203125,
+      "all_probabilities": {
+        "contradiction": 0.99658203125,
+        "neutral": 0.0024623870849609375,
+        "entailment": 0.0008673667907714844
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          0.05674312263727188
+        ],
+        [
+          "woman",
+          0.08261917531490326
+        ],
+        [
+          "is",
+          -0.028653649613261223
+        ],
+        [
+          "at",
+          -0.06837082654237747
+        ],
+        [
+          "the",
+          -0.10957992076873779
+        ],
+        [
+          "grocery",
+          -0.20055104792118073
+        ],
+        [
+          "store",
+          -0.5055202841758728
+        ],
+        [
+          ".",
+          -1.6187732219696045
+        ]
+      ],
+      "gshap_runtime_sec": 1.8824873000266962
+    },
+    {
+      "id": 2,
+      "premise": "A woman in a casino stands at an ATM to withdraw money.",
+      "hypothesis": "A person in a casion is sitting near an ATM.",
+      "input_text": "A woman in a casino stands at an ATM to withdraw money. [SEP] A person in a casion is sitting near an ATM.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.55419921875,
+      "all_probabilities": {
+        "contradiction": 0.340087890625,
+        "neutral": 0.1053466796875,
+        "entailment": 0.55419921875
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.052358150482177734
+        ],
+        [
+          "person",
+          -0.13536615669727325
+        ],
+        [
+          "in",
+          -0.0731053501367569
+        ],
+        [
+          "a",
+          -0.06054724380373955
+        ],
+        [
+          "c",
+          -0.13482791185379028
+        ],
+        [
+          "asion",
+          0.08004232496023178
+        ],
+        [
+          "is",
+          -0.1585381031036377
+        ],
+        [
+          "sitting",
+          -0.3077557682991028
+        ],
+        [
+          "near",
+          -0.09757842868566513
+        ],
+        [
+          "an",
+          -0.12469455599784851
+        ],
+        [
+          "ATM",
+          -0.09630067646503448
+        ],
+        [
+          ".",
+          -0.2618787884712219
+        ]
+      ],
+      "gshap_runtime_sec": 2.588342599978205
+    },
+    {
+      "id": 3,
+      "premise": "A woman stands outside a store.",
+      "hypothesis": "A woman uses a jackhammer",
+      "input_text": "A woman stands outside a store. [SEP] A woman uses a jackhammer",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.68701171875,
+      "all_probabilities": {
+        "contradiction": 0.68701171875,
+        "neutral": 0.305419921875,
+        "entailment": 0.0077667236328125
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.038831841200590134
+        ],
+        [
+          "woman",
+          0.311648964881897
+        ],
+        [
+          "uses",
+          0.20892617106437683
+        ],
+        [
+          "a",
+          0.14828820526599884
+        ],
+        [
+          "jack",
+          0.5646645426750183
+        ],
+        [
+          "hammer",
+          0.3139467239379883
+        ]
+      ],
+      "gshap_runtime_sec": 1.6536296000122093
+    },
+    {
+      "id": 4,
+      "premise": "A man and woman are locked arms sitting down and all dressed up.",
+      "hypothesis": "A man and women are walking with their arms locked.",
+      "input_text": "A man and woman are locked arms sitting down and all dressed up. [SEP] A man and women are walking with their arms locked.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9306640625,
+      "all_probabilities": {
+        "contradiction": 0.9306640625,
+        "neutral": 0.023406982421875,
+        "entailment": 0.046051025390625
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.03653832897543907
+        ],
+        [
+          "man",
+          0.09506037831306458
+        ],
+        [
+          "and",
+          -0.025223782286047935
+        ],
+        [
+          "women",
+          -0.05803506076335907
+        ],
+        [
+          "are",
+          0.11476825922727585
+        ],
+        [
+          "walking",
+          -0.2908858358860016
+        ],
+        [
+          "with",
+          -0.026732467114925385
+        ],
+        [
+          "their",
+          0.43469271063804626
+        ],
+        [
+          "arms",
+          0.1976582109928131
+        ],
+        [
+          "locked",
+          -0.3542122542858124
+        ],
+        [
+          ".",
+          0.04562923312187195
+        ]
+      ],
+      "gshap_runtime_sec": 2.6262531999964267
+    },
+    {
+      "id": 5,
+      "premise": "A man with long hair getting stopped by security guards.",
+      "hypothesis": "The man has long hair.",
+      "input_text": "A man with long hair getting stopped by security guards. [SEP] The man has long hair.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9912109375,
+      "all_probabilities": {
+        "contradiction": 0.0017833709716796875,
+        "neutral": 0.00701904296875,
+        "entailment": 0.9912109375
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          -0.11379537731409073
+        ],
+        [
+          "man",
+          -0.03531092777848244
+        ],
+        [
+          "has",
+          0.024824636057019234
+        ],
+        [
+          "long",
+          -0.13257303833961487
+        ],
+        [
+          "hair",
+          -1.1550742387771606
+        ],
+        [
+          ".",
+          0.15377028286457062
+        ]
+      ],
+      "gshap_runtime_sec": 2.0013729999773204
+    },
+    {
+      "id": 6,
+      "premise": "A potter making a vase on a spinning wheel.",
+      "hypothesis": "The potter's wheel spins.",
+      "input_text": "A potter making a vase on a spinning wheel. [SEP] The potter's wheel spins.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98583984375,
+      "all_probabilities": {
+        "contradiction": 0.0019063949584960938,
+        "neutral": 0.01238250732421875,
+        "entailment": 0.98583984375
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          -0.025851832702755928
+        ],
+        [
+          "pot",
+          0.008538926020264626
+        ],
+        [
+          "ter",
+          0.10513705015182495
+        ],
+        [
+          "'s",
+          0.03151434659957886
+        ],
+        [
+          "wheel",
+          -0.029035894200205803
+        ],
+        [
+          "spins",
+          -0.014881715178489685
+        ],
+        [
+          ".",
+          -0.09143532812595367
+        ]
+      ],
+      "gshap_runtime_sec": 2.406583599979058
+    },
+    {
+      "id": 7,
+      "premise": "A scientist in a lab coat is using a microscope.",
+      "hypothesis": "A young woman using a microscope.",
+      "input_text": "A scientist in a lab coat is using a microscope. [SEP] A young woman using a microscope.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.6220703125,
+      "all_probabilities": {
+        "contradiction": 0.6220703125,
+        "neutral": 0.251708984375,
+        "entailment": 0.1260986328125
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.273480087518692
+        ],
+        [
+          "young",
+          -1.2154691219329834
+        ],
+        [
+          "woman",
+          0.4752465784549713
+        ],
+        [
+          "using",
+          -0.09378667175769806
+        ],
+        [
+          "a",
+          0.23304587602615356
+        ],
+        [
+          "microscope",
+          0.5506298542022705
+        ],
+        [
+          ".",
+          1.4070121049880981
+        ]
+      ],
+      "gshap_runtime_sec": 1.9816068999934942
+    },
+    {
+      "id": 8,
+      "premise": "People walking down street lined with Chinese lanterns.",
+      "hypothesis": "People running home",
+      "input_text": "People walking down street lined with Chinese lanterns. [SEP] People running home",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.98974609375,
+      "all_probabilities": {
+        "contradiction": 0.98974609375,
+        "neutral": 0.007343292236328125,
+        "entailment": 0.0030117034912109375
+      },
+      "gshap_attributions": [
+        [
+          "People",
+          0.2308470755815506
+        ],
+        [
+          "running",
+          0.5659439563751221
+        ],
+        [
+          "home",
+          -0.224519282579422
+        ]
+      ],
+      "gshap_runtime_sec": 1.7479837000137195
+    },
+    {
+      "id": 9,
+      "premise": "A woman wearing a silver shirt and a man in a black jacket are at a club.",
+      "hypothesis": "Woman and Man at a club",
+      "input_text": "A woman wearing a silver shirt and a man in a black jacket are at a club. [SEP] Woman and Man at a club",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9853515625,
+      "all_probabilities": {
+        "contradiction": 0.0015773773193359375,
+        "neutral": 0.01299285888671875,
+        "entailment": 0.9853515625
+      },
+      "gshap_attributions": [
+        [
+          "Woman",
+          0.06557540595531464
+        ],
+        [
+          "and",
+          0.019480980932712555
+        ],
+        [
+          "Man",
+          -0.01930813677608967
+        ],
+        [
+          "at",
+          0.760206401348114
+        ],
+        [
+          "a",
+          -0.09278331696987152
+        ],
+        [
+          "club",
+          -0.023046180605888367
+        ]
+      ],
+      "gshap_runtime_sec": 2.7379266999778338
+    },
+    {
+      "id": 10,
+      "premise": "A man in a hat is standing at a corner in front of a row of bikes.",
+      "hypothesis": "The man is waiting for a taxi.",
+      "input_text": "A man in a hat is standing at a corner in front of a row of bikes. [SEP] The man is waiting for a taxi.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.99609375,
+      "all_probabilities": {
+        "contradiction": 0.00316619873046875,
+        "neutral": 0.99609375,
+        "entailment": 0.0008530616760253906
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          1.2887992858886719
+        ],
+        [
+          "man",
+          0.9059728980064392
+        ],
+        [
+          "is",
+          1.3811126947402954
+        ],
+        [
+          "waiting",
+          2.1033926010131836
+        ],
+        [
+          "for",
+          0.6764516830444336
+        ],
+        [
+          "a",
+          0.09946960210800171
+        ],
+        [
+          "taxi",
+          1.5066462755203247
+        ],
+        [
+          ".",
+          0.6517775058746338
+        ]
+      ],
+      "gshap_runtime_sec": 2.7728147999732755
+    },
+    {
+      "id": 11,
+      "premise": "Two men on a stage playing guitar and singing.",
+      "hypothesis": "A group on stage playing music.",
+      "input_text": "Two men on a stage playing guitar and singing. [SEP] A group on stage playing music.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.978515625,
+      "all_probabilities": {
+        "contradiction": 0.0016727447509765625,
+        "neutral": 0.0200347900390625,
+        "entailment": 0.978515625
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.36888062953948975
+        ],
+        [
+          "group",
+          -0.27772775292396545
+        ],
+        [
+          "on",
+          0.592469334602356
+        ],
+        [
+          "stage",
+          -0.37804901599884033
+        ],
+        [
+          "playing",
+          0.9268069267272949
+        ],
+        [
+          "music",
+          0.9732349514961243
+        ],
+        [
+          ".",
+          0.18451721966266632
+        ]
+      ],
+      "gshap_runtime_sec": 2.0097837999928743
+    },
+    {
+      "id": 12,
+      "premise": "a black and white dog is wearing a red collar whilst walking on the grass.",
+      "hypothesis": "A dog is walking outdoors.",
+      "input_text": "a black and white dog is wearing a red collar whilst walking on the grass. [SEP] A dog is walking outdoors.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98779296875,
+      "all_probabilities": {
+        "contradiction": 0.0007762908935546875,
+        "neutral": 0.01152801513671875,
+        "entailment": 0.98779296875
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.0273907408118248
+        ],
+        [
+          "dog",
+          -0.05224727839231491
+        ],
+        [
+          "is",
+          -0.017147082835435867
+        ],
+        [
+          "walking",
+          0.0740017220377922
+        ],
+        [
+          "outdoors",
+          -0.15078550577163696
+        ],
+        [
+          ".",
+          -0.3387856185436249
+        ]
+      ],
+      "gshap_runtime_sec": 2.7617103999946266
+    },
+    {
+      "id": 13,
+      "premise": "A young boy in a blue shirt is surrounded by cheerleaders wearing red and white.",
+      "hypothesis": "A boy is surrounded by cheerleaders.",
+      "input_text": "A young boy in a blue shirt is surrounded by cheerleaders wearing red and white. [SEP] A boy is surrounded by cheerleaders.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9912109375,
+      "all_probabilities": {
+        "contradiction": 0.0037689208984375,
+        "neutral": 0.0048828125,
+        "entailment": 0.9912109375
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.10312969982624054
+        ],
+        [
+          "boy",
+          0.3258621096611023
+        ],
+        [
+          "is",
+          0.08496520668268204
+        ],
+        [
+          "surrounded",
+          0.2066536247730255
+        ],
+        [
+          "by",
+          0.01074131578207016
+        ],
+        [
+          "cheer",
+          0.30518925189971924
+        ],
+        [
+          "leaders",
+          0.04771498218178749
+        ],
+        [
+          ".",
+          0.612716794013977
+        ]
+      ],
+      "gshap_runtime_sec": 2.7727069000247866
+    },
+    {
+      "id": 14,
+      "premise": "Three people are talking in front of an airport",
+      "hypothesis": "Three friends are talking to each other in front of the local airport.",
+      "input_text": "Three people are talking in front of an airport [SEP] Three friends are talking to each other in front of the local airport.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.9970703125,
+      "all_probabilities": {
+        "contradiction": 0.0005407333374023438,
+        "neutral": 0.9970703125,
+        "entailment": 0.002471923828125
+      },
+      "gshap_attributions": [
+        [
+          "Three",
+          -0.12302768230438232
+        ],
+        [
+          "friends",
+          -0.06269093602895737
+        ],
+        [
+          "are",
+          -0.010545171797275543
+        ],
+        [
+          "talking",
+          0.002932828851044178
+        ],
+        [
+          "to",
+          0.0772695392370224
+        ],
+        [
+          "each",
+          0.08271099627017975
+        ],
+        [
+          "other",
+          0.03340238332748413
+        ],
+        [
+          "in",
+          -0.004423105623573065
+        ],
+        [
+          "front",
+          -0.08676888048648834
+        ],
+        [
+          "of",
+          0.14629100263118744
+        ],
+        [
+          "the",
+          0.23048502206802368
+        ],
+        [
+          "local",
+          0.042114149779081345
+        ],
+        [
+          "airport",
+          0.006649107672274113
+        ],
+        [
+          ".",
+          0.1024518758058548
+        ]
+      ],
+      "gshap_runtime_sec": 2.7599921000073664
+    },
+    {
+      "id": 15,
+      "premise": "A boy in a green sweatshirt and blue jeans performs a trick on a skateboard while spectators in the background are looking on.",
+      "hypothesis": "A young man rides a skateboard.",
+      "input_text": "A boy in a green sweatshirt and blue jeans performs a trick on a skateboard while spectators in the background are looking on. [SEP] A young man rides a skateboard.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.99072265625,
+      "all_probabilities": {
+        "contradiction": 0.0016460418701171875,
+        "neutral": 0.0075225830078125,
+        "entailment": 0.99072265625
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.04981527477502823
+        ],
+        [
+          "young",
+          -0.038665927946567535
+        ],
+        [
+          "man",
+          -0.01827300153672695
+        ],
+        [
+          "rides",
+          0.07730065286159515
+        ],
+        [
+          "a",
+          -0.07677844911813736
+        ],
+        [
+          "skate",
+          -0.030108513310551643
+        ],
+        [
+          "board",
+          0.0907822698354721
+        ],
+        [
+          ".",
+          -0.05923912301659584
+        ]
+      ],
+      "gshap_runtime_sec": 3.3407529999967664
+    },
+    {
+      "id": 16,
+      "premise": "The waiter with a white shirt and black vest is waiting on the people in the restaurant with a big mirror in the wall.",
+      "hypothesis": "There is a waiter in the restaurant.",
+      "input_text": "The waiter with a white shirt and black vest is waiting on the people in the restaurant with a big mirror in the wall. [SEP] There is a waiter in the restaurant.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.97314453125,
+      "all_probabilities": {
+        "contradiction": 0.016571044921875,
+        "neutral": 0.01015472412109375,
+        "entailment": 0.97314453125
+      },
+      "gshap_attributions": [
+        [
+          "There",
+          0.001894647255539894
+        ],
+        [
+          "is",
+          -0.05774807929992676
+        ],
+        [
+          "a",
+          -0.02379068173468113
+        ],
+        [
+          "waiter",
+          0.1117069199681282
+        ],
+        [
+          "in",
+          -0.09243977069854736
+        ],
+        [
+          "the",
+          -0.12665726244449615
+        ],
+        [
+          "restaurant",
+          0.04042389616370201
+        ],
+        [
+          ".",
+          -0.26864567399024963
+        ]
+      ],
+      "gshap_runtime_sec": 3.337193999963347
+    },
+    {
+      "id": 17,
+      "premise": "5 Asians jumping for a picture in front of some totem poles.",
+      "hypothesis": "People are jumping.",
+      "input_text": "5 Asians jumping for a picture in front of some totem poles. [SEP] People are jumping.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.98681640625,
+      "all_probabilities": {
+        "contradiction": 0.000995635986328125,
+        "neutral": 0.0121917724609375,
+        "entailment": 0.98681640625
+      },
+      "gshap_attributions": [
+        [
+          "People",
+          0.42942219972610474
+        ],
+        [
+          "are",
+          2.183309555053711
+        ],
+        [
+          "jumping",
+          0.8352826833724976
+        ],
+        [
+          ".",
+          -0.04345959424972534
+        ]
+      ],
+      "gshap_runtime_sec": 1.993371799995657
+    },
+    {
+      "id": 18,
+      "premise": "A busy market street in the middle east.",
+      "hypothesis": "the market is busy in the middle east",
+      "input_text": "A busy market street in the middle east. [SEP] the market is busy in the middle east",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.9599609375,
+      "all_probabilities": {
+        "contradiction": 0.0015420913696289062,
+        "neutral": 0.0386962890625,
+        "entailment": 0.9599609375
+      },
+      "gshap_attributions": [
+        [
+          "the",
+          0.018843868747353554
+        ],
+        [
+          "market",
+          0.1150909960269928
+        ],
+        [
+          "is",
+          0.1738969385623932
+        ],
+        [
+          "busy",
+          0.45207479596138
+        ],
+        [
+          "in",
+          0.060570620000362396
+        ],
+        [
+          "the",
+          0.059405677020549774
+        ],
+        [
+          "middle",
+          -0.3069577217102051
+        ],
+        [
+          "east",
+          -0.06380972266197205
+        ]
+      ],
+      "gshap_runtime_sec": 1.9819144000066444
+    },
+    {
+      "id": 19,
+      "premise": "A person does tricks on their bike.",
+      "hypothesis": "A person is falling off their bike.",
+      "input_text": "A person does tricks on their bike. [SEP] A person is falling off their bike.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9443359375,
+      "all_probabilities": {
+        "contradiction": 0.9443359375,
+        "neutral": 0.04840087890625,
+        "entailment": 0.007266998291015625
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.12923425436019897
+        ],
+        [
+          "person",
+          0.0894266739487648
+        ],
+        [
+          "is",
+          0.6114490628242493
+        ],
+        [
+          "falling",
+          2.162001609802246
+        ],
+        [
+          "off",
+          2.1422064304351807
+        ],
+        [
+          "their",
+          -0.132729172706604
+        ],
+        [
+          "bike",
+          0.32069939374923706
+        ],
+        [
+          ".",
+          0.4291566014289856
+        ]
+      ],
+      "gshap_runtime_sec": 1.979894799995236
+    },
+    {
+      "id": 20,
+      "premise": "People look at a glass case holding food for sale.",
+      "hypothesis": "The person looked away from the glass case.",
+      "input_text": "People look at a glass case holding food for sale. [SEP] The person looked away from the glass case.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9990234375,
+      "all_probabilities": {
+        "contradiction": 0.9990234375,
+        "neutral": 0.0007390975952148438,
+        "entailment": 0.00018990039825439453
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          -0.11920106410980225
+        ],
+        [
+          "person",
+          -0.3185504376888275
+        ],
+        [
+          "looked",
+          -1.8926317691802979
+        ],
+        [
+          "away",
+          8.235576629638672
+        ],
+        [
+          "from",
+          1.6848498582839966
+        ],
+        [
+          "the",
+          0.1140797883272171
+        ],
+        [
+          "glass",
+          -0.2443295121192932
+        ],
+        [
+          "case",
+          0.3692781329154968
+        ],
+        [
+          ".",
+          0.3565763831138611
+        ]
+      ],
+      "gshap_runtime_sec": 2.379855300008785
+    },
+    {
+      "id": 21,
+      "premise": "A blue car in front of people under a tent.",
+      "hypothesis": "The people are hiding from the rain.",
+      "input_text": "A blue car in front of people under a tent. [SEP] The people are hiding from the rain.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
+      "all_probabilities": {
+        "contradiction": 0.0011529922485351562,
+        "neutral": 0.99755859375,
+        "entailment": 0.0011425018310546875
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          0.12666736543178558
+        ],
+        [
+          "people",
+          -0.0587446466088295
+        ],
+        [
+          "are",
+          0.3250366449356079
+        ],
+        [
+          "hiding",
+          1.0741336345672607
+        ],
+        [
+          "from",
+          0.2081776112318039
+        ],
+        [
+          "the",
+          0.2702743411064148
+        ],
+        [
+          "rain",
+          0.1416553258895874
+        ],
+        [
+          ".",
+          0.142990380525589
+        ]
+      ],
+      "gshap_runtime_sec": 2.447941999998875
+    },
+    {
+      "id": 22,
+      "premise": "A man in a business suit is walking down the street, pulling luggage.",
+      "hypothesis": "A businessman is walking while trying to pull his luggage behind him",
+      "input_text": "A man in a business suit is walking down the street, pulling luggage. [SEP] A businessman is walking while trying to pull his luggage behind him",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.97509765625,
+      "all_probabilities": {
+        "contradiction": 0.0007529258728027344,
+        "neutral": 0.0242462158203125,
+        "entailment": 0.97509765625
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.18338626623153687
+        ],
+        [
+          "businessman",
+          0.1393393874168396
+        ],
+        [
+          "is",
+          0.1827366054058075
+        ],
+        [
+          "walking",
+          0.43808406591415405
+        ],
+        [
+          "while",
+          0.05644521117210388
+        ],
+        [
+          "trying",
+          0.610299825668335
+        ],
+        [
+          "to",
+          0.27123498916625977
+        ],
+        [
+          "pull",
+          0.2906033396720886
+        ],
+        [
+          "his",
+          0.010671816766262054
+        ],
+        [
+          "luggage",
+          0.5926628112792969
+        ],
+        [
+          "behind",
+          0.026313098147511482
+        ],
+        [
+          "him",
+          0.13469797372817993
+        ]
+      ],
+      "gshap_runtime_sec": 2.7680315999896266
+    },
+    {
+      "id": 23,
+      "premise": "A red bus is driving on a street between a large building and a water fountain.",
+      "hypothesis": "A purple bus is driving on the street.",
+      "input_text": "A red bus is driving on a street between a large building and a water fountain. [SEP] A purple bus is driving on the street.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9990234375,
+      "all_probabilities": {
+        "contradiction": 0.9990234375,
+        "neutral": 0.0005369186401367188,
+        "entailment": 0.00019824504852294922
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.32174983620643616
+        ],
+        [
+          "purple",
+          1.5311739444732666
+        ],
+        [
+          "bus",
+          -0.048551686108112335
+        ],
+        [
+          "is",
+          0.23393209278583527
+        ],
+        [
+          "driving",
+          -0.18489348888397217
+        ],
+        [
+          "on",
+          0.16941562294960022
+        ],
+        [
+          "the",
+          -0.093756303191185
+        ],
+        [
+          "street",
+          -0.20720621943473816
+        ],
+        [
+          ".",
+          1.02787184715271
+        ]
+      ],
+      "gshap_runtime_sec": 2.762411499978043
+    },
+    {
+      "id": 24,
+      "premise": "A group of people with luggage line up outside of an airport.",
+      "hypothesis": "A group of people are in line.",
+      "input_text": "A group of people with luggage line up outside of an airport. [SEP] A group of people are in line.",
+      "true_label": 0,
+      "true_label_name": "entailment",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.97216796875,
+      "all_probabilities": {
+        "contradiction": 0.0159759521484375,
+        "neutral": 0.0120086669921875,
+        "entailment": 0.97216796875
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.19769635796546936
+        ],
+        [
+          "group",
+          0.07268959283828735
+        ],
+        [
+          "of",
+          0.05096207186579704
+        ],
+        [
+          "people",
+          0.850102424621582
+        ],
+        [
+          "are",
+          0.4142400920391083
+        ],
+        [
+          "in",
+          0.5874696969985962
+        ],
+        [
+          "line",
+          0.5195937752723694
+        ],
+        [
+          ".",
+          -0.3717549443244934
+        ]
+      ],
+      "gshap_runtime_sec": 2.3987471999716945
+    },
+    {
+      "id": 25,
+      "premise": "A woman in blue with a striped purple scarf on her head, stands in front of a woman with a brown headband on her forehead who is speaking with a man wearing light blue and wearing a purple turban.",
+      "hypothesis": "The women are wearing black skirts.",
+      "input_text": "A woman in blue with a striped purple scarf on her head, stands in front of a woman with a brown headband on her forehead who is speaking with a man wearing light blue and wearing a purple turban. [SEP] The women are wearing black skirts.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.6923828125,
+      "all_probabilities": {
+        "contradiction": 0.6923828125,
+        "neutral": 0.305419921875,
+        "entailment": 0.0022602081298828125
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          0.07251220941543579
+        ],
+        [
+          "women",
+          0.06321166455745697
+        ],
+        [
+          "are",
+          0.07863256335258484
+        ],
+        [
+          "wearing",
+          0.03762917220592499
+        ],
+        [
+          "black",
+          0.02581753022968769
+        ],
+        [
+          "skirts",
+          0.15788348019123077
+        ],
+        [
+          ".",
+          0.30451536178588867
+        ]
+      ],
+      "gshap_runtime_sec": 4.979016199999023
+    },
+    {
+      "id": 26,
+      "premise": "A woman in an orange dress walks down the street with a cellphone in her hand.",
+      "hypothesis": "A woman is working out at the gym.",
+      "input_text": "A woman in an orange dress walks down the street with a cellphone in her hand. [SEP] A woman is working out at the gym.",
+      "true_label": 2,
+      "true_label_name": "contradiction",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.93701171875,
+      "all_probabilities": {
+        "contradiction": 0.93701171875,
+        "neutral": 0.057220458984375,
+        "entailment": 0.005603790283203125
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.01976281777024269
+        ],
+        [
+          "woman",
+          -0.205794095993042
+        ],
+        [
+          "is",
+          -0.5000342130661011
+        ],
+        [
+          "working",
+          -0.6436079144477844
+        ],
+        [
+          "out",
+          0.17007672786712646
+        ],
+        [
+          "at",
+          0.7529107928276062
+        ],
+        [
+          "the",
+          -0.12618625164031982
+        ],
+        [
+          "gym",
+          0.7966450452804565
+        ],
+        [
+          ".",
+          -0.03138813376426697
+        ]
+      ],
+      "gshap_runtime_sec": 2.723541200044565
+    },
+    {
+      "id": 27,
+      "premise": "A crowded carousel surrounded by parents with baby strollers sitting on a bench.",
+      "hypothesis": "Families sitting on a beach on a cloudy day.",
+      "input_text": "A crowded carousel surrounded by parents with baby strollers sitting on a bench. [SEP] Families sitting on a beach on a cloudy day.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 0,
+      "predicted_class": "contradiction",
+      "confidence": 0.9189453125,
+      "all_probabilities": {
+        "contradiction": 0.9189453125,
+        "neutral": 0.06207275390625,
+        "entailment": 0.0187835693359375
+      },
+      "gshap_attributions": [
+        [
+          "F",
+          -0.11810111999511719
+        ],
+        [
+          "am",
+          -0.14004701375961304
+        ],
+        [
+          "ilies",
+          -0.37321338057518005
+        ],
+        [
+          "sitting",
+          -0.11196865141391754
+        ],
+        [
+          "on",
+          0.08846358209848404
+        ],
+        [
+          "a",
+          -0.18356871604919434
+        ],
+        [
+          "beach",
+          2.209765672683716
+        ],
+        [
+          "on",
+          -0.06710638105869293
+        ],
+        [
+          "a",
+          -0.03257659077644348
+        ],
+        [
+          "cloudy",
+          -0.2269095778465271
+        ],
+        [
+          "day",
+          -0.1993946135044098
+        ],
+        [
+          ".",
+          -0.23403380811214447
+        ]
+      ],
+      "gshap_runtime_sec": 2.72984169999836
+    },
+    {
+      "id": 28,
+      "premise": "A woman attends a candlelight vigil.",
+      "hypothesis": "A woman is holding a candle at a vigil.",
+      "input_text": "A woman attends a candlelight vigil. [SEP] A woman is holding a candle at a vigil.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 2,
+      "predicted_class": "entailment",
+      "confidence": 0.96484375,
+      "all_probabilities": {
+        "contradiction": 0.0013208389282226562,
+        "neutral": 0.033843994140625,
+        "entailment": 0.96484375
+      },
+      "gshap_attributions": [
+        [
+          "A",
+          0.12818428874015808
+        ],
+        [
+          "woman",
+          0.13951978087425232
+        ],
+        [
+          "is",
+          0.13954392075538635
+        ],
+        [
+          "holding",
+          0.8024191856384277
+        ],
+        [
+          "a",
+          0.3175732493400574
+        ],
+        [
+          "candle",
+          0.14248844981193542
+        ],
+        [
+          "at",
+          0.2174701988697052
+        ],
+        [
+          "a",
+          0.34455427527427673
+        ],
+        [
+          "vigil",
+          0.24764876067638397
+        ],
+        [
+          ".",
+          0.21872487664222717
+        ]
+      ],
+      "gshap_runtime_sec": 1.9826033000135794
+    },
+    {
+      "id": 29,
+      "premise": "Two young adults are playing on cube-shaped arcade consoles.",
+      "hypothesis": "The people are playing Pac-man.",
+      "input_text": "Two young adults are playing on cube-shaped arcade consoles. [SEP] The people are playing Pac-man.",
+      "true_label": 1,
+      "true_label_name": "neutral",
+      "predicted_label": 1,
+      "predicted_class": "neutral",
+      "confidence": 0.99755859375,
+      "all_probabilities": {
+        "contradiction": 0.0015764236450195312,
+        "neutral": 0.99755859375,
+        "entailment": 0.0009131431579589844
+      },
+      "gshap_attributions": [
+        [
+          "The",
+          -0.0549488365650177
+        ],
+        [
+          "people",
+          0.04083438590168953
+        ],
+        [
+          "are",
+          -0.06211346387863159
+        ],
+        [
+          "playing",
+          -0.016465190798044205
+        ],
+        [
+          "Pac",
+          -0.02023078128695488
+        ],
+        [
+          "-",
+          0.037807971239089966
+        ],
+        [
+          "man",
+          0.12458666414022446
+        ],
+        [
+          ".",
+          0.6278380155563354
+        ]
+      ],
+      "gshap_runtime_sec": 2.3435968999983743
+    }
+  ]
+}

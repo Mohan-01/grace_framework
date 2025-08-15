@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "schema_version": "1.4",
+    "timestamp": "2025-08-14T01:26:31.123456",
+    "git_hash": "abcdef12",
+    "description": "SNLI explainability analysis configuration with method-specific organization"
+  },
+
+  "model": {
+    "name": "roberta-large-mnli",
+    "cache_dir": null,
+    "device": "auto"
+  },
+
+  "dataset": {
+    "name": "snli",
+    "local_cache": true,
+    "validation_split": "validation",
+    "snli": {
+      "dirs": {
+        "sampled_dir": "{sampled_data_dir}/snli",
+        "processed_dir": "{processed_data_dir}/snli",
+        "raw_dir": "{snli_local_dir}"
+      },
+      "files": {
+        "sample_json": "{sampled_dir}/snli_sample.json",
+        "sample_txt": "{sampled_dir}/snli_sample.txt",
+        "processed_json": "{processed_dir}/processed_snli.json"
+      }
+    }
+  },
+
+  "labels": {
+    "snli_label": ["entailment", "neutral", "contradiction"],
+    "mnli_label": ["contradiction", "neutral", "entailment"],
+    "mappings": {
+      "snli_to_mnli": {"0": 2, "1": 1, "2": 0},
+      "mnli_to_snli": {"0": 2, "1": 1, "2": 0}
+    }
+  },
+
+  "separators": {
+    "token": "[SEP]",
+    "with_spaces": " [SEP] "
+  },
+
+  "execution": {
+    "random_seed": 42,
+    "run_name": null,
+    "num_examples": 1000,
+    "num_samples": 1000,
+    "chunk_size": 64,
+    "save_every": 10,
+    "n_steps": 32,
+    "reproducible_mode": true
+  },
+
+  "directories": {
+    "structure": {
+      "base_data_dir": "data",
+      "base_outputs_dir": "outputs",
+      "cache_subdir": "hf_cache",
+      "snli_subdir": "snli",
+      "processed_subdir": "processed",
+      "sampled_subdir": "sampled"
+    },
+    "data_paths": [
+      "cache_dir",
+      "snli_local_dir", 
+      "processed_data_dir",
+      "sampled_data_dir"
+    ],
+    "output_paths": [
+      "run_root"
+    ],
+    "templates": {
+      "cache_dir": "{base_data_dir}/{cache_subdir}",
+      "snli_local_dir": "{base_data_dir}/{snli_subdir}",
+      "processed_data_dir": "{base_data_dir}/{processed_subdir}",
+      "sampled_data_dir": "{base_data_dir}\\{sampled_subdir}",
+      "run_root": "{base_outputs_dir}/{run_name}"
+    }
+  },
+
+  "methods": {
+    "enabled": ["lime", "ig", "gshap"],
+    "disabled": ["drag", "bm25", "ethd"],
+    
+    "common_settings": {
+      "attr_k_metrics": 3,
+      "top_k_tokens": 3,
+      "save_explanations": true,
+      "save_metrics": true,
+      "generate_plots": true
+    },
+
+    "lime": {
+      "enabled": true,
+      "scope": "hypothesis",
+      "num_examples": 1000,
+      "num_samples": 1000,
+      "num_features": 10,
+      "stopword_filter": true,
+      "perturbation_method": "deletion",
+      "kernel_width": 25,
+      "directories": {
+        "method_root": "{run_root}/method-lime",
+        "plots_dir": "{run_root}/method-lime/plots",
+        "metrics_dir": "{run_root}/method-lime/metrics",
+        "explanations_dir": "{run_root}/method-lime/explanations",
+        "stability_dir": "{run_root}/method-lime/stability",
+        "outputs_dir": "{run_root}/method-lime/outputs"
+      },
+      "files": {
+        "explanations_json": "{run_root}/method-lime/explanations.json",
+        "explanations_filtered_json": "{run_root}/method-lime/explanations_filtered.json",
+        "metrics_json": "{run_root}/method-lime/metrics.json",
+        "metrics_paritial_json": "{run_root}/method-lime/metrics_partial.json",
+        "metrics_csv": "{run_root}/method-lime/metrics.csv",
+        "feature_importance_csv": "{run_root}/method-lime/metrics/feature_importance.csv",
+        "stability_analysis_json": "{run_root}/method-lime/stability_analysis.json",
+        "stability_sweep_json": "{run_root}/method-lime/stability_sweep.json",
+        "perturbation_analysis_json": "{run_root}/method-lime/perturbation_analysis.json",
+        "report_md": "{run_root}/method-lime/LIME_analysis_report.md",
+        "plots_meta_json": "{run_root}/method-lime/.plots.meta.json",
+        "attribution_analysis_plot": "{run_root}/method-lime/plots/attribution_analysis.png",
+        "metrics_analysis_plot": "{run_root}/method-lime/plots/metrics_analysis.png",
+        "model_performance_plot": "{run_root}/method-lime/plots/model_performance_analysis.png",
+        "runtime_histogram_plot": "{run_root}/method-lime/plots/runtime_histogram.png",
+        "reliability_plot": "{run_root}/method-lime/plots/reliability_analysis.png",
+        "reliability_temp_plot": "{run_root}/method-lime/plots/reliability_analysis_with_temp.png",
+        "top_words_plot": "{run_root}/method-lime/plots/top_words_entailment.png",
+        "top_words_neutral_plot": "{run_root}/method-lime/plots/top_words_neutral.png",
+        "top_words_contradiction_plot": "{run_root}/method-lime/plots/top_words_contradiction.png"
+      }
+    },
+
+    "ig": {
+      "enabled": true,
+      "num_examples": null,
+      "num_samples": null,
+      "n_steps": 50,
+      "baselines": "mix",
+      "internal_batch_size": 1024,
+      "multiply_by_inputs": true,
+      "directories": {
+        "method_root": "{run_root}/method-ig",
+        "plots_dir": "{run_root}/method-ig/plots",
+        "metrics_dir": "{run_root}/method-ig/metrics",
+        "explanations_dir": "{run_root}/method-ig/explanations",
+        "attributions_dir": "{run_root}/method-ig/attributions",
+        "baselines_dir": "{run_root}/method-ig/baselines"
+      },
+      "files": {
+        "explanations_json": "{run_root}/method-ig/explanations.json",
+        "metrics_json": "{run_root}/method-ig/metrics.json",
+        "metrics_csv": "{run_root}/method-ig/metrics.csv",
+        "attributions_raw_json": "{run_root}/method-ig/attributions_raw.json",
+        "attributions_processed_json": "{run_root}/method-ig/attributions_processed.json",
+        "baseline_analysis_json": "{run_root}/method-ig/baseline_analysis.json",
+        "gradient_norms_csv": "{run_root}/method-ig/metrics/gradient_norms.csv",
+        "convergence_analysis_json": "{run_root}/method-ig/convergence_analysis.json",
+        "report_md": "{run_root}/method-ig/IG_analysis_report.md",
+        "attribution_analysis_plot": "{run_root}/method-ig/plots/attribution_analysis.png",
+        "metrics_analysis_plot": "{run_root}/method-ig/plots/metrics_analysis.png",
+        "model_performance_plot": "{run_root}/method-ig/plots/model_performance_analysis.png",
+        "convergence_plot": "{run_root}/method-ig/plots/convergence_analysis.png",
+        "baseline_comparison_plot": "{run_root}/method-ig/plots/baseline_comparison.png",
+        "gradient_norms_plot": "{run_root}/method-ig/plots/gradient_norms_distribution.png",
+        "attribution_heatmap_plot": "{run_root}/method-ig/plots/attribution_heatmap.png"
+      }
+    },
+
+    "gshap": {
+      "enabled": true,
+      "num_examples": null,
+      "num_samples": 200,
+      "stdev": 0.01,
+      "n_samples": 100,
+      "directories": {
+        "method_root": "{run_root}/method-gshap",
+        "plots_dir": "{run_root}/method-gshap/plots",
+        "metrics_dir": "{run_root}/method-gshap/metrics",
+        "explanations_dir": "{run_root}/method-gshap/explanations",
+        "shap_values_dir": "{run_root}/method-gshap/shap_values",
+        "coalitions_dir": "{run_root}/method-gshap/coalitions"
+      },
+      "files": {
+        "explanations_json": "{run_root}/method-gshap/explanations.json",
+        "metrics_json": "{run_root}/method-gshap/metrics.json",
+        "metrics_csv": "{run_root}/method-gshap/metrics.csv",
+        "shap_values_json": "{run_root}/method-gshap/shap_values.json",
+        "shap_values_raw_json": "{run_root}/method-gshap/shap_values_raw.json",
+        "coalition_analysis_json": "{run_root}/method-gshap/coalition_analysis.json",
+        "marginal_contributions_csv": "{run_root}/method-gshap/metrics/marginal_contributions.csv",
+        "shapley_efficiency_json": "{run_root}/method-gshap/shapley_efficiency.json",
+        "report_md": "{run_root}/method-gshap/GSHAP_analysis_report.md",
+        "attribution_analysis_plot": "{run_root}/method-gshap/plots/attribution_analysis.png",
+        "metrics_analysis_plot": "{run_root}/method-gshap/plots/metrics_analysis.png",
+        "model_performance_plot": "{run_root}/method-gshap/plots/model_performance_analysis.png",
+        "shap_values_distribution_plot": "{run_root}/method-gshap/plots/shap_values_distribution.png",
+        "coalition_importance_plot": "{run_root}/method-gshap/plots/coalition_importance.png",
+        "marginal_contributions_plot": "{run_root}/method-gshap/plots/marginal_contributions.png",
+        "shapley_efficiency_plot": "{run_root}/method-gshap/plots/shapley_efficiency.png"
+      }
+    },
+
+    "drag": {
+      "enabled": false,
+      "directories": {
+        "method_root": "{run_root}/method-drag",
+        "plots_dir": "{run_root}/method-drag/plots", 
+        "metrics_dir": "{run_root}/method-drag/metrics",
+        "explanations_dir": "{run_root}/method-drag/explanations",
+        "rationales_dir": "{run_root}/method-drag/rationales",
+        "similarity_dir": "{run_root}/method-drag/similarity"
+      },
+      "files": {
+        "explanations_json": "{run_root}/method-drag/explanations.json",
+        "metrics_json": "{run_root}/method-drag/metrics.json",
+        "metrics_csv": "{run_root}/method-drag/metrics.csv",
+        "rationales_json": "{run_root}/method-drag/rationales.json",
+        "similarity_matrix_json": "{run_root}/method-drag/similarity_matrix.json",
+        "retrieval_results_json": "{run_root}/method-drag/retrieval_results.json",
+        "scores_csv": "{run_root}/method-drag/metrics/drag_scores.csv",
+        "report_md": "{run_root}/method-drag/DRAG_analysis_report.md",
+        "attribution_analysis_plot": "{run_root}/method-drag/plots/attribution_analysis.png",
+        "metrics_analysis_plot": "{run_root}/method-drag/plots/metrics_analysis.png",
+        "similarity_heatmap_plot": "{run_root}/method-drag/plots/similarity_heatmap.png",
+        "rationale_quality_plot": "{run_root}/method-drag/plots/rationale_quality.png"
+      }
+    },
+
+    "bm25": {
+      "enabled": false,
+      "directories": {
+        "method_root": "{run_root}/method-bm25",
+        "plots_dir": "{run_root}/method-bm25/plots",
+        "metrics_dir": "{run_root}/method-bm25/metrics",
+        "explanations_dir": "{run_root}/method-bm25/explanations",
+        "indices_dir": "{run_root}/method-bm25/indices",
+        "rankings_dir": "{run_root}/method-bm25/rankings"
+      },
+      "files": {
+        "explanations_json": "{run_root}/method-bm25/explanations.json",
+        "metrics_json": "{run_root}/method-bm25/metrics.json",
+        "metrics_csv": "{run_root}/method-bm25/metrics.csv",
+        "bm25_index_json": "{run_root}/method-bm25/bm25_index.json",
+        "term_rankings_csv": "{run_root}/method-bm25/metrics/term_rankings.csv",
+        "retrieval_scores_json": "{run_root}/method-bm25/retrieval_scores.json",
+        "vocabulary_stats_json": "{run_root}/method-bm25/vocabulary_stats.json",
+        "report_md": "{run_root}/method-bm25/BM25_analysis_report.md",
+        "attribution_analysis_plot": "{run_root}/method-bm25/plots/attribution_analysis.png",
+        "metrics_analysis_plot": "{run_root}/method-bm25/plots/metrics_analysis.png",
+        "term_importance_plot": "{run_root}/method-bm25/plots/term_importance.png",
+        "vocabulary_distribution_plot": "{run_root}/method-bm25/plots/vocabulary_distribution.png"
+      }
+    },
+
+    "ethd": {
+      "enabled": false,
+      "directories": {
+        "method_root": "{run_root}/method-ethd",
+        "plots_dir": "{run_root}/method-ethd/plots",
+        "metrics_dir": "{run_root}/method-ethd/metrics",
+        "explanations_dir": "{run_root}/method-ethd/explanations",
+        "embeddings_dir": "{run_root}/method-ethd/embeddings",
+        "distances_dir": "{run_root}/method-ethd/distances"
+      },
+      "files": {
+        "explanations_json": "{run_root}/method-ethd/explanations.json",
+        "metrics_json": "{run_root}/method-ethd/metrics.json",
+        "metrics_csv": "{run_root}/method-ethd/metrics.csv",
+        "embeddings_json": "{run_root}/method-ethd/embeddings.json",
+        "distance_matrix_json": "{run_root}/method-ethd/distance_matrix.json",
+        "scores_csv": "{run_root}/method-ethd/metrics/ethd_scores.csv",
+        "embedding_analysis_json": "{run_root}/method-ethd/embedding_analysis.json",
+        "report_md": "{run_root}/method-ethd/ETHD_analysis_report.md",
+        "attribution_analysis_plot": "{run_root}/method-ethd/plots/attribution_analysis.png",
+        "metrics_analysis_plot": "{run_root}/method-ethd/plots/metrics_analysis.png",
+        "distance_heatmap_plot": "{run_root}/method-ethd/plots/distance_heatmap.png",
+        "embedding_visualization_plot": "{run_root}/method-ethd/plots/embedding_visualization.png"
+      }
+    }
+  },
+
+  "evaluation": {
+    "metrics": {
+      "faithfulness": {
+        "enabled": true,
+        "methods": ["sufficiency", "comprehensiveness"]
+      },
+      "stability": {
+        "enabled": true,
+        "num_runs": 10,
+        "jaccard_threshold": 0.4
+      },
+      "plausibility": {
+        "enabled": true,
+        "human_rationales": false
+      }
+    },
+    
+    "stable_pool": {
+      "enabled": true,
+      "k": 5,
+      "jaccard_min": 0.4,
+      "sufficiency_min": 0.8,
+      "faithfulness_min": 0.0
+    }
+  },
+
+  "output_files": {
+    "common": {
+      "run_config": "{run_root}/run_config.json",
+      "complete_evaluation": "{run_root}/complete_evaluation_results.json",
+      "methods_comparison": "{run_root}/methods_comparison_analysis.json",
+      "calibration_results": "{run_root}/calibration_results.json",
+      "sanity_check": "{run_root}/sanity_check_results.json",
+      "error_analysis": "{run_root}/error_analysis.json",
+      "stable_rationales": "{run_root}/stable_rationales.json",
+      "final_summary_report": "{run_root}/SNLI_Explainability_Summary_Report.md",
+      "metrics_all_methods_csv": "{run_root}/metrics_all_methods.csv",
+      "analysis_all_methods_json": "{run_root}/analysis_all_methods.json",
+      "execution_log": "{run_root}/execution_log.txt",
+      "performance_benchmark": "{run_root}/performance_benchmark.json"
+    }
+  },
+
+  "logging": {
+    "level": "INFO",
+    "save_logs": true,
+    "log_file": "{run_root}/explainability_analysis.log",
+    "progress_bars": true
+  },
+
+  "performance": {
+    "multiprocessing": {
+      "enabled": true,
+      "num_workers": null
+    },
+    "memory": {
+      "clear_cache_after_method": true,
+      "batch_processing": true
+    }
+  }
+}

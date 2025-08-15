@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.2",
+  "meta": {
+    "source": "processed_snli_subset",
+    "source_hash": "bb79aafe0845f048980e83cee9b10c3b"
+  },
+  "results": [
+    {
+      "params": {
+        "num_samples": 500,
+        "kernel_width": null
+      },
+      "avg_faithfulness": 0.29423828125,
+      "avg_sufficiency": 0.7794189453125,
+      "num_examples": 10
+    },
+    {
+      "params": {
+        "num_samples": 1000,
+        "kernel_width": null
+      },
+      "avg_faithfulness": 0.217333984375,
+      "avg_sufficiency": 0.680804443359375,
+      "num_examples": 10
+    }
+  ]
+}

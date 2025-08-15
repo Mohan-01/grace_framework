@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.2",
+  "meta": {
+    "source": "lime_filtered",
+    "source_hash": "9c0573223813dd811b783f9a8da74bcd"
+  },
+  "most_confident_wrong_predictions": [
+    {
+      "id": 5,
+      "premise": "A man with long hair getting stopped by security guards.",
+      "hypothesis": "The man has long hair.",
+      "true_label_name": "neutral",
+      "predicted_class": "entailment",
+      "confidence": 0.9912109375,
+      "top_10_attributions": [
+        [
+          "hair.",
+          -0.17952516497592555
+        ],
+        [
+          "long",
+          -0.10087337833320081
+        ],
+        [
+          "man",
+          -0.07048443162905041
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "premise": "A potter making a vase on a spinning wheel.",
+      "hypothesis": "The potter's wheel spins.",
+      "true_label_name": "neutral",
+      "predicted_class": "entailment",
+      "confidence": 0.98583984375,
+      "top_10_attributions": [
+        [
+          "spins.",
+          -0.18077435809663184
+        ],
+        [
+          "wheel",
+          -0.045353332492345313
+        ],
+        [
+          "potter's",
+          -0.04386059242762064
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "premise": "A woman attends a candlelight vigil.",
+      "hypothesis": "A woman is holding a candle at a vigil.",
+      "true_label_name": "neutral",
+      "predicted_class": "entailment",
+      "confidence": 0.96484375,
+      "top_10_attributions": [
+        [
+          "vigil.",
+          -0.078111922531347
+        ],
+        [
+          "holding",
+          -0.03834935406176919
+        ],
+        [
+          "candle",
+          -0.030602320316182083
+        ],
+        [
+          "woman",
+          -0.028238868117546213
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "premise": "A person does tricks on their bike.",
+      "hypothesis": "A person is falling off their bike.",
+      "true_label_name": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.9443359375,
+      "top_10_attributions": [
+        [
+          "person",
+          -0.034523651397598186
+        ],
+        [
+          "bike.",
+          -0.00950661534192609
+        ],
+        [
+          "falling",
+          -0.005749451852302339
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "premise": "A crowded carousel surrounded by parents with baby strollers sitting on a bench.",
+      "hypothesis": "Families sitting on a beach on a cloudy day.",
+      "true_label_name": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.9189453125,
+      "top_10_attributions": [
+        [
+          "beach",
+          -0.4601154993129733
+        ],
+        [
+          "cloudy",
+          0.1995539133936854
+        ],
+        [
+          "day.",
+          0.13015266807145726
+        ],
+        [
+          "sitting",
+          0.036946345902258336
+        ],
+        [
+          "Families",
+          0.0045111330762759826
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "premise": "A woman in blue with a striped purple scarf on her head, stands in front of a woman with a brown headband on her forehead who is speaking with a man wearing light blue and wearing a purple turban.",
+      "hypothesis": "The women are wearing black skirts.",
+      "true_label_name": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.6923828125,
+      "top_10_attributions": [
+        [
+          "black",
+          -0.33725356882242025
+        ],
+        [
+          "skirts.",
+          0.10571280036318059
+        ],
+        [
+          "wearing",
+          -0.030515961687197404
+        ],
+        [
+          "women",
+          0.028828064938411932
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "premise": "A scientist in a lab coat is using a microscope.",
+      "hypothesis": "A young woman using a microscope.",
+      "true_label_name": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.6220703125,
+      "top_10_attributions": [
+        [
+          "using",
+          -0.12038654555719683
+        ],
+        [
+          "microscope.",
+          0.03798720144580687
+        ],
+        [
+          "young",
+          0.0248604381401833
+        ],
+        [
+          "woman",
+          -0.007309179337651177
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "premise": "A woman in a casino stands at an ATM to withdraw money.",
+      "hypothesis": "A person in a casion is sitting near an ATM.",
+      "true_label_name": "contradiction",
+      "predicted_class": "entailment",
+      "confidence": 0.55419921875,
+      "top_10_attributions": [
+        [
+          "ATM.",
+          -0.1016617819992436
+        ],
+        [
+          "near",
+          0.07652522391699777
+        ],
+        [
+          "person",
+          -0.03980631211538047
+        ],
+        [
+          "casion",
+          -0.0011243651989358428
+        ],
+        [
+          "sitting",
+          -0.00039461327944125116
+        ]
+      ]
+    }
+  ],
+  "confusion_matrix": [
+    [
+      7,
+      0,
+      1
+    ],
+    [
+      4,
+      4,
+      3
+    ],
+    [
+      0,
+      0,
+      11
+    ]
+  ],
+  "label_names": [
+    "entailment",
+    "neutral",
+    "contradiction"
+  ],
+  "summary": {
+    "total_examples": 30,
+    "wrong_predictions": 8,
+    "error_rate": 0.26666666666666666
+  }
+}

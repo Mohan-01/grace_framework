@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.2",
+  "data": [
+    {
+      "id": 0,
+      "faithfulness": 0.0,
+      "sufficiency": 0.98095703125,
+      "comprehensiveness": 0.0,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "running",
+        "dogs",
+        "Two"
+      ]
+    },
+    {
+      "id": 1,
+      "faithfulness": 0.02099609375,
+      "sufficiency": 0.9970703125,
+      "comprehensiveness": 0.02099609375,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        ".",
+        "at",
+        "grocery"
+      ]
+    },
+    {
+      "id": 2,
+      "faithfulness": -0.310546875,
+      "sufficiency": 0.1368408203125,
+      "comprehensiveness": -0.310546875,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "sitting",
+        "near",
+        "is"
+      ]
+    },
+    {
+      "id": 3,
+      "faithfulness": -0.2724609375,
+      "sufficiency": 0.12353515625,
+      "comprehensiveness": -0.2724609375,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "uses",
+        "jack",
+        "woman"
+      ]
+    },
+    {
+      "id": 4,
+      "faithfulness": 0.92041015625,
+      "sufficiency": 0.96337890625,
+      "comprehensiveness": 0.92041015625,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "walking",
+        "women",
+        "their"
+      ]
+    },
+    {
+      "id": 5,
+      "faithfulness": 0.35986328125,
+      "sufficiency": 0.9560546875,
+      "comprehensiveness": 0.35986328125,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "hair",
+        "long",
+        "has"
+      ]
+    },
+    {
+      "id": 6,
+      "faithfulness": 0.41943359375,
+      "sufficiency": 0.93115234375,
+      "comprehensiveness": 0.41943359375,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        ".",
+        "spins",
+        "wheel"
+      ]
+    },
+    {
+      "id": 7,
+      "faithfulness": 0.255126953125,
+      "sufficiency": 0.231201171875,
+      "comprehensiveness": 0.255126953125,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "young",
+        "A",
+        "using"
+      ]
+    },
+    {
+      "id": 8,
+      "faithfulness": 0.0,
+      "sufficiency": 0.98974609375,
+      "comprehensiveness": 0.0,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "running",
+        "home",
+        "People"
+      ]
+    },
+    {
+      "id": 9,
+      "faithfulness": 0.2294921875,
+      "sufficiency": 0.947265625,
+      "comprehensiveness": 0.2294921875,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "at",
+        "and",
+        "club"
+      ]
+    },
+    {
+      "id": 10,
+      "faithfulness": 0.64404296875,
+      "sufficiency": 0.7431640625,
+      "comprehensiveness": 0.64404296875,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "taxi",
+        "waiting",
+        "is"
+      ]
+    },
+    {
+      "id": 11,
+      "faithfulness": 0.2646484375,
+      "sufficiency": 0.8310546875,
+      "comprehensiveness": 0.2646484375,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "music",
+        "playing",
+        "on"
+      ]
+    },
+    {
+      "id": 12,
+      "faithfulness": 0.17822265625,
+      "sufficiency": 0.94189453125,
+      "comprehensiveness": 0.17822265625,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "outdoors",
+        "walking",
+        "."
+      ]
+    },
+    {
+      "id": 13,
+      "faithfulness": 0.03076171875,
+      "sufficiency": 0.27734375,
+      "comprehensiveness": 0.03076171875,
+      "effective_k": 1,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        ".",
+        "leaders",
+        "by"
+      ]
+    },
+    {
+      "id": 14,
+      "faithfulness": 0.23388671875,
+      "sufficiency": 0.94140625,
+      "comprehensiveness": 0.23388671875,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "friends",
+        "talking",
+        "."
+      ]
+    },
+    {
+      "id": 15,
+      "faithfulness": 0.82080078125,
+      "sufficiency": 0.414794921875,
+      "comprehensiveness": 0.82080078125,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "rides",
+        "young",
+        "board"
+      ]
+    },
+    {
+      "id": 16,
+      "faithfulness": 0.42041015625,
+      "sufficiency": 0.68310546875,
+      "comprehensiveness": 0.42041015625,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "restaurant",
+        "waiter",
+        "the"
+      ]
+    },
+    {
+      "id": 17,
+      "faithfulness": 0.37744140625,
+      "sufficiency": 0.953125,
+      "comprehensiveness": 0.37744140625,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "People",
+        "are",
+        "jumping"
+      ]
+    },
+    {
+      "id": 18,
+      "faithfulness": 0.03564453125,
+      "sufficiency": 0.55712890625,
+      "comprehensiveness": 0.03564453125,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "market",
+        "east",
+        "is"
+      ]
+    },
+    {
+      "id": 19,
+      "faithfulness": 0.83056640625,
+      "sufficiency": 0.6787109375,
+      "comprehensiveness": 0.83056640625,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "falling",
+        "off",
+        "is"
+      ]
+    },
+    {
+      "id": 20,
+      "faithfulness": 0.79345703125,
+      "sufficiency": 0.994140625,
+      "comprehensiveness": 0.79345703125,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "away",
+        "looked",
+        "from"
+      ]
+    },
+    {
+      "id": 21,
+      "faithfulness": 0.001953125,
+      "sufficiency": 0.86279296875,
+      "comprehensiveness": 0.001953125,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "hiding",
+        "rain",
+        "."
+      ]
+    },
+    {
+      "id": 22,
+      "faithfulness": 0.12060546875,
+      "sufficiency": 0.5771484375,
+      "comprehensiveness": 0.12060546875,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "behind",
+        "trying",
+        "luggage"
+      ]
+    },
+    {
+      "id": 23,
+      "faithfulness": 0.97021484375,
+      "sufficiency": 0.99853515625,
+      "comprehensiveness": 0.97021484375,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "purple",
+        ".",
+        "bus"
+      ]
+    },
+    {
+      "id": 24,
+      "faithfulness": 0.646484375,
+      "sufficiency": 0.84912109375,
+      "comprehensiveness": 0.646484375,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "line",
+        "people",
+        "are"
+      ]
+    },
+    {
+      "id": 25,
+      "faithfulness": -0.072265625,
+      "sufficiency": 0.98828125,
+      "comprehensiveness": -0.072265625,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        ".",
+        "women",
+        "black"
+      ]
+    },
+    {
+      "id": 26,
+      "faithfulness": 0.37451171875,
+      "sufficiency": 0.9033203125,
+      "comprehensiveness": 0.37451171875,
+      "effective_k": 3,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "at",
+        "gym",
+        "out"
+      ]
+    },
+    {
+      "id": 27,
+      "faithfulness": 0.85888671875,
+      "sufficiency": 0.85009765625,
+      "comprehensiveness": 0.85888671875,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "beach",
+        "ilies",
+        "day"
+      ]
+    },
+    {
+      "id": 28,
+      "faithfulness": 0.03271484375,
+      "sufficiency": 0.60546875,
+      "comprehensiveness": 0.03271484375,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "holding",
+        ".",
+        "is"
+      ]
+    },
+    {
+      "id": 29,
+      "faithfulness": 0.0634765625,
+      "sufficiency": 0.912109375,
+      "comprehensiveness": 0.0634765625,
+      "effective_k": 2,
+      "used_filtered_attributions": false,
+      "top_tokens": [
+        "playing",
+        ".",
+        "Pac"
+      ]
+    }
+  ]
+}

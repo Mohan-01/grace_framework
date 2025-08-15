@@ -1,0 +1,33 @@
+[
+  {
+    "id": 0,
+    "premise": "Two brown dogs running together on sand",
+    "hypothesis": "Two dogs running",
+    "input_text": "Two brown dogs running together on sand [SEP] Two dogs running",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.9811050295829773,
+    "all_probabilities": {
+      "contradiction": 0.006400082726031542,
+      "neutral": 0.01249488815665245,
+      "entailment": 0.9811050295829773
+    },
+    "gshap_attributions": [
+      [
+        "Two",
+        0.14896351099014282
+      ],
+      [
+        "dogs",
+        0.24245530366897583
+      ],
+      [
+        "running",
+        -0.12892894446849823
+      ]
+    ],
+    "gshap_runtime_sec": 146.0842010999986
+  }
+]

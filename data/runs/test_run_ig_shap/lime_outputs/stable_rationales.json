@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.2",
+  "ids": [
+    18,
+    22
+  ],
+  "criteria": {
+    "k": 5,
+    "jaccard_min": 0.4,
+    "suff_min": 0.8,
+    "faith_min": 0.0
+  },
+  "counts": {
+    "li&ig": 7,
+    "li&sh": 4,
+    "li&ig_or_sh": 2
+  }
+}

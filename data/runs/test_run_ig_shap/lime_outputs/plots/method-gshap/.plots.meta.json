@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.2",
+  "meta": {
+    "method": "gshap",
+    "attr_key": "gshap_attributions",
+    "hash": "bfb963d55e56b984ae2f8a1933611298"
+  }
+}

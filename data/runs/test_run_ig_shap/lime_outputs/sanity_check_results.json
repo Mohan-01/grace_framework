@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.2",
+  "meta": {
+    "source": "lime_filtered",
+    "source_hash": "6e31a6c36ef69dea633092c25cb64f2a"
+  },
+  "correct_examples": [
+    {
+      "id": 0,
+      "predicted_class": "entailment",
+      "confidence": 0.98095703125,
+      "top_tokens": [
+        [
+          "running",
+          -0.07934004876191593
+        ],
+        [
+          "dogs",
+          -0.062215275964971666
+        ],
+        [
+          "Two",
+          -0.04998995522977846
+        ]
+      ],
+      "premise": "Two brown dogs running together on sand",
+      "hypothesis": "Two dogs running"
+    },
+    {
+      "id": 1,
+      "predicted_class": "contradiction",
+      "confidence": 0.99658203125,
+      "top_tokens": [
+        [
+          "store.",
+          -0.1328806211651797
+        ],
+        [
+          "grocery",
+          -0.10217678106570165
+        ],
+        [
+          "woman",
+          -0.00769104268822711
+        ]
+      ],
+      "premise": "A woman purchases food from a street vendor.",
+      "hypothesis": "The woman is at the grocery store."
+    },
+    {
+      "id": 3,
+      "predicted_class": "contradiction",
+      "confidence": 0.68701171875,
+      "top_tokens": [
+        [
+          "uses",
+          0.19727575063395147
+        ],
+        [
+          "woman",
+          0.06396797913642248
+        ],
+        [
+          "jackhammer",
+          0.020388037848319232
+        ]
+      ],
+      "premise": "A woman stands outside a store.",
+      "hypothesis": "A woman uses a jackhammer"
+    },
+    {
+      "id": 4,
+      "predicted_class": "contradiction",
+      "confidence": 0.9306640625,
+      "top_tokens": [
+        [
+          "locked.",
+          -0.03243436666460122
+        ],
+        [
+          "walking",
+          -0.019439460262022104
+        ],
+        [
+          "arms",
+          -0.01597295787345684
+        ],
+        [
+          "women",
+          -0.012407919702196598
+        ],
+        [
+          "man",
+          -0.011940527099670835
+        ]
+      ],
+      "premise": "A man and woman are locked arms sitting down and all dressed up.",
+      "hypothesis": "A man and women are walking with their arms locked."
+    },
+    {
+      "id": 8,
+      "predicted_class": "contradiction",
+      "confidence": 0.98974609375,
+      "top_tokens": [
+        [
+          "running",
+          -0.21470878254594625
+        ],
+        [
+          "People",
+          -0.15686449186814666
+        ],
+        [
+          "home",
+          -0.0727922873783148
+        ]
+      ],
+      "premise": "People walking down street lined with Chinese lanterns.",
+      "hypothesis": "People running home"
+    }
+  ],
+  "incorrect_examples": [
+    {
+      "id": 2,
+      "true_class": "contradiction",
+      "predicted_class": "entailment",
+      "confidence": 0.55419921875,
+      "top_tokens": [
+        [
+          "ATM.",
+          -0.1016617819992436
+        ],
+        [
+          "near",
+          0.07652522391699777
+        ],
+        [
+          "person",
+          -0.03980631211538047
+        ],
+        [
+          "casion",
+          -0.0011243651989358428
+        ],
+        [
+          "sitting",
+          -0.00039461327944125116
+        ]
+      ],
+      "premise": "A woman in a casino stands at an ATM to withdraw money.",
+      "hypothesis": "A person in a casion is sitting near an ATM."
+    },
+    {
+      "id": 5,
+      "true_class": "neutral",
+      "predicted_class": "entailment",
+      "confidence": 0.9912109375,
+      "top_tokens": [
+        [
+          "hair.",
+          -0.17952516497592555
+        ],
+        [
+          "long",
+          -0.10087337833320081
+        ],
+        [
+          "man",
+          -0.07048443162905041
+        ]
+      ],
+      "premise": "A man with long hair getting stopped by security guards.",
+      "hypothesis": "The man has long hair."
+    },
+    {
+      "id": 6,
+      "true_class": "neutral",
+      "predicted_class": "entailment",
+      "confidence": 0.98583984375,
+      "top_tokens": [
+        [
+          "spins.",
+          -0.18077435809663184
+        ],
+        [
+          "wheel",
+          -0.045353332492345313
+        ],
+        [
+          "potter's",
+          -0.04386059242762064
+        ]
+      ],
+      "premise": "A potter making a vase on a spinning wheel.",
+      "hypothesis": "The potter's wheel spins."
+    },
+    {
+      "id": 7,
+      "true_class": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.6220703125,
+      "top_tokens": [
+        [
+          "using",
+          -0.12038654555719683
+        ],
+        [
+          "microscope.",
+          0.03798720144580687
+        ],
+        [
+          "young",
+          0.0248604381401833
+        ],
+        [
+          "woman",
+          -0.007309179337651177
+        ]
+      ],
+      "premise": "A scientist in a lab coat is using a microscope.",
+      "hypothesis": "A young woman using a microscope."
+    },
+    {
+      "id": 19,
+      "true_class": "neutral",
+      "predicted_class": "contradiction",
+      "confidence": 0.9443359375,
+      "top_tokens": [
+        [
+          "person",
+          -0.034523651397598186
+        ],
+        [
+          "bike.",
+          -0.00950661534192609
+        ],
+        [
+          "falling",
+          -0.005749451852302339
+        ]
+      ],
+      "premise": "A person does tricks on their bike.",
+      "hypothesis": "A person is falling off their bike."
+    }
+  ],
+  "shuffle_test_results": [
+    {
+      "id": 0,
+      "original_faithfulness": 0.560546875,
+      "shuffled_faithfulness": 0.5224609375,
+      "faithfulness_drop": 0.0380859375
+    },
+    {
+      "id": 1,
+      "original_faithfulness": 0.00146484375,
+      "shuffled_faithfulness": 0.19140625,
+      "faithfulness_drop": -0.18994140625
+    },
+    {
+      "id": 2,
+      "original_faithfulness": 0.12353515625,
+      "shuffled_faithfulness": 0.32177734375,
+      "faithfulness_drop": -0.1982421875
+    }
+  ]
+}

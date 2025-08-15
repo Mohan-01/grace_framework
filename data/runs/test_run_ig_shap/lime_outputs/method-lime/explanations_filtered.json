@@ -1,0 +1,1942 @@
+[
+  {
+    "id": 0,
+    "premise": "Two brown dogs running together on sand",
+    "hypothesis": "Two dogs running",
+    "input_text": "Two brown dogs running together on sand [SEP] Two dogs running",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.98095703125,
+    "lime_attributions": [
+      [
+        "running",
+        -0.07934004876191593
+      ],
+      [
+        "dogs",
+        -0.062215275964971666
+      ],
+      [
+        "Two",
+        -0.04998995522977846
+      ]
+    ],
+    "lime_score": 0.7166055130509486,
+    "lime_runtime_sec": 18.484234000003198,
+    "all_probabilities": {
+      "contradiction": 0.00640869140625,
+      "neutral": 0.0124969482421875,
+      "entailment": 0.98095703125
+    },
+    "lime_attributions_filtered": [
+      [
+        "running",
+        -0.07934004876191593
+      ],
+      [
+        "dogs",
+        -0.062215275964971666
+      ],
+      [
+        "Two",
+        -0.04998995522977846
+      ]
+    ],
+    "original_attribution_count": 3,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 1,
+    "premise": "A woman purchases food from a street vendor.",
+    "hypothesis": "The woman is at the grocery store.",
+    "input_text": "A woman purchases food from a street vendor. [SEP] The woman is at the grocery store.",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.99658203125,
+    "lime_attributions": [
+      [
+        "store.",
+        -0.1328806211651797
+      ],
+      [
+        "grocery",
+        -0.10217678106570165
+      ],
+      [
+        "at",
+        -0.04269246031961642
+      ],
+      [
+        "The",
+        -0.023764793028783933
+      ],
+      [
+        "the",
+        -0.021872976957286187
+      ],
+      [
+        "woman",
+        -0.00769104268822711
+      ],
+      [
+        "is",
+        -0.003214363560372543
+      ]
+    ],
+    "lime_score": 0.5492549231184776,
+    "lime_runtime_sec": 27.086728800000856,
+    "all_probabilities": {
+      "contradiction": 0.99658203125,
+      "neutral": 0.0024623870849609375,
+      "entailment": 0.0008673667907714844
+    },
+    "lime_attributions_filtered": [
+      [
+        "store.",
+        -0.1328806211651797
+      ],
+      [
+        "grocery",
+        -0.10217678106570165
+      ],
+      [
+        "woman",
+        -0.00769104268822711
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 2,
+    "premise": "A woman in a casino stands at an ATM to withdraw money.",
+    "hypothesis": "A person in a casion is sitting near an ATM.",
+    "input_text": "A woman in a casino stands at an ATM to withdraw money. [SEP] A person in a casion is sitting near an ATM.",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.55419921875,
+    "lime_attributions": [
+      [
+        "ATM.",
+        -0.1016617819992436
+      ],
+      [
+        "near",
+        0.07652522391699777
+      ],
+      [
+        "person",
+        -0.03980631211538047
+      ],
+      [
+        "A",
+        -0.033797143146832236
+      ],
+      [
+        "an",
+        -0.02791660233468818
+      ],
+      [
+        "in",
+        -0.018518124757121862
+      ],
+      [
+        "a",
+        -0.01559350387011964
+      ],
+      [
+        "is",
+        0.011374012883357256
+      ],
+      [
+        "casion",
+        -0.0011243651989358428
+      ],
+      [
+        "sitting",
+        -0.00039461327944125116
+      ]
+    ],
+    "lime_score": 0.5419508370221016,
+    "lime_runtime_sec": 37.12528979999479,
+    "all_probabilities": {
+      "contradiction": 0.340087890625,
+      "neutral": 0.1053466796875,
+      "entailment": 0.55419921875
+    },
+    "lime_attributions_filtered": [
+      [
+        "ATM.",
+        -0.1016617819992436
+      ],
+      [
+        "near",
+        0.07652522391699777
+      ],
+      [
+        "person",
+        -0.03980631211538047
+      ],
+      [
+        "casion",
+        -0.0011243651989358428
+      ],
+      [
+        "sitting",
+        -0.00039461327944125116
+      ]
+    ],
+    "original_attribution_count": 10,
+    "filtered_attribution_count": 5
+  },
+  {
+    "id": 3,
+    "premise": "A woman stands outside a store.",
+    "hypothesis": "A woman uses a jackhammer",
+    "input_text": "A woman stands outside a store. [SEP] A woman uses a jackhammer",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.68701171875,
+    "lime_attributions": [
+      [
+        "uses",
+        0.19727575063395147
+      ],
+      [
+        "A",
+        -0.18666097128733733
+      ],
+      [
+        "woman",
+        0.06396797913642248
+      ],
+      [
+        "a",
+        0.03988396900739533
+      ],
+      [
+        "jackhammer",
+        0.020388037848319232
+      ]
+    ],
+    "lime_score": 0.6286685768677661,
+    "lime_runtime_sec": 22.080172899994068,
+    "all_probabilities": {
+      "contradiction": 0.68701171875,
+      "neutral": 0.305419921875,
+      "entailment": 0.0077667236328125
+    },
+    "lime_attributions_filtered": [
+      [
+        "uses",
+        0.19727575063395147
+      ],
+      [
+        "woman",
+        0.06396797913642248
+      ],
+      [
+        "jackhammer",
+        0.020388037848319232
+      ]
+    ],
+    "original_attribution_count": 5,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 4,
+    "premise": "A man and woman are locked arms sitting down and all dressed up.",
+    "hypothesis": "A man and women are walking with their arms locked.",
+    "input_text": "A man and woman are locked arms sitting down and all dressed up. [SEP] A man and women are walking with their arms locked.",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.9306640625,
+    "lime_attributions": [
+      [
+        "locked.",
+        -0.03243436666460122
+      ],
+      [
+        "are",
+        -0.021869286683795328
+      ],
+      [
+        "and",
+        -0.020287300998280588
+      ],
+      [
+        "walking",
+        -0.019439460262022104
+      ],
+      [
+        "arms",
+        -0.01597295787345684
+      ],
+      [
+        "their",
+        -0.01556710177816939
+      ],
+      [
+        "A",
+        -0.015125179522555505
+      ],
+      [
+        "women",
+        -0.012407919702196598
+      ],
+      [
+        "man",
+        -0.011940527099670835
+      ],
+      [
+        "with",
+        0.0014598751886893756
+      ]
+    ],
+    "lime_score": 0.4413177835742541,
+    "lime_runtime_sec": 37.120327500015264,
+    "all_probabilities": {
+      "contradiction": 0.9306640625,
+      "neutral": 0.023406982421875,
+      "entailment": 0.046051025390625
+    },
+    "lime_attributions_filtered": [
+      [
+        "locked.",
+        -0.03243436666460122
+      ],
+      [
+        "walking",
+        -0.019439460262022104
+      ],
+      [
+        "arms",
+        -0.01597295787345684
+      ],
+      [
+        "women",
+        -0.012407919702196598
+      ],
+      [
+        "man",
+        -0.011940527099670835
+      ]
+    ],
+    "original_attribution_count": 10,
+    "filtered_attribution_count": 5
+  },
+  {
+    "id": 5,
+    "premise": "A man with long hair getting stopped by security guards.",
+    "hypothesis": "The man has long hair.",
+    "input_text": "A man with long hair getting stopped by security guards. [SEP] The man has long hair.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.9912109375,
+    "lime_attributions": [
+      [
+        "hair.",
+        -0.17952516497592555
+      ],
+      [
+        "long",
+        -0.10087337833320081
+      ],
+      [
+        "man",
+        -0.07048443162905041
+      ],
+      [
+        "has",
+        -0.053098720542075935
+      ],
+      [
+        "The",
+        0.010245480493136724
+      ]
+    ],
+    "lime_score": 0.689510181591007,
+    "lime_runtime_sec": 27.048863100004382,
+    "all_probabilities": {
+      "contradiction": 0.0017833709716796875,
+      "neutral": 0.00701904296875,
+      "entailment": 0.9912109375
+    },
+    "lime_attributions_filtered": [
+      [
+        "hair.",
+        -0.17952516497592555
+      ],
+      [
+        "long",
+        -0.10087337833320081
+      ],
+      [
+        "man",
+        -0.07048443162905041
+      ]
+    ],
+    "original_attribution_count": 5,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 6,
+    "premise": "A potter making a vase on a spinning wheel.",
+    "hypothesis": "The potter's wheel spins.",
+    "input_text": "A potter making a vase on a spinning wheel. [SEP] The potter's wheel spins.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.98583984375,
+    "lime_attributions": [
+      [
+        "spins.",
+        -0.18077435809663184
+      ],
+      [
+        "wheel",
+        -0.045353332492345313
+      ],
+      [
+        "potter's",
+        -0.04386059242762064
+      ],
+      [
+        "The",
+        0.004393722025900704
+      ]
+    ],
+    "lime_score": 0.8951153193819387,
+    "lime_runtime_sec": 29.477391499996884,
+    "all_probabilities": {
+      "contradiction": 0.0019063949584960938,
+      "neutral": 0.01238250732421875,
+      "entailment": 0.98583984375
+    },
+    "lime_attributions_filtered": [
+      [
+        "spins.",
+        -0.18077435809663184
+      ],
+      [
+        "wheel",
+        -0.045353332492345313
+      ],
+      [
+        "potter's",
+        -0.04386059242762064
+      ]
+    ],
+    "original_attribution_count": 4,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 7,
+    "premise": "A scientist in a lab coat is using a microscope.",
+    "hypothesis": "A young woman using a microscope.",
+    "input_text": "A scientist in a lab coat is using a microscope. [SEP] A young woman using a microscope.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.6220703125,
+    "lime_attributions": [
+      [
+        "using",
+        -0.12038654555719683
+      ],
+      [
+        "a",
+        -0.0528279948032343
+      ],
+      [
+        "microscope.",
+        0.03798720144580687
+      ],
+      [
+        "A",
+        0.02978300481432458
+      ],
+      [
+        "young",
+        0.0248604381401833
+      ],
+      [
+        "woman",
+        -0.007309179337651177
+      ]
+    ],
+    "lime_score": 0.27057861010911777,
+    "lime_runtime_sec": 28.53181869999389,
+    "all_probabilities": {
+      "contradiction": 0.6220703125,
+      "neutral": 0.251708984375,
+      "entailment": 0.1260986328125
+    },
+    "lime_attributions_filtered": [
+      [
+        "using",
+        -0.12038654555719683
+      ],
+      [
+        "microscope.",
+        0.03798720144580687
+      ],
+      [
+        "young",
+        0.0248604381401833
+      ],
+      [
+        "woman",
+        -0.007309179337651177
+      ]
+    ],
+    "original_attribution_count": 6,
+    "filtered_attribution_count": 4
+  },
+  {
+    "id": 8,
+    "premise": "People walking down street lined with Chinese lanterns.",
+    "hypothesis": "People running home",
+    "input_text": "People walking down street lined with Chinese lanterns. [SEP] People running home",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.98974609375,
+    "lime_attributions": [
+      [
+        "running",
+        -0.21470878254594625
+      ],
+      [
+        "People",
+        -0.15686449186814666
+      ],
+      [
+        "home",
+        -0.0727922873783148
+      ]
+    ],
+    "lime_score": 0.6497745835710711,
+    "lime_runtime_sec": 22.072373500006506,
+    "all_probabilities": {
+      "contradiction": 0.98974609375,
+      "neutral": 0.007343292236328125,
+      "entailment": 0.0030117034912109375
+    },
+    "lime_attributions_filtered": [
+      [
+        "running",
+        -0.21470878254594625
+      ],
+      [
+        "People",
+        -0.15686449186814666
+      ],
+      [
+        "home",
+        -0.0727922873783148
+      ]
+    ],
+    "original_attribution_count": 3,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 9,
+    "premise": "A woman wearing a silver shirt and a man in a black jacket are at a club.",
+    "hypothesis": "Woman and Man at a club",
+    "input_text": "A woman wearing a silver shirt and a man in a black jacket are at a club. [SEP] Woman and Man at a club",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.9853515625,
+    "lime_attributions": [
+      [
+        "at",
+        -0.05803380403439341
+      ],
+      [
+        "club",
+        -0.05585384463645761
+      ],
+      [
+        "a",
+        -0.05124779260344271
+      ],
+      [
+        "and",
+        -0.04155155489559557
+      ],
+      [
+        "Man",
+        -0.03753807925925392
+      ],
+      [
+        "Woman",
+        -0.030541060281986294
+      ]
+    ],
+    "lime_score": 0.7525654182041255,
+    "lime_runtime_sec": 35.92212910001399,
+    "all_probabilities": {
+      "contradiction": 0.0015773773193359375,
+      "neutral": 0.01299285888671875,
+      "entailment": 0.9853515625
+    },
+    "lime_attributions_filtered": [
+      [
+        "club",
+        -0.05585384463645761
+      ],
+      [
+        "Man",
+        -0.03753807925925392
+      ],
+      [
+        "Woman",
+        -0.030541060281986294
+      ]
+    ],
+    "original_attribution_count": 6,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 10,
+    "premise": "A man in a hat is standing at a corner in front of a row of bikes.",
+    "hypothesis": "The man is waiting for a taxi.",
+    "input_text": "A man in a hat is standing at a corner in front of a row of bikes. [SEP] The man is waiting for a taxi.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 1,
+    "predicted_class": "neutral",
+    "confidence": 0.99609375,
+    "lime_attributions": [
+      [
+        "waiting",
+        0.3662949109633909
+      ],
+      [
+        "for",
+        0.2273951897022093
+      ],
+      [
+        "is",
+        0.16718820849004207
+      ],
+      [
+        "The",
+        0.12536024729105516
+      ],
+      [
+        "taxi.",
+        -0.07495552255903985
+      ],
+      [
+        "man",
+        0.05393537553821628
+      ],
+      [
+        "a",
+        0.03043948598256683
+      ]
+    ],
+    "lime_score": 0.7606782140784134,
+    "lime_runtime_sec": 38.68945800000802,
+    "all_probabilities": {
+      "contradiction": 0.00316619873046875,
+      "neutral": 0.99609375,
+      "entailment": 0.0008530616760253906
+    },
+    "lime_attributions_filtered": [
+      [
+        "waiting",
+        0.3662949109633909
+      ],
+      [
+        "taxi.",
+        -0.07495552255903985
+      ],
+      [
+        "man",
+        0.05393537553821628
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 11,
+    "premise": "Two men on a stage playing guitar and singing.",
+    "hypothesis": "A group on stage playing music.",
+    "input_text": "Two men on a stage playing guitar and singing. [SEP] A group on stage playing music.",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.978515625,
+    "lime_attributions": [
+      [
+        "playing",
+        -0.08186339317211042
+      ],
+      [
+        "stage",
+        -0.05982681590208035
+      ],
+      [
+        "music.",
+        -0.047637873963551625
+      ],
+      [
+        "group",
+        -0.02856890511597182
+      ],
+      [
+        "on",
+        -0.025972693675386113
+      ],
+      [
+        "A",
+        -0.011778847830702073
+      ]
+    ],
+    "lime_score": 0.63845596038406,
+    "lime_runtime_sec": 27.138802600005874,
+    "all_probabilities": {
+      "contradiction": 0.0016727447509765625,
+      "neutral": 0.0200347900390625,
+      "entailment": 0.978515625
+    },
+    "lime_attributions_filtered": [
+      [
+        "playing",
+        -0.08186339317211042
+      ],
+      [
+        "stage",
+        -0.05982681590208035
+      ],
+      [
+        "music.",
+        -0.047637873963551625
+      ],
+      [
+        "group",
+        -0.02856890511597182
+      ]
+    ],
+    "original_attribution_count": 6,
+    "filtered_attribution_count": 4
+  },
+  {
+    "id": 12,
+    "premise": "a black and white dog is wearing a red collar whilst walking on the grass.",
+    "hypothesis": "A dog is walking outdoors.",
+    "input_text": "a black and white dog is wearing a red collar whilst walking on the grass. [SEP] A dog is walking outdoors.",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.98779296875,
+    "lime_attributions": [
+      [
+        "walking",
+        -0.07113929831003701
+      ],
+      [
+        "dog",
+        -0.06296973333817901
+      ],
+      [
+        "outdoors.",
+        -0.057775313632006116
+      ],
+      [
+        "A",
+        -0.03689538925546524
+      ],
+      [
+        "is",
+        -0.02180317462031292
+      ]
+    ],
+    "lime_score": 0.7341205046282626,
+    "lime_runtime_sec": 33.45727300000726,
+    "all_probabilities": {
+      "contradiction": 0.0007762908935546875,
+      "neutral": 0.01152801513671875,
+      "entailment": 0.98779296875
+    },
+    "lime_attributions_filtered": [
+      [
+        "walking",
+        -0.07113929831003701
+      ],
+      [
+        "dog",
+        -0.06296973333817901
+      ],
+      [
+        "outdoors.",
+        -0.057775313632006116
+      ]
+    ],
+    "original_attribution_count": 5,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 13,
+    "premise": "A young boy in a blue shirt is surrounded by cheerleaders wearing red and white.",
+    "hypothesis": "A boy is surrounded by cheerleaders.",
+    "input_text": "A young boy in a blue shirt is surrounded by cheerleaders wearing red and white. [SEP] A boy is surrounded by cheerleaders.",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.9912109375,
+    "lime_attributions": [
+      [
+        "cheerleaders.",
+        -0.12073883689683931
+      ],
+      [
+        "surrounded",
+        -0.11150038569956953
+      ],
+      [
+        "boy",
+        -0.05588245950126679
+      ],
+      [
+        "A",
+        -0.05277255534566078
+      ],
+      [
+        "by",
+        -0.049386869512091654
+      ],
+      [
+        "is",
+        -0.007172000645858906
+      ]
+    ],
+    "lime_score": 0.6069104423614278,
+    "lime_runtime_sec": 37.1216213000007,
+    "all_probabilities": {
+      "contradiction": 0.0037689208984375,
+      "neutral": 0.0048828125,
+      "entailment": 0.9912109375
+    },
+    "lime_attributions_filtered": [
+      [
+        "cheerleaders.",
+        -0.12073883689683931
+      ],
+      [
+        "surrounded",
+        -0.11150038569956953
+      ],
+      [
+        "boy",
+        -0.05588245950126679
+      ]
+    ],
+    "original_attribution_count": 6,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 14,
+    "premise": "Three people are talking in front of an airport",
+    "hypothesis": "Three friends are talking to each other in front of the local airport.",
+    "input_text": "Three people are talking in front of an airport [SEP] Three friends are talking to each other in front of the local airport.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 1,
+    "predicted_class": "neutral",
+    "confidence": 0.9970703125,
+    "lime_attributions": [
+      [
+        "friends",
+        0.5033197734192048
+      ],
+      [
+        "airport.",
+        0.15175026856020024
+      ],
+      [
+        "local",
+        0.08102675887713331
+      ],
+      [
+        "in",
+        -0.05107955414634631
+      ],
+      [
+        "the",
+        0.05098482119027651
+      ],
+      [
+        "front",
+        -0.05002001893934968
+      ],
+      [
+        "Three",
+        0.044175999752694234
+      ],
+      [
+        "to",
+        0.027067570390818564
+      ],
+      [
+        "each",
+        0.023254273691724867
+      ],
+      [
+        "other",
+        -0.009361777797526588
+      ]
+    ],
+    "lime_score": 0.7599289413573223,
+    "lime_runtime_sec": 34.62151680001989,
+    "all_probabilities": {
+      "contradiction": 0.0005407333374023438,
+      "neutral": 0.9970703125,
+      "entailment": 0.002471923828125
+    },
+    "lime_attributions_filtered": [
+      [
+        "friends",
+        0.5033197734192048
+      ],
+      [
+        "airport.",
+        0.15175026856020024
+      ],
+      [
+        "local",
+        0.08102675887713331
+      ],
+      [
+        "front",
+        -0.05002001893934968
+      ],
+      [
+        "Three",
+        0.044175999752694234
+      ]
+    ],
+    "original_attribution_count": 10,
+    "filtered_attribution_count": 5
+  },
+  {
+    "id": 15,
+    "premise": "A boy in a green sweatshirt and blue jeans performs a trick on a skateboard while spectators in the background are looking on.",
+    "hypothesis": "A young man rides a skateboard.",
+    "input_text": "A boy in a green sweatshirt and blue jeans performs a trick on a skateboard while spectators in the background are looking on. [SEP] A young man rides a skateboard.",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.99072265625,
+    "lime_attributions": [
+      [
+        "skateboard.",
+        -0.09581153423845139
+      ],
+      [
+        "man",
+        -0.07433739395727425
+      ],
+      [
+        "rides",
+        -0.0644784612198724
+      ],
+      [
+        "A",
+        -0.05726536901706357
+      ],
+      [
+        "young",
+        -0.03404554067372167
+      ],
+      [
+        "a",
+        -0.025865330230513676
+      ]
+    ],
+    "lime_score": 0.6317238569685297,
+    "lime_runtime_sec": 48.57922790001612,
+    "all_probabilities": {
+      "contradiction": 0.0016460418701171875,
+      "neutral": 0.0075225830078125,
+      "entailment": 0.99072265625
+    },
+    "lime_attributions_filtered": [
+      [
+        "skateboard.",
+        -0.09581153423845139
+      ],
+      [
+        "man",
+        -0.07433739395727425
+      ],
+      [
+        "rides",
+        -0.0644784612198724
+      ],
+      [
+        "young",
+        -0.03404554067372167
+      ]
+    ],
+    "original_attribution_count": 6,
+    "filtered_attribution_count": 4
+  },
+  {
+    "id": 16,
+    "premise": "The waiter with a white shirt and black vest is waiting on the people in the restaurant with a big mirror in the wall.",
+    "hypothesis": "There is a waiter in the restaurant.",
+    "input_text": "The waiter with a white shirt and black vest is waiting on the people in the restaurant with a big mirror in the wall. [SEP] There is a waiter in the restaurant.",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.97314453125,
+    "lime_attributions": [
+      [
+        "waiter",
+        -0.11791941591391722
+      ],
+      [
+        "restaurant.",
+        -0.09571557156793375
+      ],
+      [
+        "There",
+        -0.0527305036774871
+      ],
+      [
+        "in",
+        -0.0443599100234273
+      ],
+      [
+        "a",
+        -0.038350903858402424
+      ],
+      [
+        "the",
+        -0.01913344420187181
+      ],
+      [
+        "is",
+        0.00645869200195832
+      ]
+    ],
+    "lime_score": 0.8021254986836207,
+    "lime_runtime_sec": 47.41447609997704,
+    "all_probabilities": {
+      "contradiction": 0.016571044921875,
+      "neutral": 0.01015472412109375,
+      "entailment": 0.97314453125
+    },
+    "lime_attributions_filtered": [
+      [
+        "waiter",
+        -0.11791941591391722
+      ],
+      [
+        "restaurant.",
+        -0.09571557156793375
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 2
+  },
+  {
+    "id": 17,
+    "premise": "5 Asians jumping for a picture in front of some totem poles.",
+    "hypothesis": "People are jumping.",
+    "input_text": "5 Asians jumping for a picture in front of some totem poles. [SEP] People are jumping.",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.98681640625,
+    "lime_attributions": [
+      [
+        "jumping.",
+        -0.19541014004909435
+      ],
+      [
+        "are",
+        0.03379150934258076
+      ],
+      [
+        "People",
+        -0.02805044744808415
+      ]
+    ],
+    "lime_score": 0.990014874792279,
+    "lime_runtime_sec": 27.05635820000316,
+    "all_probabilities": {
+      "contradiction": 0.000995635986328125,
+      "neutral": 0.0121917724609375,
+      "entailment": 0.98681640625
+    },
+    "lime_attributions_filtered": [
+      [
+        "jumping.",
+        -0.19541014004909435
+      ],
+      [
+        "People",
+        -0.02805044744808415
+      ]
+    ],
+    "original_attribution_count": 3,
+    "filtered_attribution_count": 2
+  },
+  {
+    "id": 18,
+    "premise": "A busy market street in the middle east.",
+    "hypothesis": "the market is busy in the middle east",
+    "input_text": "A busy market street in the middle east. [SEP] the market is busy in the middle east",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.9599609375,
+    "lime_attributions": [
+      [
+        "busy",
+        -0.14191245504096603
+      ],
+      [
+        "in",
+        -0.08092047644077141
+      ],
+      [
+        "market",
+        -0.0531906203846245
+      ],
+      [
+        "middle",
+        -0.04819197643466065
+      ],
+      [
+        "east",
+        -0.024992604760942557
+      ],
+      [
+        "the",
+        0.009011070261499301
+      ],
+      [
+        "is",
+        0.004406755367653583
+      ]
+    ],
+    "lime_score": 0.6146517077291472,
+    "lime_runtime_sec": 27.066823100001784,
+    "all_probabilities": {
+      "contradiction": 0.0015420913696289062,
+      "neutral": 0.0386962890625,
+      "entailment": 0.9599609375
+    },
+    "lime_attributions_filtered": [
+      [
+        "busy",
+        -0.14191245504096603
+      ],
+      [
+        "market",
+        -0.0531906203846245
+      ],
+      [
+        "middle",
+        -0.04819197643466065
+      ],
+      [
+        "east",
+        -0.024992604760942557
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 4
+  },
+  {
+    "id": 19,
+    "premise": "A person does tricks on their bike.",
+    "hypothesis": "A person is falling off their bike.",
+    "input_text": "A person does tricks on their bike. [SEP] A person is falling off their bike.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.9443359375,
+    "lime_attributions": [
+      [
+        "off",
+        -0.06879031178371732
+      ],
+      [
+        "person",
+        -0.034523651397598186
+      ],
+      [
+        "their",
+        -0.027777275768014476
+      ],
+      [
+        "A",
+        -0.021439669480555534
+      ],
+      [
+        "is",
+        0.011416399004392758
+      ],
+      [
+        "bike.",
+        -0.00950661534192609
+      ],
+      [
+        "falling",
+        -0.005749451852302339
+      ]
+    ],
+    "lime_score": 0.5395002084959926,
+    "lime_runtime_sec": 25.836410199990496,
+    "all_probabilities": {
+      "contradiction": 0.9443359375,
+      "neutral": 0.04840087890625,
+      "entailment": 0.007266998291015625
+    },
+    "lime_attributions_filtered": [
+      [
+        "person",
+        -0.034523651397598186
+      ],
+      [
+        "bike.",
+        -0.00950661534192609
+      ],
+      [
+        "falling",
+        -0.005749451852302339
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 20,
+    "premise": "People look at a glass case holding food for sale.",
+    "hypothesis": "The person looked away from the glass case.",
+    "input_text": "People look at a glass case holding food for sale. [SEP] The person looked away from the glass case.",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.9990234375,
+    "lime_attributions": [
+      [
+        "away",
+        -0.1258912918897477
+      ],
+      [
+        "looked",
+        -0.11724353991239012
+      ],
+      [
+        "case.",
+        -0.05628654686279196
+      ],
+      [
+        "glass",
+        -0.0454810382348488
+      ],
+      [
+        "person",
+        -0.030669050001667163
+      ],
+      [
+        "the",
+        0.006014268595310514
+      ],
+      [
+        "from",
+        0.005906388373592466
+      ],
+      [
+        "The",
+        0.005483761666963356
+      ]
+    ],
+    "lime_score": 0.6358098738038203,
+    "lime_runtime_sec": 31.23394930001814,
+    "all_probabilities": {
+      "contradiction": 0.9990234375,
+      "neutral": 0.0007390975952148438,
+      "entailment": 0.00018990039825439453
+    },
+    "lime_attributions_filtered": [
+      [
+        "away",
+        -0.1258912918897477
+      ],
+      [
+        "looked",
+        -0.11724353991239012
+      ],
+      [
+        "case.",
+        -0.05628654686279196
+      ],
+      [
+        "glass",
+        -0.0454810382348488
+      ],
+      [
+        "person",
+        -0.030669050001667163
+      ]
+    ],
+    "original_attribution_count": 8,
+    "filtered_attribution_count": 5
+  },
+  {
+    "id": 21,
+    "premise": "A blue car in front of people under a tent.",
+    "hypothesis": "The people are hiding from the rain.",
+    "input_text": "A blue car in front of people under a tent. [SEP] The people are hiding from the rain.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 1,
+    "predicted_class": "neutral",
+    "confidence": 0.99755859375,
+    "lime_attributions": [
+      [
+        "from",
+        0.19199501778911882
+      ],
+      [
+        "hiding",
+        0.15765462196279426
+      ],
+      [
+        "rain.",
+        0.15102092643863183
+      ],
+      [
+        "are",
+        0.12062114036469117
+      ],
+      [
+        "The",
+        0.08729267626862255
+      ],
+      [
+        "the",
+        0.05038072902158952
+      ],
+      [
+        "people",
+        0.04493569374876413
+      ]
+    ],
+    "lime_score": 0.7014433931685052,
+    "lime_runtime_sec": 29.684963700012304,
+    "all_probabilities": {
+      "contradiction": 0.0011529922485351562,
+      "neutral": 0.99755859375,
+      "entailment": 0.0011425018310546875
+    },
+    "lime_attributions_filtered": [
+      [
+        "hiding",
+        0.15765462196279426
+      ],
+      [
+        "rain.",
+        0.15102092643863183
+      ],
+      [
+        "people",
+        0.04493569374876413
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 22,
+    "premise": "A man in a business suit is walking down the street, pulling luggage.",
+    "hypothesis": "A businessman is walking while trying to pull his luggage behind him",
+    "input_text": "A man in a business suit is walking down the street, pulling luggage. [SEP] A businessman is walking while trying to pull his luggage behind him",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.97509765625,
+    "lime_attributions": [
+      [
+        "luggage",
+        -0.1592979090404706
+      ],
+      [
+        "pull",
+        -0.11657550811309919
+      ],
+      [
+        "walking",
+        -0.08774642720547073
+      ],
+      [
+        "trying",
+        0.07375734034289956
+      ],
+      [
+        "businessman",
+        -0.05570548944086303
+      ],
+      [
+        "behind",
+        -0.05414466797416298
+      ],
+      [
+        "while",
+        -0.04245992010658581
+      ],
+      [
+        "A",
+        -0.030929917950896082
+      ],
+      [
+        "to",
+        0.022609518004238813
+      ],
+      [
+        "his",
+        0.010230886039233054
+      ]
+    ],
+    "lime_score": 0.6814731224044084,
+    "lime_runtime_sec": 39.82131090000621,
+    "all_probabilities": {
+      "contradiction": 0.0007529258728027344,
+      "neutral": 0.0242462158203125,
+      "entailment": 0.97509765625
+    },
+    "lime_attributions_filtered": [
+      [
+        "luggage",
+        -0.1592979090404706
+      ],
+      [
+        "pull",
+        -0.11657550811309919
+      ],
+      [
+        "walking",
+        -0.08774642720547073
+      ],
+      [
+        "trying",
+        0.07375734034289956
+      ],
+      [
+        "businessman",
+        -0.05570548944086303
+      ],
+      [
+        "behind",
+        -0.05414466797416298
+      ]
+    ],
+    "original_attribution_count": 10,
+    "filtered_attribution_count": 6
+  },
+  {
+    "id": 23,
+    "premise": "A red bus is driving on a street between a large building and a water fountain.",
+    "hypothesis": "A purple bus is driving on the street.",
+    "input_text": "A red bus is driving on a street between a large building and a water fountain. [SEP] A purple bus is driving on the street.",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.9990234375,
+    "lime_attributions": [
+      [
+        "purple",
+        -0.07820065776130168
+      ],
+      [
+        "driving",
+        -0.03483677525106084
+      ],
+      [
+        "street.",
+        -0.03356327909048917
+      ],
+      [
+        "on",
+        -0.025096584324611277
+      ],
+      [
+        "bus",
+        -0.02049394881876633
+      ],
+      [
+        "A",
+        -0.019264672945713296
+      ],
+      [
+        "is",
+        -0.009033923259431902
+      ],
+      [
+        "the",
+        0.0005369644869147013
+      ]
+    ],
+    "lime_score": 0.5398014631275319,
+    "lime_runtime_sec": 38.63002059998689,
+    "all_probabilities": {
+      "contradiction": 0.9990234375,
+      "neutral": 0.0005369186401367188,
+      "entailment": 0.00019824504852294922
+    },
+    "lime_attributions_filtered": [
+      [
+        "purple",
+        -0.07820065776130168
+      ],
+      [
+        "driving",
+        -0.03483677525106084
+      ],
+      [
+        "street.",
+        -0.03356327909048917
+      ],
+      [
+        "bus",
+        -0.02049394881876633
+      ]
+    ],
+    "original_attribution_count": 8,
+    "filtered_attribution_count": 4
+  },
+  {
+    "id": 24,
+    "premise": "A group of people with luggage line up outside of an airport.",
+    "hypothesis": "A group of people are in line.",
+    "input_text": "A group of people with luggage line up outside of an airport. [SEP] A group of people are in line.",
+    "true_label": 0,
+    "true_label_name": "entailment",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.97216796875,
+    "lime_attributions": [
+      [
+        "line.",
+        -0.10188509522262232
+      ],
+      [
+        "in",
+        -0.050193034796238524
+      ],
+      [
+        "people",
+        -0.03563820312227765
+      ],
+      [
+        "A",
+        -0.03162247229586719
+      ],
+      [
+        "group",
+        -0.027285033406748708
+      ],
+      [
+        "of",
+        -0.011422067171004881
+      ],
+      [
+        "are",
+        0.004244767790669541
+      ]
+    ],
+    "lime_score": 0.7426655193041731,
+    "lime_runtime_sec": 32.27912950000609,
+    "all_probabilities": {
+      "contradiction": 0.0159759521484375,
+      "neutral": 0.0120086669921875,
+      "entailment": 0.97216796875
+    },
+    "lime_attributions_filtered": [
+      [
+        "line.",
+        -0.10188509522262232
+      ],
+      [
+        "people",
+        -0.03563820312227765
+      ],
+      [
+        "group",
+        -0.027285033406748708
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 25,
+    "premise": "A woman in blue with a striped purple scarf on her head, stands in front of a woman with a brown headband on her forehead who is speaking with a man wearing light blue and wearing a purple turban.",
+    "hypothesis": "The women are wearing black skirts.",
+    "input_text": "A woman in blue with a striped purple scarf on her head, stands in front of a woman with a brown headband on her forehead who is speaking with a man wearing light blue and wearing a purple turban. [SEP] The women are wearing black skirts.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.6923828125,
+    "lime_attributions": [
+      [
+        "black",
+        -0.33725356882242025
+      ],
+      [
+        "skirts.",
+        0.10571280036318059
+      ],
+      [
+        "The",
+        0.050852377993603495
+      ],
+      [
+        "are",
+        0.040410745261529546
+      ],
+      [
+        "wearing",
+        -0.030515961687197404
+      ],
+      [
+        "women",
+        0.028828064938411932
+      ]
+    ],
+    "lime_score": 0.7366361271364776,
+    "lime_runtime_sec": 71.02977340001962,
+    "all_probabilities": {
+      "contradiction": 0.6923828125,
+      "neutral": 0.305419921875,
+      "entailment": 0.0022602081298828125
+    },
+    "lime_attributions_filtered": [
+      [
+        "black",
+        -0.33725356882242025
+      ],
+      [
+        "skirts.",
+        0.10571280036318059
+      ],
+      [
+        "wearing",
+        -0.030515961687197404
+      ],
+      [
+        "women",
+        0.028828064938411932
+      ]
+    ],
+    "original_attribution_count": 6,
+    "filtered_attribution_count": 4
+  },
+  {
+    "id": 26,
+    "premise": "A woman in an orange dress walks down the street with a cellphone in her hand.",
+    "hypothesis": "A woman is working out at the gym.",
+    "input_text": "A woman in an orange dress walks down the street with a cellphone in her hand. [SEP] A woman is working out at the gym.",
+    "true_label": 2,
+    "true_label_name": "contradiction",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.93701171875,
+    "lime_attributions": [
+      [
+        "at",
+        -0.1753738994831671
+      ],
+      [
+        "gym.",
+        -0.16716790006383248
+      ],
+      [
+        "woman",
+        -0.10085328127981433
+      ],
+      [
+        "is",
+        0.09744982992430827
+      ],
+      [
+        "A",
+        -0.08818937435585511
+      ],
+      [
+        "working",
+        -0.03196349843482866
+      ],
+      [
+        "out",
+        0.03124760489634632
+      ],
+      [
+        "the",
+        -0.011660656684554625
+      ]
+    ],
+    "lime_score": 0.4917075181111473,
+    "lime_runtime_sec": 41.33069119998254,
+    "all_probabilities": {
+      "contradiction": 0.93701171875,
+      "neutral": 0.057220458984375,
+      "entailment": 0.005603790283203125
+    },
+    "lime_attributions_filtered": [
+      [
+        "gym.",
+        -0.16716790006383248
+      ],
+      [
+        "woman",
+        -0.10085328127981433
+      ],
+      [
+        "working",
+        -0.03196349843482866
+      ]
+    ],
+    "original_attribution_count": 8,
+    "filtered_attribution_count": 3
+  },
+  {
+    "id": 27,
+    "premise": "A crowded carousel surrounded by parents with baby strollers sitting on a bench.",
+    "hypothesis": "Families sitting on a beach on a cloudy day.",
+    "input_text": "A crowded carousel surrounded by parents with baby strollers sitting on a bench. [SEP] Families sitting on a beach on a cloudy day.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 0,
+    "predicted_class": "contradiction",
+    "confidence": 0.9189453125,
+    "lime_attributions": [
+      [
+        "beach",
+        -0.4601154993129733
+      ],
+      [
+        "cloudy",
+        0.1995539133936854
+      ],
+      [
+        "day.",
+        0.13015266807145726
+      ],
+      [
+        "on",
+        0.040472021828620974
+      ],
+      [
+        "sitting",
+        0.036946345902258336
+      ],
+      [
+        "Families",
+        0.0045111330762759826
+      ],
+      [
+        "a",
+        0.0024472359985891487
+      ]
+    ],
+    "lime_score": 0.6972655241366386,
+    "lime_runtime_sec": 41.96973329997854,
+    "all_probabilities": {
+      "contradiction": 0.9189453125,
+      "neutral": 0.06207275390625,
+      "entailment": 0.0187835693359375
+    },
+    "lime_attributions_filtered": [
+      [
+        "beach",
+        -0.4601154993129733
+      ],
+      [
+        "cloudy",
+        0.1995539133936854
+      ],
+      [
+        "day.",
+        0.13015266807145726
+      ],
+      [
+        "sitting",
+        0.036946345902258336
+      ],
+      [
+        "Families",
+        0.0045111330762759826
+      ]
+    ],
+    "original_attribution_count": 7,
+    "filtered_attribution_count": 5
+  },
+  {
+    "id": 28,
+    "premise": "A woman attends a candlelight vigil.",
+    "hypothesis": "A woman is holding a candle at a vigil.",
+    "input_text": "A woman attends a candlelight vigil. [SEP] A woman is holding a candle at a vigil.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 2,
+    "predicted_class": "entailment",
+    "confidence": 0.96484375,
+    "lime_attributions": [
+      [
+        "vigil.",
+        -0.078111922531347
+      ],
+      [
+        "holding",
+        -0.03834935406176919
+      ],
+      [
+        "candle",
+        -0.030602320316182083
+      ],
+      [
+        "woman",
+        -0.028238868117546213
+      ],
+      [
+        "is",
+        0.022908928692855962
+      ],
+      [
+        "A",
+        -0.017205808759475437
+      ],
+      [
+        "at",
+        -0.01251988070178202
+      ],
+      [
+        "a",
+        -0.011840226557956985
+      ]
+    ],
+    "lime_score": 0.6931893033207257,
+    "lime_runtime_sec": 29.7327621000004,
+    "all_probabilities": {
+      "contradiction": 0.0013208389282226562,
+      "neutral": 0.033843994140625,
+      "entailment": 0.96484375
+    },
+    "lime_attributions_filtered": [
+      [
+        "vigil.",
+        -0.078111922531347
+      ],
+      [
+        "holding",
+        -0.03834935406176919
+      ],
+      [
+        "candle",
+        -0.030602320316182083
+      ],
+      [
+        "woman",
+        -0.028238868117546213
+      ]
+    ],
+    "original_attribution_count": 8,
+    "filtered_attribution_count": 4
+  },
+  {
+    "id": 29,
+    "premise": "Two young adults are playing on cube-shaped arcade consoles.",
+    "hypothesis": "The people are playing Pac-man.",
+    "input_text": "Two young adults are playing on cube-shaped arcade consoles. [SEP] The people are playing Pac-man.",
+    "true_label": 1,
+    "true_label_name": "neutral",
+    "predicted_label": 1,
+    "predicted_class": "neutral",
+    "confidence": 0.99755859375,
+    "lime_attributions": [
+      [
+        "Pac-man.",
+        0.7009087539633659
+      ],
+      [
+        "The",
+        0.06736119602080284
+      ],
+      [
+        "people",
+        -0.03925511997736071
+      ],
+      [
+        "are",
+        -0.038249278114275975
+      ],
+      [
+        "playing",
+        0.001797230798363403
+      ]
+    ],
+    "lime_score": 0.8942746199507132,
+    "lime_runtime_sec": 33.14412679997622,
+    "all_probabilities": {
+      "contradiction": 0.0015764236450195312,
+      "neutral": 0.99755859375,
+      "entailment": 0.0009131431579589844
+    },
+    "lime_attributions_filtered": [
+      [
+        "Pac-man.",
+        0.7009087539633659
+      ],
+      [
+        "people",
+        -0.03925511997736071
+      ],
+      [
+        "playing",
+        0.001797230798363403
+      ]
+    ],
+    "original_attribution_count": 5,
+    "filtered_attribution_count": 3
+  }
+]

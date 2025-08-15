@@ -1,0 +1,7 @@
+{
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.regenerateStdLibIndices": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.analysis.typeEvaluation.enableReachabilityAnalysis": true
+}
